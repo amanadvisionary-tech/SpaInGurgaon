@@ -2,10 +2,10 @@ import Lajpatnagar from "./Lajpatnagar";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Top 5 Star hotel spa in Delhi NCR  | Visit Our Spa in Rohini",
+  title: " Get Body Massage Spa in Lajpat Nagar | Book Now 1st Visit @1999",
   description: "Looking for the best 5-star hotel spa in Delhi NCR? Visit our spa in Rohini for premium body massage service in all over Delhi NCR. Book Now!",
   openGraph: {
-    title: "Get Best Body Massage in Delhi | First Visit Offer 1999",
+    title: "Get Body Massage Spa in Lajpat Nagar | Book Now 1st Visit @1999",
     description: "Looking for a relaxing massage in Delhi? Experience the best full body, sandwich massage, Couple massages at the top massage parlour in Delhi.",
     images: ["https://yourdomain.com/images/hb1.jpg"], // <-- use absolute URL in production
     type: "website",

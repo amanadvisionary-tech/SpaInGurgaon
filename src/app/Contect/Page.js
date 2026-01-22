@@ -1,241 +1,117 @@
-'use client';
+import Image from "next/image";
+import Link from "next/link";
+import { motion } from "framer-motion";
 
-import React, { useState } from 'react';
-import { Playfair_Display, Montserrat } from 'next/font/google';
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
-import { motion, AnimatePresence } from 'framer-motion';
-import { FaWhatsapp } from 'react-icons/fa';
-import Image from 'next/image';
-import WhatsappFloat from '../components/WhatsappFloat';
-
-const playfair = Playfair_Display({
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
-  variable: '--font-playfair',
-});
-
-const montserrat = Montserrat({
-  subsets: ['latin'],
-  weight: ['100', '200', '300', '400', '500'],
-  variable: '--font-montserrat',
-});
-
-export default function Page() {
-  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
-
-//   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-//     setFormData({ ...formData, [e.target.name]: e.target.value });
-//   };
-
-//   const handleSubmit = (e: React.FormEvent) => {
-//     e.preventDefault();
-//     // Handle submission logic here (e.g., send to API or email)
-//     console.log('Form submitted:', formData);
-//   };
-
-  const locations = [
+export default function SpaBlogPage() {
+  const blogs = [
     {
-      name: 'Lajpat Nagar',
-      image: '/images/TheSuryaaNewDelhi(NFC).jpg', // Replace with actual image URL
-      description: 'Discover the tranquility of our luxurious spa at Lajpat Nagar.',
-      link: 'https://wa.me/1234567890',
+      title: "Top 7 Benefits of Body Spa Therapy in Gurgaon",
+      excerpt:
+        "Discover how professional body spa therapies in Gurgaon help reduce stress, improve circulation, and enhance overall well-being.",
+      image: "/images/spa-blog-1.webp",
+      slug: "/blog/benefits-of-body-spa-gurgaon",
+      date: "Jan 10, 2026",
     },
     {
-      name: 'Aerocity',
-      image: '/images/NovotelNewDelhiAerocity.jpeg',
-      description: 'Relax and unwind with our premium services at Aerocity.',
-      link: 'https://wa.me/1234567890',
+      title: "Swedish vs Deep Tissue Massage – Which Is Best for You?",
+      excerpt:
+        "Confused between Swedish and deep tissue massage? Learn which spa massage suits your body, lifestyle, and stress level.",
+      image: "/images/spa-blog-2.webp",
+      slug: "/blog/swedish-vs-deep-tissue-massage",
+      date: "Jan 6, 2026",
     },
     {
-      name: 'Paschim Vihar',
-      image: '/images/TheParkConnaughtPlace.jpg',
-      description: 'Experience rejuvenation at our elegant Paschim Vihar location.',
-      link: 'https://wa.me/1234567890',
-    },
-    {
-      name: 'Rohini',
-      image: '/images/TheGrandNewDelhi.jpg',
-      description: 'Escape to serenity at our luxurious spa in Rohini.',
-      link: 'https://wa.me/1234567890',
+      title: "Why Luxury Spa in Gurgaon Is the Ultimate Stress Reliever",
+      excerpt:
+        "Explore why Gurgaon’s luxury spas are becoming the top choice for professionals seeking relaxation and rejuvenation.",
+      image: "/images/spa-blog-3.webp",
+      slug: "/blog/luxury-spa-in-gurgaon",
+      date: "Jan 2, 2026",
     },
   ];
 
   return (
-    <>
-      {/* Banner */}
-      <section
-        className="relative w-full h-[45vh] sm:h-[60px] md:h-[70vh] lg:h-[85vh] xl:h-[80vh] bg-cover bg-center bg-no-repeat flex items-center justify-center text-white"
-        style={{
-          backgroundImage: "url('/images/contectusbanner.jpg')",
-        }}
-      >
-        {/* Content */}
-        <div className="relative z-10 max-w-4xl text-center px-4">
-          <h1
-            className={`text-1xl md:text-3xl font-bold text-white leading-tight ${playfair.variable} font-serif`}
-          >
-            Relax, Rejuvenate & Refresh at Our Premium Spa Outlet Near You
+    <main className="bg-[#faf7f3]">
+      {/* HERO SECTION */}
+      <section className="relative h-[55vh] flex items-center justify-center text-center">
+        <Image
+          src="/images/spa-blog-banner.webp"
+          alt="Spa Blog Gurgaon"
+          fill
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-black/50" />
+        <div className="relative z-10 max-w-3xl px-6">
+          <h1 className="text-4xl md:text-5xl font-serif font-bold text-white">
+            Spa & Wellness Blog – Gurgaon
           </h1>
-          <p
-            className={`mt-6 text-lg md:text-1xl text-white/90 font-light ${montserrat.variable}`}
-          >
-            Indulge in world-class wellness treatments crafted to soothe your soul and rejuvenate your body.
+          <p className="mt-4 text-lg text-neutral-200">
+            Expert tips, massage guides, and wellness insights from Gurgaon’s
+            premium spa professionals.
           </p>
-
-          <a
-            href="tel:+919211235800"
-            className="mt-10 inline-block px-8 py-3 bg-gradient-to-r from-emerald-500 to-emerald-600 text-white font-semibold rounded-full shadow-lg hover:scale-105 transition-transform duration-300"
-          >
-            Book Your Session Now
-          </a>
         </div>
       </section>
-      {/* End Banner */}
 
-      {/* Locations Section */}
-      <section className="py-16 px-6 md:px-16 bg-gradient-to-b from-white to-emerald-50 relative">
+      {/* BLOG GRID */}
+      <section className="py-20 px-6">
         <div className="max-w-7xl mx-auto">
-          {/* Section Title */}
-          <div className="text-center mb-12">
-            <motion.h2
-              className="text-4xl md:text-5xl font-bold text-emerald-900 font-serif mb-4"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-            >
-              Our <span className="text-emerald-600">Prime Locations</span>
-            </motion.h2>
-            <motion.p
-              className="text-gray-600 max-w-2xl mx-auto text-lg"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.1 }}
-              viewport={{ once: true }}
-            >
-              Visit us at any of our luxurious outlets, conveniently located across Delhi for your ultimate spa
-              experience.
-            </motion.p>
-          </div>
-
-          {/* Location Cards */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {locations.map((location, index) => (
-              <motion.div
-                key={index}
-                className="bg-white rounded-2xl shadow-lg relative overflow-hidden group"
-                initial={{ opacity: 0, y: 50 }}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            {blogs.map((blog, i) => (
+              <motion.article
+                key={i}
+                initial={{ opacity: 0, y: 40 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
+                transition={{ duration: 0.5, delay: i * 0.1 }}
                 viewport={{ once: true }}
-                whileHover={{ scale: 1.05 }}
+                className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition"
               >
-                {/* Location Image */}
-                <div className="relative h-56 w-full">
+                <div className="relative h-60">
                   <Image
-                    src={location.image}
-                    alt={location.name}
-                    layout="fill"
-                    objectFit="cover"
-                    className="transform group-hover:scale-110 transition-all duration-500"
+                    src={blog.image}
+                    alt={blog.title}
+                    fill
+                    className="object-cover"
                   />
                 </div>
-
-                {/* Location Content */}
-                <div className="p-6 text-center">
-                  <h3 className="text-2xl font-bold text-emerald-900 mb-2 font-serif">{location.name}</h3>
-                  <p className="text-gray-700 text-base mb-4">{location.description}</p>
-                  <a
-                    href={location.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-medium py-2 px-5 rounded-full text-base transition-all"
+                <div className="p-6">
+                  <span className="text-sm text-[#c9b37e] font-medium">
+                    {blog.date}
+                  </span>
+                  <h2 className="mt-2 text-xl font-semibold text-gray-900">
+                    {blog.title}
+                  </h2>
+                  <p className="mt-3 text-gray-600 leading-relaxed">
+                    {blog.excerpt}
+                  </p>
+                  <Link
+                    href={blog.slug}
+                    className="inline-block mt-5 text-[#7b0f2b] font-semibold hover:underline"
                   >
-                    <FaWhatsapp className="text-lg" />
-                    Book on WhatsApp
-                  </a>
+                    Read More →
+                  </Link>
                 </div>
-              </motion.div>
+              </motion.article>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Contact Section */}
-      <section className="bg-white py-16 px-4">
-        <div className="max-w-7xl mx-auto text-center mb-12">
-          <h2 className="text-4xl font-bold text-emerald-800">Get In Touch</h2>
-          <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
-            Have questions or need assistance? Reach out to us anytime! Our friendly team is here to help you with
-            bookings, services, and more.
-          </p>
-        </div>
-
-        <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto mb-16">
-          <div className="flex flex-col items-center text-center">
-            <FaMapMarkerAlt className="text-emerald-600 text-3xl mb-4" />
-            <h3 className="text-xl font-semibold text-emerald-800 mb-2">Our Outlet</h3>
-            <p className="text-gray-600">Lajpat Nagar Delhi</p>
-          </div>
-          <div className="flex flex-col items-center text-center">
-            <FaPhoneAlt className="text-emerald-600 text-3xl mb-4" />
-            <h3 className="text-xl font-semibold text-emerald-800 mb-2">Contact</h3>
-            <p className="text-gray-600">+91-9220961427</p>
-          </div>
-          <div className="flex flex-col items-center text-center">
-            <FaEnvelope className="text-emerald-600 text-3xl mb-4" />
-            <h3 className="text-xl font-semibold text-emerald-800 mb-2">Email</h3>
-            <p className="text-gray-600">delhibodyspa@gmail.com</p>
-          </div>
-        </div>
-
-        <div className="grid md:grid-cols-2 gap-8 max-w-7xl mx-auto">
-          <iframe
-            className="w-full h-96 rounded-xl"
-            loading="lazy"
-            src="https://maps.google.com/maps?q=Lajpat%20Nagar%20Delhi&t=m&z=13&output=embed&iwloc=near"
-            title="Lajpat Nagar Delhi"
-            aria-label="Lajpat Nagar Delhi"
-          ></iframe>
-
-          <form onSubmit={handleSubmit} className="bg-emerald-50 rounded-xl p-8 shadow-md space-y-6">
-            <input
-              type="text"
-              name="name"
-              placeholder="Name"
-              value={formData.name}
-              onChange={handleChange}
-              className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-500"
-              required
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder="Email"
-              value={formData.email}
-              onChange={handleChange}
-              className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-500"
-              required
-            />
-            <textarea
-              name="message"
-              rows={4}
-              placeholder="Message"
-              value={formData.message}
-              onChange={handleChange}
-              className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-500"
-              required
-            ></textarea>
-            <button
-              type="submit"
-              className="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-3 rounded-md transition"
-            >
-              Submit your message
-            </button>
-          </form>
-        </div>
+      {/* CTA SECTION */}
+      <section className="bg-[#7b0f2b] py-16 px-6 text-center">
+        <h3 className="text-3xl md:text-4xl font-serif font-bold text-white">
+          Experience the Best Spa in Gurgaon
+        </h3>
+        <p className="mt-4 max-w-2xl mx-auto text-neutral-200">
+          Book a relaxing body massage or luxury spa therapy in Gurgaon today and
+          feel the difference.
+        </p>
+        <Link
+          href="/contact"
+          className="inline-block mt-8 px-10 py-4 bg-[#c9b37e] text-black font-semibold rounded-full hover:bg-[#b8a066] transition"
+        >
+          Book Your Spa Session
+        </Link>
       </section>
-
-      <WhatsappFloat />
-    </>
+    </main>
   );
 }

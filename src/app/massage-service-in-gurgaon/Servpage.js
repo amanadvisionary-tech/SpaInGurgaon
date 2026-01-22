@@ -173,19 +173,19 @@ const teamMembers = [
   {
     number: '01',
     title: 'Meeting',
-    description: 'Our spa meeting process ensures a seamless and soothing experience, from scheduling to consultation and relaxation.',
+    description: 'Step into our Gurgaon spa lounge, meet the manager, pick Thai, Swedish or aroma massage, choose your home-service slot, get the price, and lock the same-day booking in under five minutes.',
     image: '/images/OIP (1).webp',
   },
   {
     number: '02',
     title: 'Treatment',
-    description: 'Relaxing spa treatment begins with consultation, followed by cleansing, massage, and rejuvenation steps.',
+    description: 'Confirm your Delhi or Gurgaon home-massage plan: date, time, male or female therapist, oil scent, session length; click the payment link, receive instant SMS confirmation, and relax until the doorbell rings.',
     image: '/images/fpkdl.com_960_1760684372_close-up-hand-holding-ice-cream-table_1048944-25719661.jpg',
   },
   {
     number: '03',
     title: 'Finalizing',
-    description: 'Confirm your appointment, choose your therapy, and relax, your spa journey is now set.',
+    description: 'The therapist arrives at your doorstep, sets up fresh linens, organic oils and soft candles; Thai stretches loosen tight joints, Swedish strokes calm the mind, and after 60–90 minutes your body feels light, fresh and pain-free.',
     image: '/images/new5.jpeg',
   },
 ];
@@ -1070,7 +1070,7 @@ const faqs = [
               <span className="h-1.5 w-1.5 rounded-full bg-emerald-600" /> Premium Wellness
             </span>
             <h2 className="mt-4 font-serif text-4xl font-bold text-emerald-950 md:text-5xl">
-              A Modern, Calm Space for You
+              Spa & Massage Home Service Gurgaon
             </h2>
             <p className="mt-3 text-emerald-800/90 md:text-lg">
               Lajpat Nagar • Karol Bagh
@@ -1114,7 +1114,7 @@ const faqs = [
               {/* TIP: paste your ~200 words below as one block; it stays readable. */}
               <div className="prose prose-emerald max-w-none prose-p:text-emerald-800">
                 <p className="text-lg leading-relaxed md:text-xl">
-                  Replace this paragraph with your ~200 words. Keep sentences short and friendly so it reads well on mobile. You can talk about your approach, how you personalize each massage, and why your oils and techniques feel premium. Share what a guest can expect from the moment they arrive: a calm space, warm lighting, and mindful breathing that sets the tone for deep relaxation. Explain how your experts focus on tension points, improve circulation, and help guests feel light and refreshed. Mention locations like Lajpat Nagar and Karol Bagh for local trust, and add a gentle nudge to book early due to limited slots. Close with a promise: thoughtful care, clean spaces, and consistent results—every single time.
+                 Book kar lo—abhi same-day Thai, Swedish ya deep-tissue massage ghar pe. Connaught Place, Greater Kailash, Gurgaon—kahi bhi, ek call pe therapist pahuch jayega. Organic oil, fresh towel, light music aur candle smell ke saath poora spa set-up 20 minute mein ready. Delhi massage at home ya Gurgaon spa home service, fixed rate, no hidden charge, lady ya male therapist chun lo. Evening 9 baje tak slot milega, office stress, back pain ya weekend chill ke liye. Couple package, gift card aur repeat-customer discount bhi hai—abhi booking karo, kal se relax.
                 </p>
               </div>
 
@@ -1146,278 +1146,7 @@ const faqs = [
       </div>
     </section>
                           {/* Why Choose Us Section */}
-        <section className="py-24 relative overflow-hidden bg-gradient-to-b from-emerald-50 to-white">
-              {/* Decorative elements */}
-              <div className="absolute top-20 left-0 w-72 h-72 rounded-full bg-emerald-200 opacity-20 blur-3xl -z-0"></div>
-              <div className="absolute bottom-20 right-0 w-80 h-80 rounded-full bg-emerald-300 opacity-15 blur-3xl -z-0"></div>
-              
-              <div className="container mx-auto px-4 relative z-10">
-                {/* Header */}
-                <div className="text-center max-w-3xl mx-auto mb-20">
-                  <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.5 }}
-                  >
-                    <span className="inline-block bg-emerald-100 text-emerald-800 px-4 py-1 rounded-full text-sm font-medium mb-4">
-                      Premium Wellness Experience
-                    </span>
-                    <h2 className="text-4xl md:text-5xl font-bold text-emerald-900 font-serif mb-6">
-                      Experience our Premium <span className="text-emerald-600">Massage Services in Lajpat Nagar or Karol Bagh</span>
-                    </h2>
-                    <p className="text-emerald-800 text-lg md:text-xl leading-relaxed">
-                      We stand apart through our commitment to authentic techniques, premium ingredients, and personalized care that revitalizes your mind, body and spirit.
-                    </p>
-                  </motion.div>
-                </div>
-                
-                {/* Main Content Grid */}
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-                  {/* Left Column - Expert Therapists */}
-                  <motion.div 
-                    className="flex flex-col"
-                    initial={{ opacity: 0, x: -30 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.6 }}
-                  >
-                    <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-emerald-100">
-                      <div className="p-8">
-                        <div className="flex items-start mb-6">
-                          <div className="bg-emerald-100 p-3 rounded-lg mr-4 flex-shrink-0">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-emerald-700" viewBox="0 0 20 20" fill="currentColor">
-                              <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
-                            </svg>
-                          </div>
-                          <div>
-                            <h3 className="text-2xl font-bold text-emerald-800 font-serif mb-2">Expert Therapists</h3>
-                            <p className="text-emerald-700">
-                              Our therapists are trained in traditional Ayurvedic techniques with over 10 years of experience in therapeutic massage.
-                            </p>
-                          </div>
-                        </div>
-                        
-                        <p className="text-gray-700 mb-6">
-                          Oil therapy is a traditional wellness practice that uses warm, herb-infused oils tailored to your skin type and body condition. 
-                          This technique not only moisturizes and nourishes your skin but also stimulates deep tissue relaxation.
-                        
-                        </p>
-                        <p className="text-gray-700 mb-6">
-                          Each session is customized to your unique needs, ensuring you receive the maximum benefit from your treatment. 
-                          Whether you&apos;re seeking relief from muscle tension, improved circulation, or simply a moment of tranquility, our expert therapists are here to guide you on your wellness journey.
-                        </p>
-                        
-                        <div className="flex flex-wrap gap-3 mb-8">
-                          {['10+ Years Experience', 'Personalized Techniques', 'Deep Tissue Mastery'].map((item, index) => (
-                            <div key={index} className="bg-emerald-50 text-emerald-800 px-4 py-2 rounded-full text-sm font-medium">
-                              {item}
-                            </div>
-                          ))}
-                        </div>
-                      </div>
-                      
-                      <div className="relative h-96">
-                        <Image 
-                          src="/images/fpkdl.com_960_1760686433_caucasian-couple-customer-enjoying-relaxing-antistress-massage-quiescent_31965-342335.jpg"
-                          alt="Expert therapist performing massage"
-                          layout="fill"
-                          objectFit="cover"
-                          className="transition-transform duration-700 hover:scale-105"
-                        />
-                      </div>
-                    </div>
-                  </motion.div>
-                  
-                  {/* Right Column - Premium Oils */}
-                  <motion.div 
-                    className="flex flex-col"
-                    initial={{ opacity: 0, x: 30 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.6 }}
-                  >
-                    <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-emerald-100">
-                      <div className="relative h-96">
-                        <Image 
-                          src="/images/fpkdl.com_960_1760686305_beautiful-young-woman-reciving-relxing-massage-massage-concept-body-massage-massage-health_299057-864.jpg"
-                          alt="Premium spa oils"
-                          layout="fill"
-                          objectFit="cover"
-                          className="transition-transform duration-700 hover:scale-105"
-                        />
-                      </div>
-                      
-                      <div className="p-8">
-                        <div className="flex items-start mb-6">
-                          <div className="bg-emerald-100 p-3 rounded-lg mr-4 flex-shrink-0">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-emerald-700" viewBox="0 0 20 20" fill="currentColor">
-                              <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
-                            </svg>
-                          </div>
-                          <div>
-                            <h3 className="text-2xl font-bold text-emerald-800 font-serif mb-2">Premium Services</h3>
-                            <p className="text-emerald-700">
-                              We use only cold-pressed, organic oils blended with therapeutic-grade essential oils for maximum benefit.
-                            </p>
-                          </div>
-                        </div>
-                        
-                        <p className="text-gray-700 mb-6">
-                          The calming aroma of essential oils adds a therapeutic layer, relieving stress and enhancing your overall sense of well-being. 
-                          Regular sessions can improve flexibility, deepen sleep, and support emotional stability.
-                        </p>
-                        
-                        <div className="mb-6">
-                          <h4 className="text-lg font-bold text-emerald-700 mb-3">Signature Oil Blends</h4>
-                          <div className="grid grid-cols-2 gap-3">
-                            {['Erotic Massage', 'Nuru Massage', 'B2B Massage', 'Sandalwood Serenity', 'Jasmine Bliss', 'Frankincense Balance'].map((oil, index) => (
-                              <div key={index} className="flex items-center">
-                                <div className="w-2 h-2 rounded-full bg-emerald-400 mr-2"></div>
-                                <span className="text-emerald-800">{oil}</span>
-                              </div>
-                            ))}
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </motion.div>
-                </div>
-                
-                {/* Testimonial Section */}
-                {/* <motion.div 
-                  className="mt-20 bg-gradient-to-r from-emerald-700 to-emerald-800 rounded-3xl overflow-hidden shadow-2xl"
-                  initial={{ opacity: 0, y: 30 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.7 }}
-                >
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div className="p-10 flex flex-col justify-center">
-                      <div className="mb-6">
-                        <div className="flex mb-4">
-                          {[...Array(5)].map((_, i) => (
-                            <svg key={i} xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-emerald-300" viewBox="0 0 20 20" fill="currentColor">
-                              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                            </svg>
-                          ))}
-                        </div>
-                        <blockquote className="text-2xl italic text-white leading-relaxed">
-                          "The oil therapy treatment was transformative. I've never felt so deeply relaxed and rejuvenated. The therapist's expertise was evident in every movement."
-                        </blockquote>
-                      </div>
-                      
-                      <div className="flex items-center">
-                        <div className="mr-4">
-                          <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-emerald-300">
-                            <Image 
-                              src="/images/couple-bathrobes-posing-embraced.jpg"
-                              alt="Client testimonial"
-                              width={64}
-                              height={64}
-                              className="object-cover w-full h-full"
-                            />
-                          </div>
-                        </div>
-                        <div>
-                          <h4 className="text-xl font-bold text-emerald-50">Priya Sharma</h4>
-                          <p className="text-emerald-200">Regular Client since 2020</p>
-                        </div>
-                      </div>
-                    </div>
-                    
-                    <div className="relative h-full min-h-[400px]">
-                      <Image 
-                        src="/images/137.jpg"
-                        alt="Spa treatment"
-                        layout="fill"
-                        objectFit="cover"
-                        className="transition-transform duration-700 hover:scale-105"
-                      />
-                      <div className="absolute -top-6 -right-6 bg-emerald-100 p-6 rounded-full shadow-lg">
-                        <span className="text-emerald-800 text-4xl font-serif">"</span>
-                      </div>
-                    </div>
-                  </div>
-                </motion.div> */}
-                
-                {/* Benefits Section */}
-                <motion.div 
-                  className="mt-20"
-                  initial={{ opacity: 0, y: 30 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.6, delay: 0.2 }}
-                >
-                  <h3 className="text-3xl font-bold text-emerald-900 font-serif text-center mb-12">
-                    Benefits of Spa Home Service in Gurgaon
-                  </h3>
-                  
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    {[
-                      {
-                        title: "Comfort Without Travel",
-                        description: "Spa in Gurgaon comes to your location so you avoid traffic problems. No need to worry about appointments clashing with your schedule. Professional massage therapists come to your door with the oils and set the right mood. You are able to save time and achieve maximum relaxation without leaving the house.",
-                        icon: (
-                          <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-emerald-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
-                          </svg>
-                        )
-                      },
-                      {
-                        title: "Personalized Experience",
-                        description: "Home sessions are designed on your choice. Spa in Gurgaon manages the amount of pressure and picks out the scents according to your comfort level. Every part of the treatment is corresponding to your mood and needs.",
-                        icon: (
-                          <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-emerald-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                          </svg>
-                        )
-                      },
-                      {
-                        title: "Complete Privacy",
-                        description: "You relax in a setting that you are comfortable with. Spa in Gurgaon values your privacy. The attention you receive is personalized and focused only on you. The experience belongs entirely to you.",
-                        icon: (
-                          <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-emerald-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                          </svg>
-                        )
-                      }
-                    ].map((benefit, index) => (
-                      <motion.div 
-                        key={index} 
-                        className="bg-white p-8 rounded-2xl shadow-lg border border-emerald-100 text-center"
-                        whileHover={{ y: -10, transition: { duration: 0.3 } }}
-                      >
-                        <div className="bg-emerald-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
-                          {benefit.icon}
-                        </div>
-                        <h4 className="text-xl font-bold text-emerald-800 mb-3">{benefit.title}</h4>
-                        <p className="text-emerald-700">{benefit.description}</p>
-                      </motion.div>
-                    ))}
-                  </div>
-                </motion.div>
-                
-                {/* CTA */}
-                <motion.div 
-                  className="text-center mt-20"
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.8, delay: 0.3 }}
-                >
-                  <button className="bg-gradient-to-r from-emerald-600 to-emerald-800 text-white font-bold py-5 px-10 rounded-full text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2">
-                    Book Your Rejuvenating Experience
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 inline-block ml-2" viewBox="0 0 20 20" fill="currentColor">
-                      <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                    </svg>
-                  </button>
-                  <p className="text-emerald-700 mt-4">
-                    Limited slots available. Reserve your session today.
-                  </p>
-                </motion.div>
-              </div>
-            </section>
+       
              {/* content section */}
                  <section className="py-24 px-6 md:px-16">
   <div className="max-w-7xl mx-auto">
@@ -1561,7 +1290,9 @@ const faqs = [
             <h2 className="text-3xl font-bold text-emerald-800">Home & Hotel Spa</h2>
           </div>
           <p className="text-gray-600 mb-6">
-            Get premium spa treatments delivered right to your hotel room — relaxation meets privacy and comfort.
+            Get Personalized Massage Service Gurgaon With Best Massage Therapist
+Every session at Spa in Gurgaon gets customized for your specific body. Certified therapists check where you hold tension and where stress builds up. They look for energy blockages before choosing which techniques to use. Perhaps, you require Thai, Full Body, or Aromatherapy. The outcome corresponds to your wellness objectives. You become lighter, more balanced and totally refreshed.
+
           </p>
           <div className="flex flex-wrap gap-3 mb-6">
             {['JW Marriott Aerocity', 'The Ashok Chanakyapuri', 'The Park CP', 'The Suryaa NFC'].map((loc, i) => (
@@ -2116,7 +1847,7 @@ const faqs = [
               transition={{ duration: 0.5, delay: 0.1 }}
               viewport={{ once: true }}
             >
-              Ready for Your <span className="text-emerald-300">Spa Journey?</span>
+              Ready for Your <span className="text-emerald-300">Spa Journey in Guegaon?</span>
             </motion.h2>
 
             <motion.p
@@ -2126,7 +1857,7 @@ const faqs = [
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
             >
-              Our expert therapists are waiting to guide you through a transformative wellness experience.
+              Our expert therapists are waiting to guide you through a next level wellness experience.
             </motion.p>
 
             {/* CTA Buttons */}

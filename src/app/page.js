@@ -2,7 +2,7 @@ import HomeClient from "./HomeClient";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Book Spa in Gurgaon By Certified Therapists | First Visit Offer @1499",
+  title: "Book Spa in Gurgaon By Certified Therapists | First Visit Offer @1999",
   description: "Book spa in gurgaon and experience one of the best massages in gurgaon by well trained female therapists. soothing ambience, organic oils, and professional therapists.",
   openGraph: {
     title: "Get Best Body Massage in Delhi | First Visit Offer 1999",

@@ -883,13 +883,13 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
       
               
                            {/* Why Choose Us Section */}
-                                   <section className="py-24 relative overflow-hidden bg-gradient-to-b from-emerald-50 to-white">
-                                         {/* Decorative elements */}
+                                   {/* <section className="py-24 relative overflow-hidden bg-gradient-to-b from-emerald-50 to-white">
+                                         
                                          <div className="absolute top-20 left-0 w-72 h-72 rounded-full bg-emerald-200 opacity-20 blur-3xl -z-0"></div>
                                          <div className="absolute bottom-20 right-0 w-80 h-80 rounded-full bg-emerald-300 opacity-15 blur-3xl -z-0"></div>
                                          
                                          <div className="container mx-auto px-4 relative z-10">
-                                           {/* Header */}
+                                          
                                            <div className="text-center max-w-3xl mx-auto mb-20">
                                              <motion.div
                                                initial={{ opacity: 0, y: 20 }}
@@ -909,9 +909,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                              </motion.div>
                                            </div>
                                            
-                                           {/* Main Content Grid */}
                                            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-                                             {/* Left Column - Expert Therapists */}
+                                             
                                              <motion.div 
                                                className="flex flex-col"
                                                initial={{ opacity: 0, x: -30 }}
@@ -962,7 +961,6 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                </div>
                                              </motion.div>
                                              
-                                             {/* Right Column - Premium Oils */}
                                              <motion.div 
                                                className="flex flex-col"
                                                initial={{ opacity: 0, x: 30 }}
@@ -1017,64 +1015,6 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                              </motion.div>
                                            </div>
                                            
-                                           {/* Testimonial Section */}
-                                           {/* <motion.div 
-                                             className="mt-20 bg-gradient-to-r from-emerald-700 to-emerald-800 rounded-3xl overflow-hidden shadow-2xl"
-                                             initial={{ opacity: 0, y: 30 }}
-                                             whileInView={{ opacity: 1, y: 0 }}
-                                             viewport={{ once: true }}
-                                             transition={{ duration: 0.7 }}
-                                           >
-                                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                                               <div className="p-10 flex flex-col justify-center">
-                                                 <div className="mb-6">
-                                                   <div className="flex mb-4">
-                                                     {[...Array(5)].map((_, i) => (
-                                                       <svg key={i} xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-emerald-300" viewBox="0 0 20 20" fill="currentColor">
-                                                         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                                                       </svg>
-                                                     ))}
-                                                   </div>
-                                                   <blockquote className="text-2xl italic text-white leading-relaxed">
-                                                     "The oil therapy treatment was transformative. I've never felt so deeply relaxed and rejuvenated. The therapist's expertise was evident in every movement."
-                                                   </blockquote>
-                                                 </div>
-                                                 
-                                                 <div className="flex items-center">
-                                                   <div className="mr-4">
-                                                     <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-emerald-300">
-                                                       <Image 
-                                                         src="/images/couple-bathrobes-posing-embraced.jpg"
-                                                         alt="Client testimonial"
-                                                         width={64}
-                                                         height={64}
-                                                         className="object-cover w-full h-full"
-                                                       />
-                                                     </div>
-                                                   </div>
-                                                   <div>
-                                                     <h4 className="text-xl font-bold text-emerald-50">Priya Sharma</h4>
-                                                     <p className="text-emerald-200">Regular Client since 2020</p>
-                                                   </div>
-                                                 </div>
-                                               </div>
-                                               
-                                               <div className="relative h-full min-h-[400px]">
-                                                 <Image 
-                                                   src="/images/137.jpg"
-                                                   alt="Spa treatment"
-                                                   layout="fill"
-                                                   objectFit="cover"
-                                                   className="transition-transform duration-700 hover:scale-105"
-                                                 />
-                                                 <div className="absolute -top-6 -right-6 bg-emerald-100 p-6 rounded-full shadow-lg">
-                                                   <span className="text-emerald-800 text-4xl font-serif">"</span>
-                                                 </div>
-                                               </div>
-                                             </div>
-                                           </motion.div> */}
-                                           
-                                           {/* Benefits Section */}
                                            <motion.div 
                                              className="mt-20"
                                              initial={{ opacity: 0, y: 30 }}
@@ -1131,7 +1071,6 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                              </div>
                                            </motion.div>
                                            
-                                           {/* CTA */}
                                            <motion.div 
                                              className="text-center mt-20"
                                              initial={{ opacity: 0 }}
@@ -1150,7 +1089,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                              </p>
                                            </motion.div>
                                          </div>
-                                       </section>
+                                       </section> */}
                                                {/* content section */}
 
         {/* About Oil Therapy Section */}

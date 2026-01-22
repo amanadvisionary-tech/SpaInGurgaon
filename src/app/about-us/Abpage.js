@@ -270,7 +270,7 @@ export default function Abpage({
   };
   ///
   const paragraphs = [
-    'The spa in Gurgaon is a pioneer in the wellness process with professionally designed massages to restore balance in your body and sanity in your mind. B2B massage is sensual and therapeutic, full-body, with all the experiences facilitated by certified therapists, knowing the science of touch and the art of emotional soothing. We will create an environment that relieves tension, lifts spirits, and envelops you in luxurious comfort without effort. Each session is a call to halt, breathe slowly, and regain inner peace with high-quality spa services in Gurgaon. Why clients love us:',
+    'Gurgaon spa is first-one in town for good wellness. Our trained girls give full-body oil rub that takes away back pain and shoulder tight, also calms your head when office tension is too much. They know how to press right points and give nice slow touch so you feel light and happy. Room is very clean, light is dim, soft Hindi music plays, nice smell comes, you sleep easy on warm bed. We use good almond oil, fresh towels every time. Come after work, take slow breath, forget boss and bills, go home smiling and fresh. Many IT boys and sales girls come every week, say we are best.',
     
   ];
   const bullets = [
@@ -879,7 +879,7 @@ export default function Abpage({
             className="bg-white shadow-lg p-8 rounded-xl"
           >
             <p className="text-gray-600 text-lg leading-relaxed">
-              Luxury Spa is a one-stop destination where expert therapists, premium oils, and tailored therapies come together to deliver a lasting sense of rejuvenation. We combine modern techniques with traditional practices to create therapy plans that suit your body and lifestyle — making us one of the most trusted luxury spas in Delhi.
+              Luxury Spa is the one shop where good didi and bhaiya press your pain away with nice smelly oils. We mix new-style hand moves with old dadi-style tricks, then make the plan that fits your body and your daily bhag-daud. That is why Delhi people say we are top-class spa.
               Our <span className="font-semibold text-emerald-700">massage spa in Delhi </span> 
               was established several years ago with the prime goal of giving 
               pleasure with the perfect package of massage services to individuals 
