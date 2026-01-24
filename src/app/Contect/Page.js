@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-export default function SpaBlogPage() {
+export default function Contect() {
   const blogs = [
     {
       title: "Top 7 Benefits of Body Spa Therapy in Gurgaon",

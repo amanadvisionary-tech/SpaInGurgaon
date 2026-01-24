@@ -185,7 +185,7 @@ export default function Navbar() {
               Gallery
             </a>
             <a
-              href="/Contect"
+              href="/contacts"
               className="font-medium text-gray-800 hover:text-emerald-600 transition"
             >
               Contact
@@ -300,7 +300,7 @@ export default function Navbar() {
               Gallery
             </a>
             <a
-              href="/Contect"
+              href="/contacts"
               className="block text-gray-800 font-semibold hover:text-emerald-600"
             >
               Contact

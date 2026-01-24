@@ -8,9 +8,9 @@ export default function SpaBlogPage() {
       tag: "Wellness",
     },
     {
-      title: "Swedish vs Deep Tissue Massage – Which One is Right for You?",
-      desc: "A complete guide to choosing the right massage based on your body pain, stress level, and relaxation goals.",
-      img: "/images/spa-blog-2.webp",
+      title: "Sandwich Massage vs. Swedish Massage: Which one is better to relieve stress?",
+      desc: "When you’re already stressed out, a Sandwich massage vs Swedish massage can seem like a confusing choice. Stress doesn’t always make an entrance: It accrues silently. You might start to feel tight in the shoulders, notice a stiff neck, or experience fitful sleep or a mind that just won’t stop racing. And since stress lives in the body as much as in the mind, it routinely manifests itself as a tension that you can feel. This is where massage comes in: It relaxes your muscles, soothes your nervous system, and ultimately, makes you feel more like yourself again. In the article below, we will compare a sandwich massage with a Swedish massage and explore the way they differ and how each one may be more suitable for some people.",
+      img: "/images/client-spa-salon.jpg",
       date: "05 Aug 2026",
       tag: "Massage",
     },
