@@ -1,3 +1,5 @@
+import { Link } from "lucide-react";
+
 export default function SpaBlogPage() {
   const blogs = [
     {
@@ -6,6 +8,7 @@ export default function SpaBlogPage() {
       img: "/images/fpkdl.com_960_1758962771_young-relaxing-woman-getting-massage-with-cosmetic-oil-spa-salon-background_852367-2763.jpg",
       date: "12 Aug 2026",
       tag: "Wellness",
+      Link: "/difference-between-sandwich-massage-and-deep-tissue-massage",
     },
     {
       title: "Sandwich Massage vs. Swedish Massage: Which one is better to relieve stress?",
@@ -13,6 +16,7 @@ export default function SpaBlogPage() {
       img: "/images/client-spa-salon.jpg",
       date: "05 Aug 2026",
       tag: "Massage",
+      Link: "/sandwich-massage-vs-swedish-massage",
     },
     {
       title: "Why Luxury Spa Experience Matters in Gurgaon",
@@ -20,6 +24,7 @@ export default function SpaBlogPage() {
       img: "/images/spa-blog-3.webp",
       date: "29 Jul 2026",
       tag: "Luxury Spa",
+      Link: "/difference-between-sandwich-massage-and-deep-tissue-massage",
     },
   ];
 
@@ -70,7 +75,7 @@ export default function SpaBlogPage() {
                 </p>
 
                 <a
-                  href="/difference-between-sandwich-massage-and-deep-tissue-massage"
+                  href={blog.Link}
                   className="inline-block mt-6 text-[#7b0f2b] font-semibold hover:underline"
                 >
                   Read More →

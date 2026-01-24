@@ -1,4 +1,4 @@
-import SandwichMassageAndDeepTissueMassage from "./SandwichMassageAndDeepTissueMassage";
+import Sandwichmassagevsswedish from "./Sandwichmassagevsswedish";
 
 export const metadata = {
   title: "Difference Between Sandwich Massage and Deep Tissue Massage | Best Spa in Gurgaon",
@@ -16,5 +16,5 @@ export const metadata = {
 };
 
 export default function page() {
-  return <SandwichMassageAndDeepTissueMassage />;
+  return <Sandwichmassagevsswedish />;
 }
