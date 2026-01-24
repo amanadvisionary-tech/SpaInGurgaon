@@ -1461,7 +1461,7 @@ export default function Abpage({
         <span className="block text-xl font-light tracking-widest text-[#D4A866] mb-2">
           PREMIUM WELLNESS DESTINATIONS
         </span>
-        24+ Exclusive Body Spa Outlets
+        12+ Exclusive Body Spa Outlets
       </h2>
       <div className="w-16 h-0.5 bg-[#D4A866] mt-6" />
     </div>
