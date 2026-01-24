@@ -77,17 +77,17 @@ export default function page() {
             {
               icon: <FaPhoneAlt />,
               title: "Call Us",
-              text: "+91 9XXXXXXXXX",
+              text: "+91 8826482370",
             },
             {
               icon: <FaWhatsapp />,
               title: "WhatsApp",
-              text: "+91 9XXXXXXXXX",
+              text: "+91 8826482370",
             },
             {
               icon: <FaEnvelope />,
               title: "Email",
-              text: "info@yourspaname.com",
+              text: "info@spaingurgaon.com",
             },
           ].map((item, i) => (
             <motion.div
