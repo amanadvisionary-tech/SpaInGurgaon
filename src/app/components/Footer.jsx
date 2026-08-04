@@ -1,94 +1,59 @@
-import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
-import { Hotel } from "lucide-react";
+"use client";
+
+import Link from "next/link";
+import { FaPhoneAlt, FaMapMarkerAlt, FaFacebookF, FaTwitter, FaInstagram, FaEnvelope } from "react-icons/fa";
 
 export default function Footer() {
-  const icons = [
-    { name: "facebook", icon: <FaFacebookF className="text-blue-600" />, link: "#" },
-    { name: "twitter", icon: <FaTwitter className="text-sky-500" />, link: "#" },
-    { name: "instagram", icon: <FaInstagram className="text-pink-500" />, link: "#" },
-  ];
-
   return (
-    <footer className="bg-gray-900 text-white py-16 px-6 md:px-16 relative">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 relative z-10">
+    <footer className="bg-black text-gray-400 py-20 px-6 border-t border-white/10">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-12 mb-16">
         <div>
-          <h3 className="text-2xl font-bold mb-6 text-emerald-400 flex items-center">
-            <span className="text-emerald-500">Spa </span> In Gurgaon
-          </h3>
-          <p className="text-gray-400 mb-6">Luxury spa experiences for complete rejuvenation in the heart of Delhi.</p>
-          <div className="flex space-x-4">
-            {icons.map((item, i) => (
-              <a
-                key={i}
-                href="#"
-                className="bg-gray-800 p-3 rounded-full text-gray-300 hover:text-emerald-400 hover:bg-gray-700 transition-colors"
-              >
-                <div className="w-5 h-5 flex items-center justify-center">
-                  {item.icon}
-                </div>
-              </a>
-            ))}
+          <h3 className="text-2xl font-serif text-white mb-6">SPA IN <span className="text-[#D4AF37]">GURGAON</span></h3>
+          <p className="text-sm leading-relaxed mb-6">Luxury spa experiences for complete rejuvenation in the heart of Gurgaon.</p>
+          <div className="flex gap-4">
+            <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#D4AF37] hover:text-black transition-colors" aria-label="Facebook">
+              <FaFacebookF size={16} />
+            </a>
+            <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#D4AF37] hover:text-black transition-colors" aria-label="Twitter">
+              <FaTwitter size={16} />
+            </a>
+            <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#D4AF37] hover:text-black transition-colors" aria-label="Instagram">
+              <FaInstagram size={16} />
+            </a>
           </div>
         </div>
-
-        {/* Our Locations Section */}
         <div>
-          <h4 className="text-lg font-semibold mb-6 text-emerald-300">Our Locations</h4>
-          <ul className="space-y-4 text-gray-400">
-            {['Aerocity', 'Connaught Place', 'Noida', 'Gurugram',  'Paschim Vihar'].map((loc, i) => (
-              <li key={i} className="flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-3 text-emerald-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                </svg>
-                {loc}
-              </li>
-            ))}
+          <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">5-Star Hotels</h4>
+          <ul className="space-y-4 text-sm">
+            <li><Link href="/Outlet" className="hover:text-[#D4AF37] transition-colors">Roseate House</Link></li>
+            <li><Link href="/Outlet" className="hover:text-[#D4AF37] transition-colors">The Park</Link></li>
+            <li><Link href="/Outlet" className="hover:text-[#D4AF37] transition-colors">Radisson Blu MBD</Link></li>
+            <li><Link href="/Outlet" className="hover:text-[#D4AF37] transition-colors">The Oberoi</Link></li>
+            <li><Link href="/Outlet" className="hover:text-[#D4AF37] transition-colors">Radisson Blu Hotel</Link></li>
           </ul>
         </div>
-
-        {/* 5-Star Hotels Section */}
         <div>
-  <h4 className="text-lg font-semibold mb-6 text-emerald-300">5-Star Hotels</h4>
-  <ul className="space-y-4 text-gray-400">
-    {['Roseate House', 'The Park', 'Radisson Blu MBD', 'The Oberoi', 'Radisson Blu Hotel'].map((hotel, i) => (
-      <li key={i} className="flex items-center space-x-2">
-        <Hotel className="w-4 h-4 text-emerald-400" />
-        <a
-          href="/Outlet"
-          className="hover:text-emerald-400 transition-colors"
-        >
-          {hotel}
-        </a>
-      </li>
-    ))}
-  </ul>
-</div>
-
-
-        {/* Contact Us Section */}
+          <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Our Locations</h4>
+          <ul className="space-y-4 text-sm">
+            <li><Link href="/spa-in-gurgaon" className="hover:text-[#D4AF37] transition-colors">DLF Phase 1</Link></li>
+            <li><Link href="/spa-in-gurgaon" className="hover:text-[#D4AF37] transition-colors">Cyber City</Link></li>
+            <li><Link href="/spa-in-gurgaon" className="hover:text-[#D4AF37] transition-colors">MG Road</Link></li>
+            <li><Link href="/spa-in-gurgaon" className="hover:text-[#D4AF37] transition-colors">Sector 29</Link></li>
+            <li><Link href="/spa-in-gurgaon" className="hover:text-[#D4AF37] transition-colors">Gurugram</Link></li>
+          </ul>
+        </div>
         <div>
-          <h4 className="text-lg font-semibold mb-6 text-emerald-300">Contact Us</h4>
-          <ul className="space-y-4 text-gray-400">
-            <li className="flex items-start">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-3 text-emerald-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-              </svg>
-              +91 88607 88415
-            </li>
-            <li className="flex items-start">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-3 text-emerald-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-              </svg>
-              info@delhibodyspa.com
-            </li>
+          <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Contact Us</h4>
+          <ul className="space-y-4 text-sm">
+            <li className="flex items-center gap-3"><FaPhoneAlt className="text-[#D4AF37]" /> +91 8448499173</li>
+            <li className="flex items-center gap-3"><FaEnvelope className="text-[#D4AF37]" /> spaingurugram8826@gmail.com</li>
+            <li className="flex items-center gap-3"><FaAddress className="text-[#D4AF37]" />442, Shankar Chowk RdPhase II, Udyog Vihar, Sector 20, Gurugram, Haryana 122016</li>
+
           </ul>
         </div>
       </div>
-
-      {/* Bottom Copyright Section */}
-      <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-gray-800 text-center text-gray-500 relative z-10">
-        <p>&copy; {new Date().getFullYear()} Spa In Gurgaon. All rights reserved.</p>
+      <div className="max-w-7xl mx-auto pt-8 border-t border-white/10 text-center text-xs tracking-widest uppercase">
+        &copy; {new Date().getFullYear()} Spa In Gurgaon. All Rights Reserved.
       </div>
     </footer>
   );
