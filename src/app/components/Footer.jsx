@@ -47,7 +47,7 @@ export default function Footer() {
           <ul className="space-y-4 text-sm">
             <li className="flex items-center gap-3"><FaPhoneAlt className="text-[#D4AF37]" /> +91 8448499173</li>
             <li className="flex items-center gap-3"><FaEnvelope className="text-[#D4AF37]" /> spaingurugram8826@gmail.com</li>
-            <li className="flex items-center gap-3"><FaAddress className="text-[#D4AF37]" />442, Shankar Chowk RdPhase II, Udyog Vihar, Sector 20, Gurugram, Haryana 122016</li>
+            <li className="flex items-center gap-3"><FaMapMarkerAlt className="text-[#D4AF37] flex-shrink-0" /> <span>442, Shankar Chowk Rd Phase II, Udyog Vihar, Sector 20, Gurugram, Haryana 122016</span></li>
 
           </ul>
         </div>
