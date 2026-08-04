@@ -1,30 +1,36 @@
-import { Link } from "lucide-react";
-
 export default function SpaBlogPage() {
   const blogs = [
     {
+      title: "Deep Tissue Massage Benefits: A Simple Guide for Everyone",
+      desc: "Learn the top deep tissue massage benefits, how it works, who should get it, and why it helps reduce pain, stress, and muscle tension naturally.",
+      img: "/images/fpkdl.com_960_1758962686_masseur-doing-massage-woman-s-back-spa-salon-with-many-candles_355000-245.jpg",
+      date: "03 Aug 2026",
+      tag: "Massage",
+      Link: "/deep-tissue-massage-benefits",
+    },
+    {
       title: "What is The Difference Between a Sandwich Massage and a Deep Tissue Massage?",
-      desc: "One of the most widespread reasons people seek out massage therapy is for pain relief. “When it comes to some of the aches and pains in life, whether it be chronic back pain, stiffness through muscles, technology stress — quite literally pain that many times comes from our devices or work volumes but still landed on your body in one way/shape/or form — or post workout recovery soreness: there is huge benefit to using the right massage technique. Sandwich Massage and Deep tissue massage as Pretty Beloved Body to body massage services. There are so many options out of the box that you can choose from as part of the massage service.",
+      desc: "One of the most widespread reasons people seek out massage therapy is for pain relief. There is huge benefit to using the right massage technique. Sandwich Massage and Deep tissue massage are two of the most popular body massage services available today.",
       img: "/images/fpkdl.com_960_1758962771_young-relaxing-woman-getting-massage-with-cosmetic-oil-spa-salon-background_852367-2763.jpg",
       date: "12 Aug 2026",
       tag: "Wellness",
       Link: "/difference-between-sandwich-massage-and-deep-tissue-massage",
     },
     {
-      title: "Sandwich Massage vs. Swedish Massage: Which one is better to relieve stress?",
-      desc: "When you’re already stressed out, a Sandwich massage vs Swedish massage can seem like a confusing choice. Stress doesn’t always make an entrance: It accrues silently. You might start to feel tight in the shoulders, notice a stiff neck, or experience fitful sleep or a mind that just won’t stop racing. And since stress lives in the body as much as in the mind, it routinely manifests itself as a tension that you can feel. This is where massage comes in: It relaxes your muscles, soothes your nervous system, and ultimately, makes you feel more like yourself again. In the article below, we will compare a sandwich massage with a Swedish massage and explore the way they differ and how each one may be more suitable for some people.",
-      img: "/images/client-spa-salon.jpg",
+      title: "Sandwich Massage vs. Swedish Massage: Which one is better to relieve stress?",
+      desc: "When you're already stressed out, a Sandwich massage vs Swedish massage can seem like a confusing choice. In this article, we compare both styles and explore which one may be more suitable for your needs.",
+      img: "/images/fpkdl.com_960_1760685466_therapist-make-professional-hand-massage-back-shoulders-young-beautiful-woman_359031-29618.jpg",
       date: "05 Aug 2026",
       tag: "Massage",
       Link: "/sandwich-massage-vs-swedish-massage",
     },
     {
-      title: "Why Luxury Spa Experience Matters in Gurgaon",
-      desc: "Learn why premium spa experiences in Gurgaon hotels and private spas offer deeper relaxation and better results.",
-      img: "/images/spa-blog-3.webp",
-      date: "29 Jul 2026",
-      tag: "Luxury Spa",
-      Link: "/difference-between-sandwich-massage-and-deep-tissue-massage",
+      title: "Full Body Massage: Benefits, Types, and Everything You Should Know",
+      desc: "Learn what a full body massage is, its benefits, different types, what happens during a session, and how it helps your body and mind.",
+      img: "/images/fpkdl.com_960_1760685860_full-body-massage-spa-salon_926199-4238291.jpg",
+      date: "04 Aug 2026",
+      tag: "Wellness",
+      Link: "/full-body-massage",
     },
   ];
 
@@ -47,36 +53,35 @@ export default function SpaBlogPage() {
       </div>
 
       {/* BLOG LIST */}
-      <div className="max-w-7xl mx-auto px-6 py-20">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div className="max-w-7xl mx-auto px-6 py-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {blogs.map((blog, i) => (
             <article
               key={i}
-              className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition"
+              className="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 group"
             >
-              <div className="relative">
+              {/* Image with fixed aspect ratio — prevents stretching */}
+              <div className="aspect-[3/2] overflow-hidden">
                 <img
                   src={blog.img}
                   alt={blog.title}
-                  className="h-60 w-full object-cover"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
-                <span className="absolute top-4 left-4 bg-[#c9b37e] text-black text-sm px-3 py-1 rounded-full">
-                  {blog.tag}
-                </span>
               </div>
 
-              <div className="p-6">
-                <p className="text-sm text-gray-500">{blog.date}</p>
-                <h2 className="mt-2 text-xl font-semibold text-gray-900">
+              <div className="p-5">
+                <span className="inline-block bg-[#f5ede0] text-[#7b0f2b] text-xs font-semibold px-2.5 py-1 rounded-full mb-3">
+                  {blog.tag}
+                </span>
+                <h2 className="text-base font-bold text-gray-900 leading-snug line-clamp-2 mb-2 group-hover:text-[#7b0f2b] transition-colors">
                   {blog.title}
                 </h2>
-                <p className="mt-3 text-gray-600 leading-relaxed">
+                <p className="text-gray-500 text-sm leading-relaxed line-clamp-3 mb-4">
                   {blog.desc}
                 </p>
-
                 <a
                   href={blog.Link}
-                  className="inline-block mt-6 text-[#7b0f2b] font-semibold hover:underline"
+                  className="inline-flex items-center gap-1 text-[#7b0f2b] text-sm font-semibold hover:underline"
                 >
                   Read More →
                 </a>
