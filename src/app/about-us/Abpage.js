@@ -355,7 +355,7 @@ export default function Abpage({
             </a>
            
             <a 
-                        href="https://api.whatsapp.com/send?phone=919211059033"
+                        href="https://api.whatsapp.com/send?phone=918448499173"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
@@ -516,7 +516,7 @@ export default function Abpage({
               Explore Services
             </a>
             <a
-              href="https://api.whatsapp.com/send?phone=919211059033"
+              href="https://api.whatsapp.com/send?phone=918448499173"
               className="inline-block border border-emerald-200 text-emerald-700 py-3 px-5 rounded-full font-medium shadow-sm hover:shadow"
             >
               Book a Session
@@ -736,7 +736,7 @@ export default function Abpage({
           <p className="text-gray-600">Book your wellness escape and feel the bliss unfold.</p>
         </div>
         <div className="flex gap-3">
-          <a href="https://api.whatsapp.com/send?phone=919211059033" className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-3 rounded-full font-medium shadow">
+          <a href="https://api.whatsapp.com/send?phone=918448499173" className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-3 rounded-full font-medium shadow">
             Book Now
           </a>
           <a href="#contact" className="inline-block border border-emerald-200 px-5 py-3 rounded-full font-medium">
@@ -1034,7 +1034,7 @@ export default function Abpage({
             {/* CTA row */}
             <div className="mt-8 flex items-center gap-4">
               <a
-                href="https://api.whatsapp.com/send?phone=919211059033"
+                href="https://api.whatsapp.com/send?phone=918448499173"
                 className="inline-block px-6 py-3 rounded-full bg-emerald-600 text-white font-semibold shadow hover:scale-[1.02] transition-transform"
               >
                 Book a Session

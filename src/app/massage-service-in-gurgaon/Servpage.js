@@ -335,7 +335,7 @@ const faqs = [
               transition={{ delay: 0.4 }}
               className="mt-8 flex flex-wrap gap-4"
             >
-              <a href="https://api.whatsapp.com/send?phone=919211059033" className="inline-flex items-center gap-3 bg-gradient-to-r from-emerald-600 to-emerald-800 text-white px-6 py-3 rounded-full shadow-lg hover:scale-[1.02] transform transition">
+              <a href="https://api.whatsapp.com/send?phone=918448499173" className="inline-flex items-center gap-3 bg-gradient-to-r from-emerald-600 to-emerald-800 text-white px-6 py-3 rounded-full shadow-lg hover:scale-[1.02] transform transition">
                 Book a Consultation
               </a>
 
@@ -766,7 +766,7 @@ const faqs = [
                               whileTap={{ scale: 0.98 }}
                             >
                                <a
-                        href="https://api.whatsapp.com/send?phone=918826482370"
+                        href="https://api.whatsapp.com/send?phone=918448499173"
                         
                       >
                         Book Your Spa Session
@@ -1121,7 +1121,7 @@ const faqs = [
               {/* CTA */}
               <div className="mt-6 flex flex-wrap items-center gap-3">
                 <a
-                  href="https://api.whatsapp.com/send?phone=919211059033" // TODO: replace with your booking link
+                  href="https://api.whatsapp.com/send?phone=918448499173" // TODO: replace with your booking link
                   className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-emerald-600 to-teal-600 px-6 py-3 text-base font-semibold text-white shadow-md transition-transform hover:-translate-y-0.5 hover:shadow-lg"
                 >
                   Book Now
@@ -1825,7 +1825,7 @@ Every session at Spa in Gurgaon gets customized for your specific body. Certifie
                     ))}
                   </ul>
 
-                  <a href="https://api.whatsapp.com/send?phone=918826482370" className="bg-emerald-600 text-white px-8 py-4 rounded-full font-medium text-sm hover:bg-emerald-700 transition shadow-md">
+                  <a href="https://api.whatsapp.com/send?phone=918448499173" className="bg-emerald-600 text-white px-8 py-4 rounded-full font-medium text-sm hover:bg-emerald-700 transition shadow-md">
               Book an Appointment
             </a>
                 </div>

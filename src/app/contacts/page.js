@@ -77,12 +77,12 @@ export default function page() {
             {
               icon: <FaPhoneAlt />,
               title: "Call Us",
-              text: "+91 8826482370",
+              text: "+91 8448499173",
             },
             {
               icon: <FaWhatsapp />,
               title: "WhatsApp",
-              text: "+91 8826482370",
+              text: "+91 8448499173",
             },
             {
               icon: <FaEnvelope />,

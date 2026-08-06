@@ -135,49 +135,49 @@ const locations = [
     name: "Lajpat Nagar",
     image: "/images/TheSuryaaNewDelhi(NFC).jpg", // Replace with actual image URL
     description: "Discover the tranquility of our luxurious spa at Lajpat Nagar.",
-    link: "https://wa.me/8826482370"
+    link: "https://wa.me/8448499173"
   },
   {
     name: "Aerocity",
     image: "/images/NovotelNewDelhiAerocity.jpeg",
     description: "Relax and unwind with our premium services at Aerocity.",
-    link: "https://wa.me/8826482370"
+    link: "https://wa.me/8448499173"
   },
   {
     name: "Paschim Vihar",
     image: "/images/TheParkConnaughtPlace.jpg",
     description: "Experience rejuvenation at our elegant Paschim Vihar location.",
-    link: "https://wa.me/8826482370"
+    link: "https://wa.me/8448499173"
   },
   {
     name: "Rohini",
     image: "/images/TheGrandNewDelhi.jpg",
     description: "Escape to serenity at our luxurious spa in Rohini.",
-    link: "https://wa.me/8826482370"
+    link: "https://wa.me/8448499173"
   },
   {
     name: "Lajpat Nagar",
     image: "/images/TheSuryaaNewDelhi(NFC).jpg", // Replace with actual image URL
     description: "Discover the tranquility of our luxurious spa at Lajpat Nagar.",
-    link: "https://wa.me/8826482370"
+    link: "https://wa.me/8448499173"
   },
   {
     name: "Aerocity",
     image: "/images/NovotelNewDelhiAerocity.jpeg",
     description: "Relax and unwind with our premium services at Aerocity.",
-    link: "https://wa.me/8826482370"
+    link: "https://wa.me/8448499173"
   },
   {
     name: "Paschim Vihar",
     image: "/images/TheParkConnaughtPlace.jpg",
     description: "Experience rejuvenation at our elegant Paschim Vihar location.",
-    link: "https://wa.me/8826482370"
+    link: "https://wa.me/8448499173"
   },
   {
     name: "Rohini",
     image: "/images/TheGrandNewDelhi.jpg",
     description: "Escape to serenity at our luxurious spa in Rohini.",
-    link: "https://wa.me/8826482370"
+    link: "https://wa.me/8448499173"
   }
 ];
 const teamMembers = [
@@ -680,7 +680,7 @@ const cards2 = [
                 Join Our Telegram
               </a>
 
-              <div className="mt-4 text-xs opacity-90">Or call us at <span className="font-semibold">+91 8826482370</span> — Priority bookings & corporate queries</div>
+              <div className="mt-4 text-xs opacity-90">Or call us at <span className="font-semibold">+91 8448499173</span> — Priority bookings & corporate queries</div>
             </div>
           </motion.div>
         </div>
@@ -940,7 +940,7 @@ const cards2 = [
                 Join Our Telegram
               </a>
 
-              <div className="mt-4 text-xs opacity-90">Or call us at <span className="font-semibold">+91 8826482370</span> — Priority bookings & corporate queries</div>
+              <div className="mt-4 text-xs opacity-90">Or call us at <span className="font-semibold">+91 8448499173</span> — Priority bookings & corporate queries</div>
             </div>
           </motion.div>
         </div>
@@ -1164,7 +1164,7 @@ const cards2 = [
                 Join Our Telegram
               </a>
 
-              <div className="mt-4 text-xs opacity-90">Or call us at <span className="font-semibold">+91 8826482370</span> — Priority bookings & corporate queries</div>
+              <div className="mt-4 text-xs opacity-90">Or call us at <span className="font-semibold">+91 8448499173</span> — Priority bookings & corporate queries</div>
             </div>
           </motion.div>
         </div>

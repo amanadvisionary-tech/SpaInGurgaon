@@ -117,25 +117,25 @@ export default function Pricpage() {
     title: 'Aerocity',
     description: 'Get five-star comfort with Spa in Gurgaon with the therapists in the best hotels in Aerocity who provide high-quality massage to the travelers to get immediate rejuvenation.',
     image: '/images/RoseateHouse.jpg',
-    link: 'https://api.whatsapp.com/send?phone=918826482370',
+    link: 'https://api.whatsapp.com/send?phone=918448499173',
   },
   {
     title: 'New Friends Colony (NFC)',
     description: 'The NFC outlet of Spa in Gurgaon provides a personalized, relaxing experience to clients in search of relaxing but at low-cost massage services in South Delhi.',
     image: '/images/hotel2.jpg',
-    link: 'https://api.whatsapp.com/send?phone=918826482370',
+    link: 'https://api.whatsapp.com/send?phone=918448499173',
   },
   {
     title: 'Connaught Place',
     description: 'Our Connaught Place team offers full-body and Thai massage in the very center of Delhi at reasonable prices without reaching out to luxury.',
     image: '/images/hotel3.webp',
-    link: 'https://api.whatsapp.com/send?phone=918826482370',
+    link: 'https://api.whatsapp.com/send?phone=918448499173',
   },
   {
     title: 'Grand Vasant Kunj',
     description: 'Relax in our superb spa treatments at Vasant Kunj. Any treatment is a sign of classiness, comfort, and affordable luxury among contemporary adults.',
     image: '/images/Radisson_Blu_MBD_Hotel,_Noida.jpg',
-    link: 'https://api.whatsapp.com/send?phone=918826482370',
+    link: 'https://api.whatsapp.com/send?phone=918448499173',
   },
 ];
 const teamMembers = [

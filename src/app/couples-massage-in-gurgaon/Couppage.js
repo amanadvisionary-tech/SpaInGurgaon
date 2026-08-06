@@ -707,7 +707,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                       Join Our Telegram
                     </a>
       
-                    <div className="mt-4 text-xs opacity-90">Or call us at <span className="font-semibold">+91 8826482370</span> — Priority bookings & corporate queries</div>
+                    <div className="mt-4 text-xs opacity-90">Or call us at <span className="font-semibold">+91 8448499173</span> — Priority bookings & corporate queries</div>
                   </div>
                 </motion.div>
               </div>
@@ -1565,7 +1565,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
     </p>
 
     <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
-      <a href="https://api.whatsapp.com/send?phone=918826482370">
+      <a href="https://api.whatsapp.com/send?phone=918448499173">
         <button className="bg-gradient-to-r from-emerald-600 to-emerald-800 text-white font-medium py-3 px-6 sm:py-4 sm:px-8 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2 group">
           Book Your Session
           <ArrowRight className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
