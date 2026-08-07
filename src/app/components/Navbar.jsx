@@ -47,6 +47,8 @@ export default function Navbar() {
 
   const outletDropdown = [
     { name: "Aerocity", href: "/spa-in-aerocity" },
+    { name: "Cyber City", href: "/spa-in-cyber-city" },
+    { name: "DLF Phase 1", href: "/spa-in-DLF-Phase-1" },
     { name: "Connaught Place", href: "/spa-in-connaught-place" },
     { name: "Lajpat Nagar", href: "/spa-in-lajpat-nagar" },
     { name: "Gurugram", href: "/spa-in-gurgaon" },
