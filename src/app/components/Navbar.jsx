@@ -53,6 +53,9 @@ export default function Navbar() {
     { name: "Lajpat Nagar", href: "/spa-in-lajpat-nagar" },
     { name: "Gurugram", href: "/spa-in-gurgaon" },
     { name: "Noida", href: "/spa-in-noida" },
+    
+    { name: "MG Road", href: "/spa-in-mg-road" },
+    { name: "Sector 29", href: "/spa-in-sector-29" },
   ];
 
   return (
