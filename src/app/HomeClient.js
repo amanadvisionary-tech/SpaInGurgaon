@@ -289,32 +289,32 @@ export default function HomeClient() {
     {
       title: "Thai Massage in Gurgaon",
       description: "Thai massage in Gurgaon uses ancient healing techniques by native Thai therapists. The therapy combines rhythmic pressing, acupressure, and stretching to release tension and restore balance. Your muscles feel loose and your energy flows freely. Every session is deeply therapeutic and leaves you feeling completely renewed.",
-      icon: "🌿",
+      icon: "🧘‍♀️",
     },
     {
       title: "Swedish Massage in Gurgaon",
       description: "Our Swedish massage in Gurgaon offers deep stress relief, specially designed for corporate professionals. Long, gliding strokes and gentle kneading techniques improve blood circulation and ease muscle tension. After a long office day, this treatment helps your mind switch off completely and your body recover fast.",
-      icon: "💆‍♂️",
+      icon: "🕊️",
     },
     {
       title: "Full Body Massage in Gurgaon",
       description: "Our full-body massage in Gurgaon provides a complete head-to-toe relaxation experience. Trained therapists use proven methods to loosen tight spots and improve blood flow throughout your system. Afterward, you feel awake but calm. Stress disappears and your energy comes back stronger than ever.",
-      icon: "✨",
+      icon: "🧖‍♀️",
     },
     {
       title: "B2B Massage in Gurgaon",
       description: "We offer deeply therapeutic body-to-body massage in Gurgaon where our skilled therapists provide the most soothing experience. Whether you want to go into deep sleep or reduce stress, our B2B massage services in Gurgaon are your go-to choice for complete wellness and relaxation.",
-      icon: "🤲",
+      icon: "🫂",
     },
     {
       title: "Deep Tissue Body Massage in Gurgaon",
       description: "Deep tissue massage in Gurgaon targets deep muscle tension and chronic pain with firm, focused pressure on specific muscle groups and connective tissues. This treatment is ideal for people with persistent muscle soreness, sports injuries, or postural problems. Leave feeling truly relieved and restored.",
-      icon: "💪",
+      icon: "💆‍♂️",
     },
     {
       title: "Balinese Massage in Gurgaon",
       description: "Balinese massage in Gurgaon delivers full body rejuvenation using ancient Balinese techniques. Combining gentle stretches, acupressure, reflexology, and aromatherapy, this treatment stimulates blood flow, relieves muscle tension, and brings deep relaxation. Experience true Balinese wellness in the heart of Gurgaon.",
-      icon: "🌸",
+      icon: "🪷",
     },
   ];
   const services1 = [
@@ -339,7 +339,7 @@ export default function HomeClient() {
       img: "/images/new5.jpeg",
     },
     {
-      title: "Night Spa",
+      title: "Full Body Massage",
       img: "/images/Dragged.jpeg",
     },
   ];
@@ -659,18 +659,18 @@ export default function HomeClient() {
     },
   ];
   const cities = [
-    { name: 'DELHI', img: '/images/hotel3.webp' },
-    { name: 'NOIDA', img: '/images/lajpatnagahotel.avif' },
-    { name: 'AEROCITY', img: '/images/RoseateHouse.jpg' },
-    { name: 'GURGAON', img: '/images/paschimvihar.jpg' },
-    { name: 'MAHIPALPURE', img: '/images/fpkdl.com_960_1758981143_building-space_664434-7932.jpg' },
-    { name: 'DLF', img: '/images/dlfimage.jpg' },
-    { name: 'CP', img: '/images/best-western-merrion.jpg' },
-    { name: 'Karol Bagh', img: '/images/tajmahalhotel_lajpatnagar.jpg' },
-    { name: 'Paharganj', img: '/images/paschimvihar.jpg' },
-    { name: 'Greater Kailash', img: '/images/OIP.webp' },
-    { name: 'ROHINI', img: '/images/OIP (2).webp' },
-    { name: 'Dwarka', img: '/images/dwarkahotel.avif' },
+    { name: 'DLF PHASE 1', img: '/images/hotel3.webp' },
+    { name: 'DLF PHASE 2', img: '/images/lajpatnagahotel.avif' },
+    { name: 'DLF PHASE 3', img: '/images/RoseateHouse.jpg' },
+    { name: 'DLF PHASE 4', img: '/images/paschimvihar.jpg' },
+    { name: 'DLF PHASE 5', img: '/images/fpkdl.com_960_1758981143_building-space_664434-7932.jpg' },
+    { name: 'GOLF COURSE ROAD', img: '/images/dlfimage.jpg' },
+    { name: 'GOLF COURSE EXTENSION', img: '/images/best-western-merrion.jpg' },
+    { name: 'SOHNA ROAD', img: '/images/tajmahalhotel_lajpatnagar.jpg' },
+    { name: 'CYBER CITY', img: '/images/paschimvihar.jpg' },
+    { name: 'MG ROAD', img: '/images/OIP.webp' },
+    { name: 'SECTOR 29', img: '/images/OIP (2).webp' },
+    { name: 'SUSHANT LOK', img: '/images/dwarkahotel.avif' },
   ]
   const teamMembers = [
     {
@@ -769,8 +769,8 @@ export default function HomeClient() {
           <div className="absolute inset-0">
             <div className="relative h-full w-full">
               <Image
-                src="/images/luxury-aromatherapy-spa-treatment-with-scented-candle-flame-generated-by-ai.jpg"
-                alt="Relaxing spa background"
+                src="/images/spa-hero-bg.jpg"
+                alt="Luxury Spa in Gurgaon - Professional Massage Treatment Room"
                 fill
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 1200px"
                 style={{ objectFit: "cover", objectPosition: "center" }}
@@ -896,7 +896,7 @@ export default function HomeClient() {
       <section className="mt-30 bg-white">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold text-emerald-700 mb-3">
-            Why 10,000+ Clients Trust Us As The No.1 Spa Center in Gurgaon?
+Why Choose Our Massage Spa in Gurgaon?
           </h2>
           <p className="text-gray-600 mb-10">
             Luxury Spa in Gurgaon has 12+ Outlets across Delhi NCR. Every location has trained therapists who know how to help you relax. You get quality care without traveling far. Luxury wellness is now available in your neighborhood. These outlets focus on making you feel better through proper massage and spa treatments.
@@ -904,26 +904,138 @@ export default function HomeClient() {
           </p>
 
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6">
-            {services1.map((service, index) => (
+            {[
+              { title: '12+ Premium Outlets', img: '/images/dlfimage.jpg' },
+              { title: 'Foreigner Therapists', img: '/images/spaExpert4.jpg' },
+              { title: 'Luxury Spa Rooms', img: '/images/fpkdl.com_960_1758980281_blissful-facial-treatment-session-raw-style_1077802-188111.jpg' },
+              { title: 'Home Spa', img: '/images/✨ Time to Relax & Rejuvenate!.jpeg' },
+              { title: 'Easy Booking', img: '/images/12 Romantic.jpeg' },
+              { title: '5 Star Hotels Spa', img: '/images/Dragged.jpeg' },
+            ].map((item, index) => (
               <div
                 key={index}
                 className="flex flex-col items-center text-center group"
               >
                 <div className="w-48 h-70 rounded-full border-4 border-emerald-500 flex items-center justify-center overflow-hidden shadow-md hover:shadow-lg transition">
                   <img
-                    src={service.img}
-                    alt={service.title}
+                    src={item.img}
+                    alt={item.title}
                     className="object-cover w-full h-full"
                   />
                 </div>
                 <h3 className="mt-4 text-lg font-bold font-serif text-emerald-700 group-hover:text-emerald-900 transition">
-                  {service.title}
+                  {item.title}
                 </h3>
               </div>
             ))}
           </div>
         </div>
       </section>
+      {/* Content Hero Section */}
+      <section className="bg-gray-50 py-24">
+        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+
+          {/* Left: Text */}
+          <div className="order-2 lg:order-1 text-center lg:text-left">
+
+
+            <motion.h2
+              className="text-4xl md:text-5xl lg:text-5xl font-bold text-gray-800 leading-tight mb-8"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.3 }}
+              viewport={{ once: true }}
+            >
+              Spa Center in Gurgaon <span className="relative">
+                <span className="text-emerald-600 z-10 relative">Starting at ₹1999</span>
+                <span className="absolute bottom-2 left-0 w-full h-3 bg-emerald-200/60 z-0"></span>
+              </span>
+            </motion.h2>
+
+            <motion.div
+              className="space-y-6 mb-8"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.4 }}
+              viewport={{ once: true }}
+            >
+              <p className="text-gray-600 text-lg leading-relaxed">
+                Quality massage therapy starts at ₹1999 at{" "} <strong className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-600 font-medium">
+                  Spa in Gurgaon
+                </strong> Gurgaon. The low price does not mean poor service. Every treatment follows proper methods that help blood flow better and reduce body aches. Your mind feels clearer after each session. You can choose short treatments or longer ones that cover your whole body. The therapists know different styles like using scented oils or pressing deep into muscles. Rich people and regular people can both afford these services. The staff treats everyone with respect and care. The place feels calm and looks nice. You walk out, feeling like you just woke up from a good sleep.
+              </p>
+            </motion.div>
+            {/* <h2 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight text-gray-900">
+                    {title.split('\n').map((line, i) => (
+                      <span key={i} className={i === 1 ? 'block mt-2' : 'block'}>{line}</span>
+                    ))}
+                  </h2> */}
+
+            {/* <p className="mt-6 text-gray-600 max-w-xl mx-auto lg:mx-0 text-lg">
+                    {subtitle}
+                  </p> */}
+
+            <div className="mt-10 flex justify-center lg:justify-start">
+              <a
+                href="/spa-price-in-delhi-ncr"
+                className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-gradient-to-r from-emerald-600 to-emerald-600 text-white font-medium shadow-lg hover:shadow-xl transition-shadow duration-200"
+              >
+                Out packages
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          {/* Right: Polaroid-ish images */}
+          <div className="order-1 lg:order-2 relative flex justify-center lg:justify-end">
+            <div className="w-full max-w-lg lg:max-w-2xl relative">
+              {/* Top image */}
+              <motion.div
+                initial={{ opacity: 0, y: 20, rotate: -6 }}
+                animate={{ opacity: 1, y: 0, rotate: -6 }}
+                transition={{ duration: 0.6 }}
+                className="absolute right-0 -top-12 w-80 sm:w-96 lg:w-[30rem] shadow-2xl rounded-xl bg-white p-2"
+                style={{ transformOrigin: 'right center' }}
+              >
+                <div className="rounded-md overflow-hidden border-1 border-white">
+                  <Image
+                    src='/images/fpkdl.com_960_1758980558_relaxing-spa-room-with-candles_1187092-239475.jpg'
+                    alt="property 1"
+                    width={900}
+                    height={600}
+                    className="object-cover w-full h-64 sm:h-72 lg:h-[22rem]"
+                  />
+                </div>
+              </motion.div>
+
+              {/* Bottom image */}
+              <motion.div
+                initial={{ opacity: 0, y: 40, rotate: 6 }}
+                animate={{ opacity: 1, y: 0, rotate: 6 }}
+                transition={{ duration: 0.7, delay: 0.1 }}
+                className="relative mt-52 w-80 sm:w-96 lg:w-[30rem] shadow-2xl rounded-xl bg-white p-2 mx-auto"
+                style={{ transformOrigin: 'left center' }}
+              >
+                <div className="rounded-md overflow-hidden border-1 border-white">
+                  <Image
+                    src='/images/ppp.jpeg'
+                    alt="property 2"
+                    width={900}
+                    height={600}
+                    className="object-cover w-full h-64 sm:h-72 lg:h-[22rem]"
+                  />
+                </div>
+              </motion.div>
+
+              {/* Decorative subtle background circle */}
+              <div className="hidden lg:block absolute -left-28 top-28 w-56 h-56 bg-white rounded-full opacity-30 filter blur-xl"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* End Content Hero Section */}
       {/* About Section */}
       <section className="py-15 px-4 md:px-8 bg-gradient-to-b from-[#fdf9f5] to-[#fefaf6] relative overflow-hidden">
         <div className="absolute top-0 left-0 w-full h-64 bg-gradient-to-b from-emerald-50 to-transparent opacity-70"></div>
@@ -955,8 +1067,8 @@ export default function HomeClient() {
               transition={{ delay: 0.3 }}
               viewport={{ once: true }}
             >
-              Our Signature Massage in Gurgaon - <span className="relative">
-                <span className="text-emerald-600 z-10 relative">Not Just Relaxation, It&apos;s Rejuvenation</span>
+              Best Massage in Gurgaon for <span className="relative">
+                <span className="text-emerald-600 z-10 relative">Relaxation, Stress Relief &amp; Complete Wellness</span>
                 <span className="absolute bottom-2 left-0 w-full h-3 bg-emerald-200/60 z-0"></span>
               </span>
             </motion.h2>
@@ -1082,111 +1194,7 @@ export default function HomeClient() {
           </motion.div>
         </div>
       </section>
-      {/* Content Hero Section */}
-      <section className="bg-gray-50 py-24">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
 
-          {/* Left: Text */}
-          <div className="order-2 lg:order-1 text-center lg:text-left">
-
-
-            <motion.h2
-              className="text-4xl md:text-5xl lg:text-5xl font-bold text-gray-800 leading-tight mb-8"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.3 }}
-              viewport={{ once: true }}
-            >
-              Spa Center in Gurgaon <span className="relative">
-                <span className="text-emerald-600 z-10 relative">Starting at ₹1999</span>
-                <span className="absolute bottom-2 left-0 w-full h-3 bg-emerald-200/60 z-0"></span>
-              </span>
-            </motion.h2>
-
-            <motion.div
-              className="space-y-6 mb-8"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.4 }}
-              viewport={{ once: true }}
-            >
-              <p className="text-gray-600 text-lg leading-relaxed">
-                Quality massage therapy starts at ₹1999 at{" "} <strong className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-600 font-medium">
-                  Spa in Gurgaon
-                </strong> Gurgaon. The low price does not mean poor service. Every treatment follows proper methods that help blood flow better and reduce body aches. Your mind feels clearer after each session. You can choose short treatments or longer ones that cover your whole body. The therapists know different styles like using scented oils or pressing deep into muscles. Rich people and regular people can both afford these services. The staff treats everyone with respect and care. The place feels calm and looks nice. You walk out, feeling like you just woke up from a good sleep.
-              </p>
-            </motion.div>
-            {/* <h2 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight text-gray-900">
-                    {title.split('\n').map((line, i) => (
-                      <span key={i} className={i === 1 ? 'block mt-2' : 'block'}>{line}</span>
-                    ))}
-                  </h2> */}
-
-            {/* <p className="mt-6 text-gray-600 max-w-xl mx-auto lg:mx-0 text-lg">
-                    {subtitle}
-                  </p> */}
-
-            <div className="mt-10 flex justify-center lg:justify-start">
-              <a
-                href="/spa-price-in-delhi-ncr"
-                className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-gradient-to-r from-emerald-600 to-emerald-600 text-white font-medium shadow-lg hover:shadow-xl transition-shadow duration-200"
-              >
-                Out packages
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
-                </svg>
-              </a>
-            </div>
-          </div>
-
-          {/* Right: Polaroid-ish images */}
-          <div className="order-1 lg:order-2 relative flex justify-center lg:justify-end">
-            <div className="w-full max-w-lg lg:max-w-2xl relative">
-              {/* Top image */}
-              <motion.div
-                initial={{ opacity: 0, y: 20, rotate: -6 }}
-                animate={{ opacity: 1, y: 0, rotate: -6 }}
-                transition={{ duration: 0.6 }}
-                className="absolute right-0 -top-12 w-80 sm:w-96 lg:w-[30rem] shadow-2xl rounded-xl bg-white p-2"
-                style={{ transformOrigin: 'right center' }}
-              >
-                <div className="rounded-md overflow-hidden border-1 border-white">
-                  <Image
-                    src='/images/fpkdl.com_960_1758980558_relaxing-spa-room-with-candles_1187092-239475.jpg'
-                    alt="property 1"
-                    width={900}
-                    height={600}
-                    className="object-cover w-full h-64 sm:h-72 lg:h-[22rem]"
-                  />
-                </div>
-              </motion.div>
-
-              {/* Bottom image */}
-              <motion.div
-                initial={{ opacity: 0, y: 40, rotate: 6 }}
-                animate={{ opacity: 1, y: 0, rotate: 6 }}
-                transition={{ duration: 0.7, delay: 0.1 }}
-                className="relative mt-52 w-80 sm:w-96 lg:w-[30rem] shadow-2xl rounded-xl bg-white p-2 mx-auto"
-                style={{ transformOrigin: 'left center' }}
-              >
-                <div className="rounded-md overflow-hidden border-1 border-white">
-                  <Image
-                    src='/images/ppp.jpeg'
-                    alt="property 2"
-                    width={900}
-                    height={600}
-                    className="object-cover w-full h-64 sm:h-72 lg:h-[22rem]"
-                  />
-                </div>
-              </motion.div>
-
-              {/* Decorative subtle background circle */}
-              <div className="hidden lg:block absolute -left-28 top-28 w-56 h-56 bg-white rounded-full opacity-30 filter blur-xl"></div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* End Content Hero Section */}
       {/* /////// */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
@@ -1212,12 +1220,12 @@ export default function HomeClient() {
 
             {/* RIGHT: Content */}
             <div>
-              <p className="text-sm text-emerald-800 font-semibold mb-4">HOME AND HOTEL SPA</p>
+              {/* <p className="text-sm text-emerald-800 font-semibold mb-4">HOME AND HOTEL SPA</p> */}
 
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight text-slate-900 mb-6" style={{ fontFamily: "'Playfair Display', serif" }}>
-                5-Star Hotel Spa in Gurgaon
-                <br />
-                <span className="text-emerald-700">Premium Spa Collaboration With Luxury Hotels</span>
+                Why Spa in Gurgaon is a Trusted
+                {/* <br /> */}
+                <span className="text-emerald-700"> Massage Parlour in Delhi NCR</span>
               </h2>
 
               <p className="text-gray-600 text-base md:text-lg mb-8 max-w-2xl">
@@ -1273,7 +1281,7 @@ export default function HomeClient() {
               transition={{ duration: 0.5, delay: 0.1 }}
               viewport={{ once: true }}
             >
-              Hotel Spa in Gurgaon - <span className="text-emerald-500">In-Room Professional Spa Service in 60 Minutes</span>
+              Explore Our Premium <span className="text-emerald-500">Massage Services in Gurgaon</span>
             </motion.h2>
           </div>
 
@@ -1408,7 +1416,7 @@ export default function HomeClient() {
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
             >
-              Home Spa in Gurgaon - <span className="text-emerald-600">Bringing The Best Spa Centre in Gurgaon To Your Doorstep</span>
+              Hotel Spa in Gurgaon - <span className="text-emerald-600">Bringing The Best Spa Centre in Gurgaon</span>
             </motion.h2>
             <motion.p
               className="text-emerald-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -1599,7 +1607,7 @@ export default function HomeClient() {
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
             >
-              Transparent Pricing: <span className="text-emerald-600">No Hidden Charges, No Membership Trap</span>
+              Affordable Spa &amp; Massage Packages in Gurgaon – <span className="text-emerald-600">Transparent Pricing</span>
             </motion.h2>
             <motion.p
               className="text-emerald-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -1799,9 +1807,9 @@ export default function HomeClient() {
           <div className="text-center mb-8">
             {/* <h2 className="text-3xl font-semibold text-slate-800">Benefits</h2> */}
             <h2 className="text-4xl md:text-5xl font-bold text-emerald-900 mb-6 font-serif">
-              Real Stories From Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Spa in Gurgaon Clients</span>
+              Benefits of Professional Massage in Gurgaon <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">for Your Body &amp; Mind</span>
             </h2>
-            <p className="text-slate-600 mt-2">Physical & spiritual benefits of our spa treatments</p>
+            <p className="text-slate-600 mt-2 text-lg">Physical &amp; spiritual benefits of our spa treatments</p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
@@ -1911,7 +1919,7 @@ export default function HomeClient() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-10 lg:mb-14">
             <h2 className="text-4xl md:text-5xl font-bold text-emerald-900 mb-6 font-serif">
-              Book Your First Body Massage in Gurgaon Today - <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Limited Slots at ₹1499</span>
+              Book Your Massage in Gurgaon <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">in 3 Simple Steps</span>
             </h2>
 
             <p className="mt-3 text-sm sm:text-base text-white/80 max-w-2xl mx-auto">
@@ -2043,7 +2051,7 @@ export default function HomeClient() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
             >
-              Call Now To Find Your Nearest <span className="text-emerald-600">Massage Spa in Gurgaon</span>
+              Meet Our Professional <span className="text-emerald-600">Massage Therapists in Gurgaon</span>
             </motion.h2>
 
             <motion.p
@@ -2110,7 +2118,7 @@ export default function HomeClient() {
               Questions? We&apos;re here to help
             </motion.div>
             <h2 className="text-4xl md:text-5xl font-bold text-emerald-900 font-serif mb-4">
-              Certified Foreign Therapists - <span className="text-emerald-600">Expert Russian, Thai, Swedish &amp; Afghani Techniques</span>
+              Frequently Asked Questions About <span className="text-emerald-600">Massage &amp; Spa Services in Gurgaon</span>
             </h2>
             <p className="text-emerald-800 max-w-2xl text-lg">
               Everything you need to know about our luxurious spa services and how to book them.

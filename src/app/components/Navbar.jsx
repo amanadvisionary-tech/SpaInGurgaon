@@ -60,9 +60,9 @@ export default function Navbar() {
         className="hidden md:flex justify-between items-center text-sm text-white px-6 py-2 shadow-sm z-50"
         style={{ backgroundColor: "#245cbdff" }}
       >
-        <p className="font-medium">📞 +91-9220961427</p>
+        <p className="font-medium">📞 +91 8448499173</p>
         <p className="font-semibold">
-          Book Your Appointment : Delhi | Noida | Gurgaon | Ghaziabad
+          Book Your Appointment :  Gurgaon
         </p>
         <div className="flex items-center space-x-4">
           <a
