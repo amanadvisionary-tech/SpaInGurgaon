@@ -37,8 +37,8 @@ export default function Footer() {
           <ul className="space-y-4 text-sm">
             <li><Link href="/spa-in-gurgaon" className="hover:text-[#D4AF37] transition-colors">DLF Phase 1</Link></li>
             <li><Link href="/spa-in-gurgaon" className="hover:text-[#D4AF37] transition-colors">Cyber City</Link></li>
-            <li><Link href="/spa-in-gurgaon" className="hover:text-[#D4AF37] transition-colors">MG Road</Link></li>
-            <li><Link href="/spa-in-gurgaon" className="hover:text-[#D4AF37] transition-colors">Sector 29</Link></li>
+            <li><Link href="/spa-in-mg-road" className="hover:text-[#D4AF37] transition-colors">MG Road</Link></li>
+            <li><Link href="/spa-in-sector-29" className="hover:text-[#D4AF37] transition-colors">Sector 29</Link></li>
             <li><Link href="/spa-in-gurgaon" className="hover:text-[#D4AF37] transition-colors">Gurugram</Link></li>
           </ul>
         </div>
