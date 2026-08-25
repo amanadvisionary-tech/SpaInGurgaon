@@ -23,16 +23,24 @@ const inter = Inter({
 export const metadata = {
   title: "Luxury Body Spa | Gurgaon",
   description: "Relax and rejuvenate at the best spa in Gurgaon.",
-  icons: {
-    icon: "/images/GurgaonSiteIcon.png",        // 32x32 ya 64x64 recommended
-    shortcut: "/favicon.ico",
-    apple: "/apple-icon.png",    // optional
+  icons: {  
+    icon: [
+      { url: "/spa-in-gurgaon-favicon.png?v=2" },
+      { url: "/icon.png?v=2" },
+      { url: "/favicon.ico?v=2" },
+    ],
+    shortcut: "/spa-in-gurgaon-favicon.png?v=2",
+    apple: "/apple-icon.png?v=2",
   },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/spa-in-gurgaon-favicon.png?v=2" sizes="any" />
+        <link rel="apple-touch-icon" href="/spa-in-gurgaon-favicon.png?v=2" />
+      </head>
       <body
         className={inter.className}
       >
