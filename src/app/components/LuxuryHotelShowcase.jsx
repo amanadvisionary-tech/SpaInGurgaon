@@ -71,9 +71,8 @@ const LuxuryHotelShowcase = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-emerald-900 mb-6">
            Luxury Hotel Spa For Personalized Sandwich Massage in Gurgaon
           </h2>
-          <p className="text-xl text-gray-700 max-w-2xl mx-auto">
-            Get special spa treatments at expensive hotels through the Spa in Gurgaon expert staff.
-          </p>
+          <p className="text-xl text-gray-700 max-w-6xl mx-auto">
+Enjoy a premium sandwich massage experience at luxury hotel spas in Gurgaon. Our professional therapists provide personalized care and coordinated massage techniques to help you relax, unwind, and feel refreshed.          </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">

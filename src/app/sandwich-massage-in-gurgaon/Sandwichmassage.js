@@ -311,11 +311,10 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                 className="relative text-center px-6"
               >
                 <h1 className="text-4xl md:text-6xl font-bold text-white drop-shadow-lg">
-                  Enjoy Soothing Relaxing <span className="text-emerald-300">Sandwich Massage in Gurgaon With a Certified Therapist</span>
+                  Sandwich Massage in Gurgaon <span className="text-emerald-300">Two-Therapist Experience</span>
                 </h1>
-                <p className="mt-4 text-lg md:text-xl text-gray-100 max-w-2xl mx-auto drop-shadow">
-                  Relax, Rejuvenate, and Refresh with Sandwich Massage in Gurgaon
-                </p>
+                <p className="mt-4 text-lg md:text-lg text-gray-100 max-w-4xl mx-auto drop-shadow">
+Experience a relaxing sandwich massage in Gurgaon with two trained therapists working together using synchronized techniques for complete relaxation, comfort, and a refreshing spa experience.                </p>
         
                 <a
                   href="#about-section"
@@ -343,15 +342,14 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
         <div className="w-12 h-px bg-emerald-600"></div>
       </div>
 
-      <h1 className="text-4xl md:text-5xl font-light text-gray-800">
-        <span className="block font-serif text-5xl md:text-6xl mb-3 text-emerald-800">Spa in Gurgaon:</span>
-        Massage Centre, 
-        <span className="block mt-2 font-medium">for Sandwich Massage <span className="text-rose-600">Service in Gurgaon</span></span>
-      </h1>
+      <h2 className="text-4xl md:text-4xl font-light text-gray-800">
+        <span className="block font-serif text-4xl md:text-5xl mb-3 text-emerald-800">Spa in Gurgaon for Professional Sandwich Massage Service </span>
+
+  {/* <span className="text-rose-600">Service in Gurgaon</span> */}
+      </h2>
 
       <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-        Spa in Gurgaon brings you high-quality sandwich massage in Gurgaon. This service makes your body feel better and relieves your muscles of tension. Our professional therapists understand how to provide you with the best care. Every session is customized. You get professional attention that makes your visit special and worth it.
-      </p>
+Spa in Gurgaon offers a relaxing sandwich massage experience with two professional therapists, customized sessions, comfortable ambience, and personalized care.      </p>
 
       <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
         <div className="flex items-center space-x-3">
@@ -491,13 +489,13 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                       </motion.h2>
                       
                       <motion.p
-                        className="text-emerald-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
+                        className="text-emerald-800/80 max-w-6xl mx-auto text-lg md:text-xl leading-relaxed"
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.4, duration: 0.5 }}
                       >
-                        Spa in Gurgaon has special sandwich massage services that help you feel calm and peaceful.
-                      </motion.p>
+At Spa in Gurgaon, we offer a relaxing sandwich massage experience designed for comfort and complete relaxation. Our trained therapists work together using coordinated massage techniques to help you unwind and release everyday body tension. Each session is personalized according to your preferred pressure and comfort level, giving you a soothing and refreshing spa experience in Gurgaon.   
+                   </motion.p>
                       
                       <motion.div
                         className="flex justify-center mt-10"
@@ -595,7 +593,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
               >
                 <span className="text-sm uppercase tracking-widest text-emerald-600 font-semibold">Curated Experiences</span>
                 <h2 className="mt-4 text-4xl md:text-5xl font-extrabold text-[#2f2a27] leading-tight">Eliminate Your Stress with Best Sandwich Massage Therapist in Gurgaon</h2>
-                <p className="mt-4 text-gray-600 max-w-2xl mx-auto">The spa in Gurgaon has expert therapists who give sandwich massages with great care. They ensure that you receive what your body requires.</p>
+                <p className="mt-4 text-gray-600 max-w-5xl mx-auto">Relax and relieve everyday stress with a professional sandwich massage in Gurgaon. Our trained therapists provide a personalized two-therapist massage experience designed for comfort, relaxation, and complete body rejuvenation.</p>
               </motion.div>
       
               {/* cards + visual */}
@@ -824,17 +822,16 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.1 }}
                   >
-                    Health Benefits of <span className="text-emerald-600">Sandwich Massage Services Gurgaon</span>
+                    Health Benefits of <span className="text-emerald-600">Sandwich Massage in Gurgaon</span>
                   </motion.h2>
                   <motion.p
-                    className="text-emerald-800 max-w-3xl mx-auto text-lg leading-relaxed"
+                    className="text-emerald-800 max-w-5xl mx-auto text-lg leading-relaxed"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: 0.2 }}
                   >
-                        Spa in Gurgaon sandwich massage helps your body in many ways. You feel more energetic and are able to move better.
-                  </motion.p>
+A sandwich massage in Gurgaon can help you relax, ease everyday muscle tension, and improve your overall sense of well-being. With two trained therapists working together using coordinated techniques, this massage experience is designed to help you feel refreshed, relaxed, and energized.                  </motion.p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -1194,17 +1191,16 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.3, duration: 0.6 }}
                   >
-                    Why Choose Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Spa Centre for Best Sandwich Massage in Gurgaon</span>
+                    Why Choose Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Spa Centre for Sandwich Massage in Gurgaon?</span>
                   </motion.h2>
                   
                   <motion.p
-                    className="text-emerald-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
+                    className="text-emerald-800/80 max-w-6xl mx-auto text-lg md:text-xl leading-relaxed"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.4, duration: 0.5 }}
                   >
-                    Spa in Gurgaon offers top sandwich massage services in Gurgaon with skilled care made just for you.
-                  </motion.p>
+At Spa in Gurgaon, we provide a relaxing sandwich massage experience with trained therapists, personalized care, and comfortable massage sessions. We focus on your comfort and preferences to help you unwind and enjoy a refreshing spa experience in Gurgaon.                  </motion.p>
                   
                   <motion.div
                     className="flex justify-center mt-10"
