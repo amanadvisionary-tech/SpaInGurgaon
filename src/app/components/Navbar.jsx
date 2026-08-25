@@ -100,7 +100,7 @@ export default function Navbar() {
           {/* Logo */}
           <div className="w-50 h-15 relative">
             <Image
-              src="/images/ChatGPT Image Oct 5, 2025, 11_26_10 AM.png"
+              src="/images/spaingurgaonlogo.png"
               alt="Delhi Body Spa Logo"
               fill
               className="object-contain"
