@@ -195,6 +195,7 @@ export default function GolfCourseRoad() {
             icon: "🪨",
             href: "/b2b-massage-in-gurgaon"
         },
+
         {
             title: "Thai Massage",
             description: "Our Thai massage on Golf Course Road combines acupressure and stretching for complete body alignment. It releases stuck energy and restores natural flexibility in a peaceful hotel setting.",
@@ -406,19 +407,18 @@ export default function GolfCourseRoad() {
                         transition={{ duration: 0.8 }}
                         className="relative text-center px-6"
                     >
-                        <h1 className="text-4xl md:text-6xl font-bold text-white drop-shadow-lg">
-                            About <span className="text-emerald-300">Our Outlets On Golf Course Road</span>
+                        <h1 className="text-4xl md:text-6xl font-bold text-white drop-shadow-md leading-tight">
+                            Luxury <span className="text-emerald-300">Spa on Golf Course Road</span>, Gurgaon
                         </h1>
                         <p className="mt-4 text-lg md:text-xl text-gray-100 max-w-2xl mx-auto drop-shadow">
-                            Discover the art of relaxation with our luxury spa treatments on Golf Course Road, designed
-                            to rejuvenate your body, mind, and soul.
+                            Escape the city rush with premium massage services delivered right to your hotel room on Golf Course Road. Unwind, destress, and experience ultimate relaxation.
                         </p>
 
                         <a
-                            href="#about-section"
+                            href="http://wa.link/njldxn"
                             className="inline-block mt-6 bg-emerald-500 hover:bg-emerald-600 text-white font-medium px-6 py-3 rounded-full shadow-lg transition"
                         >
-                            Learn More
+                            Chat on WhatsApp
                         </a>
                     </motion.div>
                 </section>
@@ -460,12 +460,12 @@ export default function GolfCourseRoad() {
                             </div>
 
                             <h2 className="text-4xl font-light leading-tight text-gray-900 md:text-5xl mb-6">
-                                <span className="font-serif text-5xl md:text-6xl text-emerald-900 font-medium">Premium </span>
-                                Massage on <span className="font-medium">Golf Course Road for <span className="text-rose-600">Relaxation</span></span>
+                                <span className="font-serif text-5xl md:text-6xl text-emerald-900 font-medium">Best Massage </span>
+                                Services on <span className="font-medium">Golf Course Road</span>
                             </h2>
 
-                            <p className="mx-auto mt-4 max-w-xl leading-relaxed text-gray-600 lg:mx-0">
-                                You know that feeling when the city just wears you down? That is where we come in. Spa in Gurgaon brings its trusted massage treatments right to Golf Course Road. We mix soothing touch, nice-smelling oils, and real relaxation into something that actually makes a difference. Whether you are here for work or just passing through, our hotel spa services take away the stress. You walk out feeling better, more centered, and actually refreshed.
+                            <p className="mx-auto mt-4 max-w-xl leading-relaxed text-gray-600 lg:mx-0 text-lg">
+                                Feeling exhausted from back-to-back meetings or city traffic? We bring professional, top-tier massage therapies directly to your hotel on Golf Course Road, Gurgaon. Our certified therapists use soothing aromatic oils and tailored massage techniques to melt away your stress. Whether you need a deep tissue massage for muscle pain or a relaxing full-body spa session, we ensure you step out feeling completely refreshed and re-energized.
                             </p>
 
                             {/* Service area chips */}
@@ -714,7 +714,7 @@ export default function GolfCourseRoad() {
                             </motion.h2>
 
                             <p className="mb-6 text-lg text-gray-700">
-                                Spa in Gurgaon is the trusted destination for luxury spa services on Golf Course Road, Gurgaon. Each treatment reflects our commitment to excellence, peace, and privacy. Our certified therapists create a well-curated combination of techniques — whether it is a gentle B2B and full body massage or aromatherapy and couple massage — all designed to heal your body, mind, and soul. Our standards of cleanliness, privacy, and comfort are unmatched. Whether you are a business traveller exhausted after a long day, or a local professional seeking ultimate relaxation, Spa in Gurgaon will make every single moment special, dazzling, and fully refreshing on Golf Course Road.
+                                Spa in Gurgaon is your trusted partner for premium luxury massage services on Golf Course Road. We understand that finding peace in a busy city can be tough. That is why our certified therapists bring an expertly curated selection of therapies—ranging from relaxing full-body and couple massages to deep tissue treatments—directly to you. We maintain the highest standards of hygiene and privacy, ensuring a safe, 5-star experience. Whether you are a tired business traveler or a local professional looking to unwind, our hotel spa services on Golf Course Road will leave you feeling completely revitalized and stress-free.
                             </p>
 
                             {/* Feature list */}
@@ -1330,7 +1330,7 @@ export default function GolfCourseRoad() {
                             transition={{ duration: 0.6 }}
                         >
                             <span className="text-sm font-medium text-emerald-700 tracking-widest">OUR SIGNATURE OFFERINGS</span>
-                            <h2 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-4 font-serif">Why Choose Spa in Gurgaon as Best Centre for Massage on Golf Course Road</h2>
+                            <h2 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-4 font-serif">Why We Are the Best Spa on Golf Course Road</h2>
                             <div className="mx-auto w-28 h-1 bg-emerald-600 rounded-full" />
                             <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
                                 Relaxation meets real expertise at Spa in Gurgaon. Here is why spa lovers on Golf Course Road keep choosing us.
@@ -1581,7 +1581,7 @@ export default function GolfCourseRoad() {
                             className="max-w-7xl mx-auto bg-white/80 backdrop-blur-md rounded-3xl shadow-2xl border border-emerald-200 p-8 md:p-14"
                         >
                             <h2 className="text-center text-3xl md:text-5xl font-serif font-extrabold text-emerald-900 leading-tight mb-6">
-                                Benefits of Booking Hotel Massage on Golf Course Road at Best Hotels
+                                Why Book an In-Room Hotel Massage on Golf Course Road?
                             </h2>
 
                             <p className="text-center text-gray-600 mb-12 max-w-3xl mx-auto">
@@ -1622,7 +1622,6 @@ export default function GolfCourseRoad() {
                                     Learn More
                                 </motion.a>
                             </div>
-
                             <p className="text-xs text-gray-500 text-center mt-8">Available at selected premium hotels on Golf Course Road. Terms &amp; conditions apply.</p>
                         </motion.div>
                     </div>
