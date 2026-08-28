@@ -1351,9 +1351,9 @@ Every session at Spa in Gurgaon gets customized for your specific body. Certifie
           <span className="inline-flex items-center gap-2 rounded-full bg-emerald-100 px-3 py-1 text-sm font-medium text-emerald-800 ring-1 ring-emerald-200">
             <Sparkles className="h-4 w-4" /> Luxury Spa · Gurgaon
           </span>
-          <h1 className="mt-5 text-3xl font-extrabold tracking-tight sm:text-4xl">
+          <h2 className="mt-5 text-3xl font-extrabold tracking-tight sm:text-4xl">
             Best Massage Service in Gurgaon — Why Choose Us & How to Book
-          </h1>
+          </h2>
           <p className="mt-3 text-emerald-700">
             Premium therapists, transparent pricing, and instant booking—available at home or at our luxury outlets across Gurgaon & Delhi NCR.
           </p>
@@ -1524,9 +1524,9 @@ Every session at Spa in Gurgaon gets customized for your specific body. Certifie
             <span className="inline-flex items-center rounded-full bg-emerald-100 px-3 py-1 text-sm font-medium text-emerald-800 shadow-sm">
               Luxury Spa · Gurgaon
             </span>
-            <h1 className="mt-6 text-4xl font-extrabold tracking-tight sm:text-5xl">
+            <h2 className="mt-6 text-4xl font-extrabold tracking-tight sm:text-5xl">
               Our Process to Book Massage Service in Gurgaon
-            </h1>
+            </h2>
             <p className="mt-4 max-w-2xl text-emerald-700">
               Seamless booking, premium therapists, and a rejuvenating experience—at home or at our luxury outlets.
             </p>
@@ -2005,9 +2005,8 @@ Every session at Spa in Gurgaon gets customized for your specific body. Certifie
                             viewport={{ once: true }}
                             className="flex justify-center"
                           >
-                            <img
-                              src="/images/Professional European.jpeg"
-                              alt="Spa FAQ Illustration"
+                            <Image width={736} height={1026} src="/images/Professional European.jpeg"
+                              alt="Massage service in Gurgaon - frequently asked questions"
                               className="rounded-2xl shadow-lg object-cover w-full max-h-[700px]"
                             />
                           </motion.div>

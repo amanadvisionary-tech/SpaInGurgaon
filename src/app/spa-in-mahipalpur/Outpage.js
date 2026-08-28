@@ -135,49 +135,49 @@ const locations = [
     name: "Lajpat Nagar",
     image: "/images/TheSuryaaNewDelhi(NFC).jpg", // Replace with actual image URL
     description: "Discover the tranquility of our luxurious spa at Lajpat Nagar.",
-    link: "https://wa.me/8448499173"
+    link: "https://wa.me/918448499173"
   },
   {
     name: "Aerocity",
     image: "/images/NovotelNewDelhiAerocity.jpeg",
     description: "Relax and unwind with our premium services at Aerocity.",
-    link: "https://wa.me/8448499173"
+    link: "https://wa.me/918448499173"
   },
   {
     name: "Paschim Vihar",
     image: "/images/TheParkConnaughtPlace.jpg",
     description: "Experience rejuvenation at our elegant Paschim Vihar location.",
-    link: "https://wa.me/8448499173"
+    link: "https://wa.me/918448499173"
   },
   {
     name: "Rohini",
     image: "/images/TheGrandNewDelhi.jpg",
     description: "Escape to serenity at our luxurious spa in Rohini.",
-    link: "https://wa.me/8448499173"
+    link: "https://wa.me/918448499173"
   },
   {
     name: "Lajpat Nagar",
     image: "/images/TheSuryaaNewDelhi(NFC).jpg", // Replace with actual image URL
     description: "Discover the tranquility of our luxurious spa at Lajpat Nagar.",
-    link: "https://wa.me/8448499173"
+    link: "https://wa.me/918448499173"
   },
   {
     name: "Aerocity",
     image: "/images/NovotelNewDelhiAerocity.jpeg",
     description: "Relax and unwind with our premium services at Aerocity.",
-    link: "https://wa.me/8448499173"
+    link: "https://wa.me/918448499173"
   },
   {
     name: "Paschim Vihar",
     image: "/images/TheParkConnaughtPlace.jpg",
     description: "Experience rejuvenation at our elegant Paschim Vihar location.",
-    link: "https://wa.me/8448499173"
+    link: "https://wa.me/918448499173"
   },
   {
     name: "Rohini",
     image: "/images/TheGrandNewDelhi.jpg",
     description: "Escape to serenity at our luxurious spa in Rohini.",
-    link: "https://wa.me/8448499173"
+    link: "https://wa.me/918448499173"
   }
 ];
 const teamMembers = [
@@ -540,9 +540,9 @@ const cards2 = [
               transition={{ duration: 0.8 }}
               className="relative text-center px-6"
             >
-              <h1 className="text-4xl md:text-6xl font-bold text-white drop-shadow-lg">
-                About <span className="text-emerald-300">Our Outles</span>
-              </h1>
+              <h2 className="text-4xl md:text-6xl font-bold text-white drop-shadow-lg">
+                About <span className="text-emerald-300">Our Outlets In Mahipalpur</span>
+              </h2>
               <p className="mt-4 text-lg md:text-xl text-gray-100 max-w-2xl mx-auto drop-shadow">
                 Discover the art of relaxation with our luxury spa treatments designed
                 to rejuvenate your body, mind, and soul.
@@ -586,7 +586,7 @@ const cards2 = [
               >
                 {/* image header */}
                 <div className="relative h-40 sm:h-32 md:h-36 lg:h-44 w-full">
-                  <img src={c.image} alt={c.title} className="object-cover w-full h-full brightness-90" />
+                  <Image width={800} height={600} src={c.image} alt={c.title} className="object-cover w-full h-full brightness-90" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/35 to-transparent"></div>
                   <div className="absolute left-4 bottom-4 flex items-center gap-3">
                     <div className={`p-3 rounded-md ${c.accent} bg-opacity-80 backdrop-blur-md`}>{c.icon}</div>
@@ -637,7 +637,7 @@ const cards2 = [
                   <p className="text-sm opacity-90 mt-2 max-w-xs">Start with a confidential wellness consultation and receive a tailored program with measurable outcomes.</p>
                 </div>
                 <div className="w-28 h-28 bg-white/10 rounded-lg flex items-center justify-center overflow-hidden">
-                  <img src="/images/fpkdl.com_960_1758980177_natural-elements-spa-with-candles_23-2148199485.jpg" alt="consult" className="object-cover w-full h-full" />
+                  <Image width={960} height={639} src="/images/fpkdl.com_960_1758980177_natural-elements-spa-with-candles_23-2148199485.jpg" alt="Spa consultation room with natural elements and candles" className="object-cover w-full h-full" />
                 </div>
               </div>
 
@@ -708,10 +708,10 @@ const cards2 = [
 
         {/* small image grid for visual richness */}
         <div className="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-3">
-          <img src="/images/luxury-aromatherapy-spa-treatment-with-scented-candle-flame-generated-by-ai.jpg" alt="thumb1" className="w-full h-28 object-cover rounded-md shadow-sm" />
-          <img src="/images/modern-luxury-bedroom-design-illuminated-with-electric-lamps-generated-by-ai.jpg" alt="thumb2" className="w-full h-28 object-cover rounded-md shadow-sm" />
-          <img src="/images/RoseateHouse.jpg" alt="thumb3" className="w-full h-28 object-cover rounded-md shadow-sm" />
-          <img src="/images/room-with-massage-tables-wall-with-lights-it.jpg" alt="thumb4" className="w-full h-28 object-cover rounded-md shadow-sm" />
+          <Image width={5600} height={3200} src="/images/luxury-aromatherapy-spa-treatment-with-scented-candle-flame-generated-by-ai.jpg" alt="Luxury aromatherapy spa treatment with scented candles" className="w-full h-28 object-cover rounded-md shadow-sm" />
+          <Image width={6067} height={3467} src="/images/modern-luxury-bedroom-design-illuminated-with-electric-lamps-generated-by-ai.jpg" alt="Modern luxury spa treatment room interior" className="w-full h-28 object-cover rounded-md shadow-sm" />
+          <Image width={550} height={381} src="/images/RoseateHouse.jpg" alt="Roseate House hotel spa partner" className="w-full h-28 object-cover rounded-md shadow-sm" />
+          <Image width={6067} height={3467} src="/images/room-with-massage-tables-wall-with-lights-it.jpg" alt="Spa room with massage tables and ambient lighting" className="w-full h-28 object-cover rounded-md shadow-sm" />
         </div>
 
         {/* Additional Content Section */}
@@ -742,7 +742,7 @@ const cards2 = [
 
             <div className="flex items-center justify-center">
               <div className="w-full h-48 md:h-64 rounded-lg overflow-hidden shadow-md">
-                <img src="/images/spa-massage-concept-with-woman.jpg" alt="serenity method" className="object-cover w-full h-full" />
+                <Image width={5760} height={3840} src="/images/spa-massage-concept-with-woman.jpg" alt="serenity method" className="object-cover w-full h-full" />
               </div>
             </div>
           </div>
@@ -794,7 +794,7 @@ const cards2 = [
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   {journey.map((j) => (
                     <div key={`img-${j.step}`} className="rounded-xl overflow-hidden shadow-md bg-white">
-                      <img src={j.img} alt={j.title} className="object-cover w-full h-48" />
+                      <Image width={800} height={600} src={j.img} alt={j.title} className="object-cover w-full h-48" />
                       <div className="p-3">
                         <div className="text-sm font-semibold text-[#163a2f]">{j.title}</div>
                         <div className="text-xs text-gray-500 mt-1">{j.text}</div>
@@ -846,7 +846,7 @@ const cards2 = [
               >
                 {/* image header */}
                 <div className="relative h-40 sm:h-32 md:h-36 lg:h-44 w-full">
-                  <img src={c.image} alt={c.title} className="object-cover w-full h-full brightness-90" />
+                  <Image width={800} height={600} src={c.image} alt={c.title} className="object-cover w-full h-full brightness-90" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/35 to-transparent"></div>
                   <div className="absolute left-4 bottom-4 flex items-center gap-3">
                     <div className={`p-3 rounded-md ${c.accent} bg-opacity-80 backdrop-blur-md`}>{c.icon}</div>
@@ -897,7 +897,7 @@ const cards2 = [
                   <p className="text-sm opacity-90 mt-2 max-w-xs">Start with a confidential wellness consultation and receive a tailored program with measurable outcomes.</p>
                 </div>
                 <div className="w-28 h-28 bg-white/10 rounded-lg flex items-center justify-center overflow-hidden">
-                  <img src="/images/hero/consult.jpg" alt="consult" className="object-cover w-full h-full" />
+                  <Image width={800} height={600} src="/images/hero/consult.jpg" alt="Spa consultation room with natural elements and candles" className="object-cover w-full h-full" />
                 </div>
               </div>
 
@@ -968,10 +968,10 @@ const cards2 = [
 
         {/* small image grid for visual richness */}
         <div className="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-3">
-          <img src="/images/luxury-aromatherapy-spa-treatment-with-scented-candle-flame-generated-by-ai.jpg" alt="thumb1" className="w-full h-28 object-cover rounded-md shadow-sm" />
-          <img src="/images/modern-luxury-bedroom-design-illuminated-with-electric-lamps-generated-by-ai.jpg" alt="thumb2" className="w-full h-28 object-cover rounded-md shadow-sm" />
-          <img src="/images/RoseateHouse.jpg" alt="thumb3" className="w-full h-28 object-cover rounded-md shadow-sm" />
-          <img src="/images/room-with-massage-tables-wall-with-lights-it.jpg" alt="thumb4" className="w-full h-28 object-cover rounded-md shadow-sm" />
+          <Image width={5600} height={3200} src="/images/luxury-aromatherapy-spa-treatment-with-scented-candle-flame-generated-by-ai.jpg" alt="Luxury aromatherapy spa treatment with scented candles" className="w-full h-28 object-cover rounded-md shadow-sm" />
+          <Image width={6067} height={3467} src="/images/modern-luxury-bedroom-design-illuminated-with-electric-lamps-generated-by-ai.jpg" alt="Modern luxury spa treatment room interior" className="w-full h-28 object-cover rounded-md shadow-sm" />
+          <Image width={550} height={381} src="/images/RoseateHouse.jpg" alt="Roseate House hotel spa partner" className="w-full h-28 object-cover rounded-md shadow-sm" />
+          <Image width={6067} height={3467} src="/images/room-with-massage-tables-wall-with-lights-it.jpg" alt="Spa room with massage tables and ambient lighting" className="w-full h-28 object-cover rounded-md shadow-sm" />
         </div>
       </div>
     </section>
@@ -994,10 +994,10 @@ const cards2 = [
             <p className="text-lg font-medium text-emerald-900">OUR OUTLETS</p>
           </div>
 
-          <h1 className="text-5xl md:text-6xl font-bold font-serif text-emerald-900 leading-tight">
+          <h2 className="text-5xl md:text-6xl font-bold font-serif text-emerald-900 leading-tight">
             Our Premium <span className="text-emerald-600"></span> <br /> 
             <span className="bg-emerald-600 text-white px-3 py-1 rounded-md">Spa Outlets</span>
-          </h1>
+          </h2>
 
           <p className="text-gray-600 max-w-md">
             Relax your body and mind with our premium spa and wellness care. 
@@ -1313,7 +1313,7 @@ View All Cities
 
             {/* Book Now Button */}
             <a
-              href="http://wa.link/njldxn"
+              href="https://wa.me/918448499173"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block mt-auto px-5 py-2 rounded-full bg-emerald-500 text-white text-sm font-semibold hover:bg-emerald-600 shadow-md hover:shadow-xl transition-all duration-300 text-center"
@@ -1382,8 +1382,7 @@ View All Cities
                     <div className="bg-gradient-to-br from-stone-50 to-emerald-50 p-1 rounded-2xl">
                       <div className="bg-white p-6 rounded-2xl shadow-sm">
                         <div className="relative h-80 md:h-96 rounded-xl overflow-hidden">
-                          <img
-                              src="/images/potliMassage.jpg" // Change path accordingly
+                          <Image width={800} height={600} src="/images/potliMassage.jpg" // Change path accordingly
                               alt="Premium Body Spa"
                               className="w-full h-full object-cover rounded-xl"
                             />
@@ -1776,15 +1775,13 @@ View All Cities
       className="grid grid-cols-2 gap-4"
     >
       <div className="rounded-2xl overflow-hidden shadow-lg">
-        <img
-          src="/images/new4.jpeg"
+        <Image width={800} height={600} src="/images/new4.jpeg"
           alt="Spa Room"
           className="w-full h-full object-cover"
         />
       </div>
       <div className="rounded-2xl overflow-hidden shadow-lg">
-        <img
-          src="/images/MassageSession.webp"
+        <Image width={800} height={600} src="/images/MassageSession.webp"
           alt="Massage Therapy"
           className="w-full h-full object-cover"
         />
@@ -1805,7 +1802,7 @@ View All Cities
                                         transition={{ duration: 0.6 }}
                                       >
                                         <span className="text-lg font-medium text-emerald-700 tracking-widest">OUR SIGNATURE OFFERINGS</span>
-                                        <h1 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-6">What We Offer At Our Premium Spa Outlets in Delhi</h1>
+                                        <h2 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-6">What We Offer At Our Premium Spa Outlets in Delhi</h2>
                                         <div className="w-24 h-1 bg-emerald-600 mx-auto rounded-full"></div>
                                       </motion.div>
             
@@ -2192,9 +2189,8 @@ View All Cities
       viewport={{ once: true }}
       className="flex justify-center"
     >
-      <img
-        src="/images/Professional European.jpeg"
-        alt="Spa FAQ Illustration"
+      <Image width={736} height={1026} src="/images/Professional European.jpeg"
+        alt="Spa in Mahipalpur - frequently asked questions"
         className="rounded-2xl shadow-lg object-cover w-full max-h-[700px]"
       />
     </motion.div>
@@ -2585,8 +2581,7 @@ View All Cities
 //       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
 //         <div className="absolute inset-0 bg-gradient-to-br from-emerald-900/30 via-teal-800/20 to-green-900/30 z-10"></div>
 //         <div className="absolute inset-0">
-//           <img 
-//             src="https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080"
+//           <Image width={800} height={600} //             src="https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080"
 //             alt="Luxury Spa Experience"
 //             className="w-full h-full object-cover"
 //           />
@@ -2601,10 +2596,10 @@ View All Cities
 //         </div>
         
 //         <div className="relative z-20 text-center text-white px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
-//           <h1 className="text-6xl md:text-7xl font-bold mb-8 leading-tight font-playfair">
+//           <h2 className="text-6xl md:text-7xl font-bold mb-8 leading-tight font-playfair">
 //             Discover Your Inner 
 //             <span className="block text-gradient text-emerald-300">Serenity</span>
-//           </h1>
+//           </h2>
 //           <p className="text-xl md:text-2xl mb-12 max-w-4xl mx-auto leading-relaxed opacity-90">
 //             Immerse yourself in luxury wellness treatments designed to restore balance, rejuvenate your spirit, 
 //             and awaken your natural radiance in our tranquil sanctuary.
@@ -2626,8 +2621,7 @@ View All Cities
 //           <div className="grid lg:grid-cols-2 gap-16 items-center">
 //             <div className="relative">
 //               <div className="absolute -top-8 -left-8 w-32 h-32 bg-gradient-to-br from-emerald-200 to-teal-200 rounded-full opacity-50 floating-animation"></div>
-//               <img 
-//                 src="https://images.pexels.com/photos/3757949/pexels-photo-3757949.jpeg?auto=compress&cs=tinysrgb&w=800"
+//               <Image width={800} height={600} //                 src="https://images.pexels.com/photos/3757949/pexels-photo-3757949.jpeg?auto=compress&cs=tinysrgb&w=800"
 //                 alt="Spa Interior"
 //                 className="rounded-3xl shadow-2xl relative z-10"
 //               />
@@ -2848,8 +2842,7 @@ View All Cities
 //             {outlets.map((outlet, index) => (
 //               <div key={index} className="glass-effect rounded-3xl overflow-hidden card-hover border border-white/20">
 //                 <div className="relative">
-//                   <img 
-//                     src={outlet.image} 
+//                   <Image width={800} height={600} //                     src={outlet.image} 
 //                     alt={outlet.name}
 //                     className="w-full h-56 object-cover"
 //                   />
@@ -2913,8 +2906,7 @@ View All Cities
 //             {testimonials.map((testimonial, index) => (
 //               <div key={index} className="glass-effect p-8 rounded-3xl card-hover border border-white/20">
 //                 <div className="flex items-center mb-6">
-//                   <img 
-//                     src={testimonial.image} 
+//                   <Image width={800} height={600} //                     src={testimonial.image} 
 //                     alt={testimonial.name}
 //                     className="w-12 h-12 rounded-full object-cover mr-4"
 //                   />
@@ -2995,8 +2987,7 @@ View All Cities
 //             {blogPosts.map((post, index) => (
 //               <article key={index} className="glass-effect rounded-3xl overflow-hidden card-hover border border-white/20">
 //                 <div className="relative">
-//                   <img 
-//                     src={post.image} 
+//                   <Image width={800} height={600} //                     src={post.image} 
 //                     alt={post.title}
 //                     className="w-full h-56 object-cover"
 //                   />

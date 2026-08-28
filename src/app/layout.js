@@ -21,9 +21,26 @@ const inter = Inter({
 })
 
 export const metadata = {
-  title: "Luxury Body Spa | Gurgaon",
-  description: "Relax and rejuvenate at the best spa in Gurgaon.",
-  icons: {  
+  metadataBase: new URL("https://www.spaingurgaon.com"),
+  title: {
+    default: "Luxury Body Spa in Gurgaon | Spa In Gurgaon",
+    template: "%s | Spa In Gurgaon",
+  },
+  description: "Relax and rejuvenate at the best spa in Gurgaon. Certified therapists, full body, couple and sandwich massage with a first-visit offer.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    siteName: "Spa In Gurgaon",
+    type: "website",
+    locale: "en_IN",
+    images: ["/images/banner.jpeg"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/images/banner.jpeg"],
+  },
+  icons: {
     icon: [
       { url: "/spa-in-gurgaon-favicon.png?v=2" },
       { url: "/icon.png?v=2" },
@@ -34,12 +51,51 @@ export const metadata = {
   },
 };
 
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "DaySpa",
+  "@id": "https://www.spaingurgaon.com/#business",
+  name: "Spa In Gurgaon",
+  image: "https://www.spaingurgaon.com/images/banner.jpeg",
+  logo: "https://www.spaingurgaon.com/images/spaingurgaonlogo.png",
+  url: "https://www.spaingurgaon.com",
+  telephone: "+91-8448499173",
+  email: "spaingurugram8826@gmail.com",
+  priceRange: "₹₹",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "442, Shankar Chowk Rd, Phase II, Udyog Vihar, Sector 20",
+    addressLocality: "Gurugram",
+    addressRegion: "Haryana",
+    postalCode: "122016",
+    addressCountry: "IN",
+  },
+  areaServed: [
+    "Gurgaon",
+    "Gurugram",
+    "DLF Phase 1",
+    "Cyber City",
+    "MG Road",
+    "Golf Course Road",
+    "Sector 29",
+    "Aerocity",
+    "Connaught Place",
+    "Lajpat Nagar",
+    "Noida",
+    "Delhi NCR",
+  ],
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
         <link rel="icon" href="/spa-in-gurgaon-favicon.png?v=2" sizes="any" />
         <link rel="apple-touch-icon" href="/spa-in-gurgaon-favicon.png?v=2" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+        />
       </head>
       <body
         className={inter.className}

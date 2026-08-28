@@ -4,15 +4,18 @@ import Couppage from "./Couppage";
 export const metadata = {
   title: "Experience Couples Massage in Gurgaon | Romantic Vibes",
   description: "Book a luxury couples massage in Gurgaon today. Relax together and enjoy soothing therapies in a private, romantic spa setting.",
+  alternates: {
+    canonical: "/couples-massage-in-gurgaon",
+  },
   openGraph: {
-    title: "Visit Best Sandwich Massage in Delhi | Started in just @1999",
-    description: "Relax with Sandwich Massage in Delhi. Just visit our Sandwich Massage Spa in Karol Bagh to get the perfect sandwich massage in Delhi.",
-    images: ["https://yourdomain.com/images/hb1.jpg"], // <-- use absolute URL in production
+    title: "Experience Couples Massage in Gurgaon | Romantic Vibes",
+    description: "Book a luxury couples massage in Gurgaon today. Relax together and enjoy soothing therapies in a private, romantic spa setting.",
+    images: ["https://www.spaingurgaon.com/images/banner.jpeg"], // <-- use absolute URL in production
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://yourdomain.com/images/hb1.jpg"]
+    images: ["https://www.spaingurgaon.com/images/banner.jpeg"]
   }
 };
 

@@ -167,9 +167,9 @@ show: { opacity: 1, y: 0, transition: { duration: 0.5 } },
                         transition={{ duration: 0.8 }}
                         className="relative text-center px-6"
                       >
-                        <h1 className="text-4xl md:text-6xl font-bold text-white drop-shadow-lg">
+                        <h2 className="text-4xl md:text-6xl font-bold text-white drop-shadow-lg">
                           About <span className="text-emerald-300">Our Hiring Process</span>
-                        </h1>
+                        </h2>
                         <p className="mt-4 text-lg md:text-xl text-gray-100 max-w-2xl mx-auto drop-shadow">
                           Discover the art of relaxation with our luxury spa treatments designed
                           to rejuvenate your body, mind, and soul.
@@ -269,8 +269,7 @@ show: { opacity: 1, y: 0, transition: { duration: 0.5 } },
     {/* Image section */}
     {/* <div className="relative h-80 md:h-96 lg:h-[450px]">
       <div className="absolute inset-0 border-4 border-white shadow-xl overflow-hidden">
-        <img
-          src="/images/Hot Stone Massage.jpg"
+        <Image width={800} height={600} src="/images/Hot Stone Massage.jpg"
           alt="Hot Stone Massage Spa"
           className="w-full h-full object-cover"
         />

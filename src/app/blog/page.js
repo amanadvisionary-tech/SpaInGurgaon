@@ -1,3 +1,26 @@
+import Image from "next/image";
+
+export const metadata = {
+  title: "Spa & Wellness Blog | Spa In Gurgaon",
+  description:
+    "Expert massage guides and wellness insights from Spa In Gurgaon's therapists — deep tissue, sandwich, Swedish and full body massage explained.",
+  alternates: {
+    canonical: "/blog",
+  },
+  openGraph: {
+    title: "Spa & Wellness Blog | Spa In Gurgaon",
+    description:
+      "Expert massage guides, spa tips, and wellness insights from Gurgaon's premium spa professionals.",
+    url: "https://www.spaingurgaon.com/blog",
+    images: ["/images/fpkdl.com_750_1758979994_natural-elements-spa-with-candles_23-2148199479.jpg"],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/images/fpkdl.com_750_1758979994_natural-elements-spa-with-candles_23-2148199479.jpg"],
+  },
+};
+
 export default function SpaBlogPage() {
   const blogs = [
     {
@@ -62,8 +85,7 @@ export default function SpaBlogPage() {
             >
               {/* Image with fixed aspect ratio — prevents stretching */}
               <div className="aspect-[3/2] overflow-hidden">
-                <img
-                  src={blog.img}
+                <Image width={800} height={600} src={blog.img}
                   alt={blog.title}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -101,7 +123,7 @@ export default function SpaBlogPage() {
             Book a luxury massage or spa therapy session today and rejuvenate your body and mind.
           </p>
           <a
-            href="/contact"
+            href="/contacts"
             className="inline-block mt-8 bg-[#c9b37e] text-black px-8 py-3 rounded-full font-semibold hover:bg-white transition"
           >
             Book Appointment

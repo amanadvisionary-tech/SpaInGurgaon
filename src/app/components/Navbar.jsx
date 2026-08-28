@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 import Image from "next/image";
 
 export default function Navbar() {
@@ -53,7 +53,7 @@ export default function Navbar() {
     { name: "Lajpat Nagar", href: "/spa-in-lajpat-nagar" },
     { name: "Gurugram", href: "/spa-in-gurgaon" },
     { name: "Noida", href: "/spa-in-noida" },
-    
+    { name: "Golf Course Road", href: "/spa-in-golf-course-road" },
     { name: "MG Road", href: "/spa-in-mg-road" },
     { name: "Sector 29", href: "/spa-in-sector-29" },
   ];
@@ -65,22 +65,16 @@ export default function Navbar() {
         className="hidden md:flex justify-between items-center text-sm text-white px-6 py-2 shadow-sm z-50"
         style={{ backgroundColor: "#245cbdff" }}
       >
-        <p className="font-medium">📞 +91 8448499173</p>
+        <a href="tel:+918448499173" className="font-medium hover:text-emerald-200 transition-colors">📞 +91 8448499173</a>
         <p className="font-semibold">
           Book Your Appointment :  Gurgaon
         </p>
         <div className="flex items-center space-x-4">
           <a
-            href="https://www.instagram.com/"
+            href="https://wa.me/918448499173"
             target="_blank"
             rel="noopener noreferrer"
-          >
-            <FaInstagram size={20} />
-          </a>
-          <a
-            href="http://wa.link/gt55qd"
-            target="_blank"
-            rel="noopener noreferrer"
+            aria-label="Chat on WhatsApp"
           >
             <FaWhatsapp size={20} />
           </a>
@@ -184,12 +178,6 @@ export default function Navbar() {
               Blog
             </a>
             <a
-              href="/gallery"
-              className="font-medium text-gray-800 hover:text-emerald-600 transition"
-            >
-              Gallery
-            </a>
-            <a
               href="/contacts"
               className="font-medium text-gray-800 hover:text-emerald-600 transition"
             >
@@ -197,7 +185,7 @@ export default function Navbar() {
             </a>
 
             <a
-              href="https://api.whatsapp.com/send?phone=919211059033"
+              href="https://api.whatsapp.com/send?phone=918448499173"
               className="bg-emerald-600 text-white px-6 py-2 rounded-full font-medium text-sm hover:bg-emerald-700 transition shadow-md"
             >
               Book Appointment
@@ -233,7 +221,7 @@ export default function Navbar() {
 
             {/* Mobile Services */}
             <div className="flex justify-between items-center text-gray-800 font-semibold py-2">
-              <a href="/Services" className="hover:text-emerald-600 w-full">
+              <a href="/massage-service-in-gurgaon" className="hover:text-emerald-600 w-full">
                 Services
               </a>
               <button
@@ -299,12 +287,6 @@ export default function Navbar() {
               Blog
             </a>
             <a
-              href="/gallery"
-              className="block text-gray-800 font-semibold hover:text-emerald-600"
-            >
-              Gallery
-            </a>
-            <a
               href="/contacts"
               className="block text-gray-800 font-semibold hover:text-emerald-600"
             >
@@ -312,7 +294,7 @@ export default function Navbar() {
             </a>
 
             <a
-              href="https://api.whatsapp.com/send?phone=919211059033"
+              href="https://api.whatsapp.com/send?phone=918448499173"
               className="block text-center bg-emerald-600 text-white px-6 py-2 rounded-full font-semibold text-sm hover:bg-emerald-700 transition shadow-md"
             >
               Book Appointment

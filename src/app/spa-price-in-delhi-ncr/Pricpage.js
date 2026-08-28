@@ -90,7 +90,7 @@ export default function Pricpage() {
       description: "Perfect for individual relaxation sessions",
       features: ["Oil Massage", "Cream Massage", "Dry Massage", "30 min Consultation"],
       highlight: false,
-      ctaLink: "http://wa.link/njldxn",
+      ctaLink: "https://wa.me/918448499173",
       icon: <FaSpa className="text-emerald-500" />
     },
     {
@@ -99,7 +99,7 @@ export default function Pricpage() {
       description: "Premium experience with luxury amenities",
       features: ["Oil Massage", "Cream Massage", "Dry Massage", "Private Suite", "Complimentary Refreshments", "90 min Session"],
       highlight: true,
-      ctaLink: "http://wa.link/u061wi",
+      ctaLink: "https://wa.me/918448499173",
       icon: <FaHotel className="text-emerald-500" />
     },
     {
@@ -631,8 +631,7 @@ export default function Pricpage() {
                 <div className="bg-gradient-to-br from-stone-50 to-emerald-50 p-1 rounded-2xl">
                   <div className="bg-white p-6 rounded-2xl shadow-sm">
                     <div className="relative h-80 md:h-96 rounded-xl overflow-hidden">
-                      <img
-                        src="/images/fpkdl.com_960_1757505385_young-woman-relaxing-back-massage-spa_151013-21109.jpg" // Change path accordingly
+                      <Image width={960} height={639} src="/images/fpkdl.com_960_1757505385_young-woman-relaxing-back-massage-spa_151013-21109.jpg" // Change path accordingly
                         alt="Premium Body Spa"
                         className="w-full h-full object-cover rounded-xl"
                       />
@@ -1020,10 +1019,10 @@ export default function Pricpage() {
             className="grid grid-cols-2 gap-4"
           >
             <div className="rounded-2xl overflow-hidden shadow-xl">
-              <img src="/images/new5.jpeg" alt="Luxury Spa Room" className="w-full h-full object-cover" />
+              <Image width={736} height={1075} src="/images/new5.jpeg" alt="Luxury Spa Room" className="w-full h-full object-cover" />
             </div>
             <div className="rounded-2xl overflow-hidden shadow-xl">
-              <img src="/images/spaExper2.webp" alt="Massage Session" className="w-full h-full object-cover" />
+              <Image width={1080} height={1350} src="/images/spaExper2.webp" alt="Massage Session" className="w-full h-full object-cover" />
             </div>
           </motion.div>
         </div>
@@ -1263,9 +1262,8 @@ export default function Pricpage() {
             viewport={{ once: true }}
             className="flex justify-center"
           >
-            <img
-              src="/images/Professional European.jpeg"
-              alt="Spa FAQ Illustration"
+            <Image width={736} height={1026} src="/images/Professional European.jpeg"
+              alt="Spa price in Delhi NCR - frequently asked questions"
               className="rounded-2xl shadow-lg object-cover w-full max-h-[700px]"
             />
           </motion.div>

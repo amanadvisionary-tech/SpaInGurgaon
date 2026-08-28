@@ -38,7 +38,7 @@ import {
 // ──────────────────────────────────────────────────────────────────────────────
 
 const ARTICLE_TITLE = "Deep Tissue Massage Benefits: A Simple Guide for Everyone";
-const ARTICLE_URL = "https://yourdomain.com/deep-tissue-massage-benefits";
+const ARTICLE_URL = "https://www.spaingurgaon.com/deep-tissue-massage-benefits";
 
 const TOC_ITEMS = [
   { id: "what-is", title: "What Is a Deep Tissue Massage?" },

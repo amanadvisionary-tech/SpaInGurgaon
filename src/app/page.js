@@ -2,17 +2,20 @@ import HomeClient from "./HomeClient";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Book Spa in Gurgaon By Certified Therapists | First Visit Offer @1999",
-  description: "Book spa in gurgaon and experience one of the best massages in gurgaon by well trained female therapists. soothing ambience, organic oils, and professional therapists.",
+  title: "Best Spa in Gurgaon | First Visit Offer @1999",
+  description: "Book a spa in Gurgaon and experience one of the best massages by well-trained female therapists — soothing ambience, organic oils, professional care.",
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
-    title: "Get Best Body Massage in Delhi | First Visit Offer 1999",
-    description: "Looking for a relaxing massage in Delhi? Experience the best full body, sandwich massage, Couple massages at the top massage parlour in Delhi.",
-    images: ["https://yourdomain.com/images/hb1.jpg"], // <-- use absolute URL in production
+    title: "Book Spa in Gurgaon By Certified Therapists | First Visit Offer @1999",
+    description: "Book spa in gurgaon and experience one of the best massages in gurgaon by well trained female therapists. soothing ambience, organic oils, and professional therapists.",
+    images: ["https://www.spaingurgaon.com/images/banner.jpeg"], // <-- use absolute URL in production
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://yourdomain.com/images/hb1.jpg"]
+    images: ["https://www.spaingurgaon.com/images/banner.jpeg"]
   }
 };
 

@@ -34,7 +34,7 @@ import {
 // ──────────────────────────────────────────────────────────────────────────────
 
 const ARTICLE_TITLE = "Full Body Massage: Benefits, Types, and Everything You Should Know";
-const ARTICLE_URL = "https://yourdomain.com/full-body-massage";
+const ARTICLE_URL = "https://www.spaingurgaon.com/full-body-massage";
 
 const TOC_ITEMS = [
   { id: "what-is", title: "What Is a Full Body Massage?" },

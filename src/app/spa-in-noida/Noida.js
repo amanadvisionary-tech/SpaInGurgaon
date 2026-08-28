@@ -146,7 +146,7 @@ icon: <Smile className="w-6 h-6 text-emerald-800" />,
       description: "Perfect for individual relaxation sessions",
       features: ["Oil Massage", "Cream Massage", "Dry Massage", "30 min Consultation"],
       highlight: false,
-      ctaLink: "http://wa.link/njldxn",
+      ctaLink: "https://wa.me/918448499173",
       icon: <FaSpa className="text-emerald-500" />
     },
     {
@@ -155,7 +155,7 @@ icon: <Smile className="w-6 h-6 text-emerald-800" />,
       description: "Premium experience with luxury amenities",
       features: ["Oil Massage", "Cream Massage", "Dry Massage", "Private Suite", "Complimentary Refreshments", "90 min Session"],
       highlight: true,
-      ctaLink: "http://wa.link/u061wi",
+      ctaLink: "https://wa.me/918448499173",
       icon: <FaHotel className="text-emerald-500" />
     },
     {
@@ -429,7 +429,7 @@ const topSteps = [
                   className="relative text-center px-6"
                 >
                   <h1 className="text-4xl md:text-6xl font-bold text-white drop-shadow-lg">
-                    About <span className="text-emerald-300">Our Outles In Noida</span>
+                    About <span className="text-emerald-300">Our Outlets In Noida</span>
                   </h1>
                   <p className="mt-4 text-lg md:text-xl text-gray-100 max-w-2xl mx-auto drop-shadow">
                     Discover the art of relaxation with our luxury spa treatments designed
@@ -481,11 +481,11 @@ const topSteps = [
             <span className="block h-px w-12 bg-emerald-600" />
           </div>
 
-          <h1 className="space-y-2 text-4xl font-light leading-tight text-gray-900 md:text-5xl">
+          <h2 className="space-y-2 text-4xl font-light leading-tight text-gray-900 md:text-5xl">
             <span className="block font-serif text-5xl md:text-6xl text-emerald-900">Premium </span>
             <span className="block">Massage in</span>
             <span className="block font-medium">Noida to Enjoy <span className="text-rose-600">Relaxation</span></span>
-          </h1>
+          </h2>
 
           <p className="mx-auto mt-4 max-w-xl leading-relaxed text-gray-600 lg:mx-0">
             Enter a peaceful space of calm and comfort with Spa in Gurgaon’s exclusive massage therapies in Noida. Our professional therapists also provide some relaxing treatments that relax your body, restore your balance, and refresh your mind. B2B therapy, a complete-body session, or any other type of service, all of it is designed to make you feel relaxed fully. Every massage makes you feel lighter, refreshed and prepared to get to the next day.
@@ -551,8 +551,7 @@ const topSteps = [
         {/* Visual panel */}
         <div className="relative h-80 md:h-96 lg:h-[450px]">
           <div className="absolute inset-0 overflow-hidden rounded-xl border-4 border-white shadow-2xl">
-            <img
-              src="/images/Taj_gurgaon.jpg"
+            <Image width={1018} height={768} src="/images/Taj_gurgaon.jpg"
               alt="Serene spa ambience at a luxury Noida hotel in Delhi"
               className="h-full w-full object-cover"
               loading="lazy"
@@ -677,7 +676,7 @@ const topSteps = [
       
                   {/* Book Now Button */}
                   {/* <a
-                    href="http://wa.link/njldxn"
+                    href="https://wa.me/918448499173"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block mt-auto px-5 py-2 rounded-full bg-emerald-500 text-white text-sm font-semibold hover:bg-emerald-600 shadow-md hover:shadow-xl transition-all duration-300 text-center"
@@ -800,8 +799,7 @@ const topSteps = [
             viewport={{ once: true }}
             className="col-span-1 row-span-2 overflow-hidden rounded-2xl border border-emerald-100 shadow-xl"
           >
-            <img
-              src="/images/fpkdl.com_960_1758982119_foot-massage-massage-parlor-female-hands-massage-female-feet-beauty-health_130265-8627.jpg"
+            <Image width={960} height={1441} src="/images/fpkdl.com_960_1758982119_foot-massage-massage-parlor-female-hands-massage-female-feet-beauty-health_130265-8627.jpg"
               alt="Tranquil luxury spa room with warm lighting"
               className="h-full w-full object-cover"
               loading="lazy"
@@ -816,8 +814,7 @@ const topSteps = [
             viewport={{ once: true }}
             className="overflow-hidden rounded-2xl border border-emerald-100 shadow-xl"
           >
-            <img
-              src="/images/spaexpert3.webp"
+            <Image width={1080} height={1350} src="/images/spaexpert3.webp"
               alt="Expert therapist performing a relaxing massage"
               className="h-full w-full object-cover"
               loading="lazy"
@@ -832,8 +829,7 @@ const topSteps = [
             viewport={{ once: true }}
             className="relative overflow-hidden rounded-2xl border border-emerald-100 shadow-xl"
           >
-            <img
-              src="/images/cozy-candlelit-bedroom-brings-rustic-elegance-inside-generated-by-ai.jpg"
+            <Image width={6067} height={3467} src="/images/cozy-candlelit-bedroom-brings-rustic-elegance-inside-generated-by-ai.jpg"
               alt="Premium spa amenities and botanicals"
               className="h-full w-full object-cover"
               loading="lazy"
@@ -1135,7 +1131,7 @@ const topSteps = [
                   <div className="text-xs text-white/80">JW Marriott · Pullman · Novotel · Lemon Tree</div>
                 </div>
                 <a
-                  href="http://wa.link/njldxn"
+                  href="https://wa.me/918448499173"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center gap-2 rounded-full bg-white/95 px-4 py-2 text-sm font-semibold text-emerald-700 shadow hover:bg-white"
@@ -1346,7 +1342,7 @@ const topSteps = [
           transition={{ duration: 0.6 }}
         >
           <span className="text-sm font-medium text-emerald-700 tracking-widest">OUR SIGNATURE OFFERINGS</span>
-          <h1 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-4 font-serif">Why Choose Spa in Gurgaon as Best Centre for Massage in Noida</h1>
+          <h2 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-4 font-serif">Why Choose Spa in Gurgaon as Best Centre for Massage in Noida</h2>
           <div className="mx-auto w-28 h-1 bg-emerald-600 rounded-full" />
           <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
            Relaxation meets real expertise at Spa in Gurgaon. Here is why spa lovers in Noida keep choosing us.
@@ -1393,7 +1389,7 @@ const topSteps = [
                         {s.time} • {s.price}
                       </span>
                       <a
-                        href="http://wa.link/njldxn"
+                        href="https://wa.me/918448499173"
                         target="_blank"
                         rel="noreferrer"
                         className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-full text-sm font-semibold shadow focus:outline-none focus:ring-2 focus:ring-emerald-200"
@@ -1444,7 +1440,7 @@ const topSteps = [
                         {s.time} • {s.price}
                       </span>
                       <a
-                        href="http://wa.link/njldxn"
+                        href="https://wa.me/918448499173"
                         target="_blank"
                         rel="noreferrer"
                         className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-full text-sm font-semibold shadow focus:outline-none focus:ring-2 focus:ring-emerald-200"
@@ -1575,7 +1571,7 @@ const topSteps = [
         {/* CTA */}
         <div className="mt-12 text-center">
           <a
-            href="http://wa.link/njldxn"
+            href="https://wa.me/918448499173"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-8 py-3 rounded-full bg-gradient-to-r from-emerald-600 to-emerald-500 text-white font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition"
@@ -2008,9 +2004,8 @@ const topSteps = [
       viewport={{ once: true }}
       className="flex justify-center"
     >
-      <img
-        src="/images/woman-spending-time-spa-getting-exfoliation-massage.jpg"
-        alt="Spa FAQ Illustration"
+      <Image width={4000} height={6000} src="/images/woman-spending-time-spa-getting-exfoliation-massage.jpg"
+        alt="Spa in Noida - frequently asked questions"
         className="rounded-2xl shadow-lg object-cover w-full max-h-[700px]"
       />
     </motion.div>

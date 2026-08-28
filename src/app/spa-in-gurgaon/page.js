@@ -2,17 +2,20 @@ import Gurgaon from "./Gurgaon";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Book Spa Service in Gurgaon | Massage at Home in Gurgaon",
-  description: "Experience spa service in Gurgaon. Try our expert massage at home in Gurgaon with soothing oils, trained therapists, and complete relaxation at your doorstep.",
+  title: "Best Spa in Gurgaon | Luxury Body Massage",
+  description: "Looking for the best spa in Gurgaon? Enjoy full body, couple, and sandwich massage by certified therapists in a relaxing, luxury setting. Book Now!",
+  alternates: {
+    canonical: "/spa-in-gurgaon",
+  },
   openGraph: {
-    title: "Get Best Body Massage in Delhi | First Visit Offer 1999",
-    description: "Looking for a relaxing massage in Delhi? Experience the best full body, sandwich massage, Couple massages at the top massage parlour in Delhi.",
-    images: ["https://yourdomain.com/images/hb1.jpg"], // <-- use absolute URL in production
+    title: "Best Spa in Gurgaon | Luxury Body Massage",
+    description: "Looking for the best spa in Gurgaon? Enjoy full body, couple, and sandwich massage by certified therapists in a relaxing, luxury setting. Book Now!",
+    images: ["https://www.spaingurgaon.com/images/banner.jpeg"], // <-- use absolute URL in production
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://yourdomain.com/images/hb1.jpg"]
+    images: ["https://www.spaingurgaon.com/images/banner.jpeg"]
   }
 };
 

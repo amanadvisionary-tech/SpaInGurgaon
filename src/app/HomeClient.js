@@ -19,7 +19,6 @@ import { Building2 } from "lucide-react";
 import { Star, MapPin, Sparkles, Hotel } from 'lucide-react';
 import { Clock, CheckCircle2 } from "lucide-react";
 import { Globe } from "lucide-react";
-import Head from "next/head";
 
 
 
@@ -82,25 +81,25 @@ const outlets = [
     description: 'We provide body massage service at 5-star hotels in Aerocity, like Lemon Tree, Andaz, IBIS and so on.',
     image: '/images/NovotelNewDelhiAerocity.jpeg',
 
-    link: 'https://api.whatsapp.com/send?phone=918826482370',
+    link: 'https://api.whatsapp.com/send?phone=918448499173',
   },
   {
     title: 'Hotel in NFC',
     description: 'Staying in a hotel in NFC and craving a massage? We provide B2B massage in delhi in hotels like The Suryaa and end all your days tiredness.',
     image: '/images/TheSuryaaNewDelhi(NFC).jpg',
-    link: 'https://api.whatsapp.com/send?phone=918826482370',
+    link: 'https://api.whatsapp.com/send?phone=918448499173',
   },
   {
     title: 'Hotel in Connaught Place',
     description: 'Our team of massage therapists visits your hotel in CP and provide best spa in CP to hotels like Radisson Blu, The Lalit, The Park and so on.',
     image: '/images/TheParkConnaughtPlace.jpg',
-    link: 'https://api.whatsapp.com/send?phone=918826482370',
+    link: 'https://api.whatsapp.com/send?phone=918448499173',
   },
   {
     title: 'Dwarka Hotel',
     description: 'Our team of expert massage therapists will visit your hotel room in Dwarka and provide an on-demand hotel spa in Dwarka.',
     image: '/images/TheGrandNewDelhi.jpg',
-    link: 'https://api.whatsapp.com/send?phone=918826482370',
+    link: 'https://api.whatsapp.com/send?phone=918448499173',
   },
 ];
 {/* Our Process */ }
@@ -269,18 +268,18 @@ export default function HomeClient() {
   const slides = [
     {
       title: "Best Massage Parlour in Delhi with Luxury Spa Experience!",
-      link: "https://api.whatsapp.com/send?phone=918826482370",
+      link: "https://api.whatsapp.com/send?phone=918448499173",
       image: "/images/247484.jpg"
 
     },
     {
       title: "Best Massage Parlour in Delhi Awaits You",
-      link: "https://api.whatsapp.com/send?phone=918826482370",
+      link: "https://api.whatsapp.com/send?phone=918448499173",
       image: "/images/fpkdl.com_450_1757505385_young-woman-relaxing-back-massage-spa_151013-21109.jpg"
     },
     {
       title: "Escape Stress with Luxury B2B Massage in Delhi",
-      link: "https://api.whatsapp.com/send?phone=918826482370",
+      link: "https://api.whatsapp.com/send?phone=918448499173",
       image: "/images/woman-relaxing-spa.jpg"
     },
   ];
@@ -403,7 +402,7 @@ export default function HomeClient() {
       description: "Perfect for individual relaxation sessions",
       features: ["Oil Massage", "Cream Massage", "Dry Massage", "60 min Consultation", "shower"],
       highlight: false,
-      ctaLink: "http://wa.link/njldxn",
+      ctaLink: "https://wa.me/918448499173",
       icon: <FaSpa className="text-emerald-500" />
     },
     {
@@ -412,7 +411,7 @@ export default function HomeClient() {
       description: "Premium experience with luxury amenities",
       features: ["Oil Massage", "Cream Massage", "Dry Massage", "Private Suite", "Complimentary Refreshments", "90 min Session"],
       highlight: true,
-      ctaLink: "http://wa.link/u061wi",
+      ctaLink: "https://wa.me/918448499173",
       icon: <FaHotel className="text-emerald-500" />
     },
     {
@@ -441,25 +440,25 @@ export default function HomeClient() {
       name: "Lajpat Nagar",
       image: "/images/TheSuryaaNewDelhi(NFC).jpg", // Replace with actual image URL
       description: "We have luxury massage outlets in Lajpat Nagar, so whenever you are in Lajpat Nagar want you can de-stress with a home and massage service. Reach out to us.",
-      link: "https://wa.me/8826482370"
+      link: "https://wa.me/918448499173"
     },
     {
       name: "Aerocity",
       image: "/images/NovotelNewDelhiAerocity.jpeg",
       description: "Our team provide b2b massage in Aerocity most luxurious locations. Whenever you choose us for your massage service in Aerocity, we will never disappoint.",
-      link: "https://wa.me/8826482370"
+      link: "https://wa.me/918448499173"
     },
     {
       name: "Paschim Vihar",
       image: "/images/TheParkConnaughtPlace.jpg",
       description: "Choose Spa Delhi to enjoy the best massage services in Paschim Vihar. Enjoy the most relaxing massage at an outlet with perfect ambience.",
-      link: "https://wa.me/8826482370"
+      link: "https://wa.me/918448499173"
     },
     {
       name: "Rohini",
       image: "/images/TheGrandNewDelhi.jpg",
       description: "We have our massage outlet available at Rohini location. If you want to experience spa experience in Rohini, we can deliver the best spa services in Delhi.",
-      link: "https://wa.me/8826482370"
+      link: "https://wa.me/918448499173"
     }
   ];
   const features2 = [
@@ -803,7 +802,7 @@ export default function HomeClient() {
 
                 <div className="mt-6 flex flex-col sm:flex-row gap-4 sm:gap-6 items-center">
                   <a
-                    href="https://api.whatsapp.com/send?phone=918826482370"
+                    href="https://api.whatsapp.com/send?phone=918448499173"
                     className="inline-flex items-center justify-center rounded-full bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 font-semibold shadow-lg transition"
                   >
                     Book Now
@@ -917,8 +916,7 @@ Why Choose Our Massage Spa in Gurgaon?
                 className="flex flex-col items-center text-center group"
               >
                 <div className="w-48 h-70 rounded-full border-4 border-emerald-500 flex items-center justify-center overflow-hidden shadow-md hover:shadow-lg transition">
-                  <img
-                    src={item.img}
+                  <Image width={800} height={600} src={item.img}
                     alt={item.title}
                     className="object-cover w-full h-full"
                   />
@@ -1145,7 +1143,7 @@ Why Choose Our Massage Spa in Gurgaon?
               </motion.a>
 
               <a
-                href="https://api.whatsapp.com/send?phone=919211059033"
+                href="https://api.whatsapp.com/send?phone=918448499173"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
@@ -1204,9 +1202,8 @@ Why Choose Our Massage Spa in Gurgaon?
               {/* Big rounded promo card (bottom-left) */}
               <div className="w-[700px] h-[723px] bg-emerald-50 rounded-2xl shadow-lg p-6 transform lg:-translate-x-6 lg:translate-y-8">
                 <div className="relative w-full h-full overflow-hidden rounded-xl">
-                  <img
-                    src="/images/cc8223d4-67a0-4b1e-bfba-c472cfd87144.jpeg"
-                    alt="promo"
+                  <Image width={736} height={736} src="/images/cc8223d4-67a0-4b1e-bfba-c472cfd87144.jpeg"
+                    alt="Spa In Gurgaon first visit offer at 1999 rupees"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -1234,7 +1231,7 @@ Why Choose Our Massage Spa in Gurgaon?
 
               <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
                 <a
-                  href="https://api.whatsapp.com/send?phone=919211059033"
+                  href="https://api.whatsapp.com/send?phone=918448499173"
                   className="inline-flex items-center gap-3 bg-emerald-700 hover:bg-emerald-800 text-white px-6 py-3 rounded-lg font-medium shadow"
                 >
                   Book Now
@@ -1681,7 +1678,7 @@ Why Choose Our Massage Spa in Gurgaon?
 
                     <a
                       // href={plan.ctaLink}
-                      href="https://api.whatsapp.com/send?phone=919211059033"
+                      href="https://api.whatsapp.com/send?phone=918448499173"
                       className={`mt-auto block text-center py-3 px-6 rounded-full font-bold transition-all duration-300 ${plan.highlight
                         ? "bg-gradient-to-r from-emerald-500 to-emerald-600 text-white hover:shadow-xl hover:from-emerald-600 hover:to-emerald-700"
                         : "bg-emerald-100 text-emerald-800 hover:bg-emerald-200"
@@ -1756,7 +1753,7 @@ Why Choose Our Massage Spa in Gurgaon?
                 className="flex flex-col items-center text-center w-36"
               >
                 <div className="rounded-full p-3 shadow-sm hover:shadow-lg transition-transform transform hover:-translate-y-2 bg-gray-50">
-                  <img src={s.image} alt={s.title} className="w-16 h-16 object-contain" />
+                  <Image width={800} height={600} src={s.image} alt={s.title} className="w-16 h-16 object-contain" />
                 </div>
                 <h3 className="mt-4 text-lg font-serif text-gray-800">{s.title}</h3>
               </motion.div>
@@ -1908,7 +1905,7 @@ Why Choose Our Massage Spa in Gurgaon?
           </div>
 
           <div className="text-center mt-8">
-            <a href="https://api.whatsapp.com/send?phone=919211059033" className="inline-block bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 rounded-full font-medium shadow">
+            <a href="https://api.whatsapp.com/send?phone=918448499173" className="inline-block bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 rounded-full font-medium shadow">
               Book Now
             </a>
           </div>
@@ -2023,7 +2020,7 @@ Why Choose Our Massage Spa in Gurgaon?
           </div>
 
           <div className="text-center mt-10">
-            <a href="https://api.whatsapp.com/send?phone=919211059033" className="inline-flex items-center gap-3 bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 rounded-full font-semibold shadow-lg transition">
+            <a href="https://api.whatsapp.com/send?phone=918448499173" className="inline-flex items-center gap-3 bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 rounded-full font-semibold shadow-lg transition">
               Book Your Session
             </a>
           </div>
@@ -2197,9 +2194,8 @@ Why Choose Our Massage Spa in Gurgaon?
             viewport={{ once: true }}
             className="flex justify-center"
           >
-            <img
-              src="/images/Professional European.jpeg"
-              alt="Spa FAQ Illustration"
+            <Image width={736} height={1026} src="/images/Professional European.jpeg"
+              alt="Spa In Gurgaon - frequently asked questions"
               className="rounded-2xl shadow-lg object-cover w-full max-h-[700px]"
             />
           </motion.div>
@@ -2261,7 +2257,7 @@ Why Choose Our Massage Spa in Gurgaon?
           </div>
           <div className="flex justify-center lg:justify-end">
             <div className="w-full max-w-md rounded-lg overflow-hidden shadow-lg">
-              <img src="/images/From soothing Swedish.jpeg" alt="Spa FAQ" className="w-full h-80 object-cover" />
+              <Image width={735} height={557} src="/images/From soothing Swedish.jpeg" alt="Spa FAQ" className="w-full h-80 object-cover" />
             </div>
           </div>
         </div>

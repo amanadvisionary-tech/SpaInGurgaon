@@ -16,17 +16,17 @@ export const metadata = {
     "is deep tissue massage good",
   ],
   alternates: {
-    canonical: "https://yourdomain.com/deep-tissue-massage-benefits",
+    canonical: "https://www.spaingurgaon.com/deep-tissue-massage-benefits",
   },
   openGraph: {
     title: "Deep Tissue Massage Benefits: A Simple Guide for Everyone",
     description:
       "Learn the top deep tissue massage benefits, how it works, who should get it, and why it helps reduce pain, stress, and muscle tension naturally.",
-    url: "https://yourdomain.com/deep-tissue-massage-benefits",
+    url: "https://www.spaingurgaon.com/deep-tissue-massage-benefits",
     siteName: "Spain Gurugram Spa",
     images: [
       {
-        url: "https://yourdomain.com/images/fpkdl.com_960_1758962686_masseur-doing-massage-woman-s-back-spa-salon-with-many-candles_355000-245.jpg",
+        url: "https://www.spaingurgaon.com/images/fpkdl.com_960_1758962686_masseur-doing-massage-woman-s-back-spa-salon-with-many-candles_355000-245.jpg",
         width: 1200,
         height: 630,
         alt: "Deep Tissue Massage Therapy at Spain Gurugram Spa",
@@ -50,7 +50,7 @@ export const metadata = {
     description:
       "Learn the top deep tissue massage benefits, how it works, who should get it, and why it helps reduce pain, stress, and muscle tension naturally.",
     images: [
-      "https://yourdomain.com/images/fpkdl.com_960_1758962686_masseur-doing-massage-woman-s-back-spa-salon-with-many-candles_355000-245.jpg",
+      "https://www.spaingurgaon.com/images/fpkdl.com_960_1758962686_masseur-doing-massage-woman-s-back-spa-salon-with-many-candles_355000-245.jpg",
     ],
   },
 };
@@ -65,24 +65,24 @@ const articleSchema = {
   author: {
     "@type": "Organization",
     name: "Spain Gurugram Wellness Team",
-    url: "https://yourdomain.com",
+    url: "https://www.spaingurgaon.com",
   },
   publisher: {
     "@type": "Organization",
     name: "Spain Gurugram Spa",
     logo: {
       "@type": "ImageObject",
-      url: "https://yourdomain.com/images/GurgaonSiteIcon.png",
+      url: "https://www.spaingurgaon.com/images/GurgaonSiteIcon.png",
     },
   },
   datePublished: "2026-08-03",
   dateModified: "2026-08-03",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://yourdomain.com/deep-tissue-massage-benefits",
+    "@id": "https://www.spaingurgaon.com/deep-tissue-massage-benefits",
   },
   image:
-    "https://yourdomain.com/images/fpkdl.com_960_1758962686_masseur-doing-massage-woman-s-back-spa-salon-with-many-candles_355000-245.jpg",
+    "https://www.spaingurgaon.com/images/fpkdl.com_960_1758962686_masseur-doing-massage-woman-s-back-spa-salon-with-many-candles_355000-245.jpg",
   keywords:
     "deep tissue massage benefits, deep tissue massage, massage for muscle pain, deep tissue massage for back pain",
   articleSection: "Massage Therapy",
@@ -97,25 +97,25 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://yourdomain.com",
+      item: "https://www.spaingurgaon.com",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Blog",
-      item: "https://yourdomain.com/blog",
+      item: "https://www.spaingurgaon.com/blog",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "Massage",
-      item: "https://yourdomain.com/blog#massage",
+      item: "https://www.spaingurgaon.com/blog#massage",
     },
     {
       "@type": "ListItem",
       position: 4,
       name: "Deep Tissue Massage Benefits",
-      item: "https://yourdomain.com/deep-tissue-massage-benefits",
+      item: "https://www.spaingurgaon.com/deep-tissue-massage-benefits",
     },
   ],
 };

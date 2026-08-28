@@ -1,17 +1,20 @@
 import SandwichMassageAndDeepTissueMassage from "./SandwichMassageAndDeepTissueMassage";
 
 export const metadata = {
-  title: "Difference Between Sandwich Massage and Deep Tissue Massage | Best Spa in Gurgaon",
-  description: "Know the difference between Sandwich Massage and Deep Tissue Massage. Understand pressure, benefits, and which massage is best for stress or pain. Visit our professional body spa in Gurgaon for expert massage therapy.",
+  title: "Sandwich vs Deep Tissue Massage: What's the Difference?",
+  description: "Know the difference between sandwich massage and deep tissue massage — pressure, benefits, and which one is best for stress or pain relief.",
+  alternates: {
+    canonical: "/difference-between-sandwich-massage-and-deep-tissue-massage",
+  },
   openGraph: {
     title: "Difference Between Sandwich Massage and Deep Tissue Massage | Best Spa in Gurgaon",
     description: "Know the difference between Sandwich Massage and Deep Tissue Massage. Understand pressure, benefits, and which massage is best for stress or pain. Visit our professional body spa in Gurgaon for expert massage therapy.",
-    images: ["https://yourdomain.com/images/hb1.jpg"], // <-- use absolute URL in production
+    images: ["https://www.spaingurgaon.com/images/banner.jpeg"], // <-- use absolute URL in production
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://yourdomain.com/images/hb1.jpg"]
+    images: ["https://www.spaingurgaon.com/images/banner.jpeg"]
   }
 };
 

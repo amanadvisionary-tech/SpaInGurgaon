@@ -76,7 +76,7 @@ const pricingPlans = [
     description: "Perfect for individual relaxation sessions",
     features: ["Oil Massage", "Cream Massage", "Dry Massage", "30 min Consultation"],
     highlight: false,
-    ctaLink: "http://wa.link/njldxn",
+    ctaLink: "https://wa.me/918448499173",
     icon: <FaSpa className="text-emerald-500" />
   },
   {
@@ -85,7 +85,7 @@ const pricingPlans = [
     description: "Premium experience with luxury amenities",
     features: ["Oil Massage", "Cream Massage", "Dry Massage", "Private Suite", "Complimentary Refreshments", "90 min Session"],
     highlight: true,
-    ctaLink: "http://wa.link/u061wi",
+    ctaLink: "https://wa.me/918448499173",
     icon: <FaHotel className="text-emerald-500" />
   },
   {
@@ -332,12 +332,12 @@ export default function Abpage({
               <div className="w-12 h-px bg-emerald-600"></div>
             </div>
 
-            <h1 className="text-4xl md:text-5xl font-light text-gray-800">
+            <h2 className="text-4xl md:text-5xl font-light text-gray-800">
 
               <span className="block font-serif text-5xl md:text-6xl mb-3 text-emerald-800">Enjoy</span>
               the luxury in
               <span className="block mt-2 font-medium"> body with Best <span className="text-rose-600">Massage Spa in Gurgaon</span></span>
-            </h1>
+            </h2>
 
             <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
               Enter the realm of warm oils, smooth motions, and serene energies with Spa in Gurgaon, which offers therapeutic experiences of immersion through luxurious massage therapy that help restore your whole body.
@@ -370,8 +370,7 @@ export default function Abpage({
           <div className="relative h-80 md:h-96 lg:h-[450px]">
             <div className="absolute inset-0 border-4 border-white shadow-xl overflow-hidden">
               <div className="relative w-full h-full">
-                <img
-                  src="/images/12 Romantic.jpeg" // ✅ Yahan apna image path daal
+                <Image width={736} height={1312} src="/images/12 Romantic.jpeg" // ✅ Yahan apna image path daal
                   alt="Spa Environment"
                   className="w-full h-full object-cover"
                 />
@@ -482,9 +481,9 @@ export default function Abpage({
         transition={{ duration: 1 }}
         className="relative z-10 text-center max-w-2xl px-4"
       >
-        <h1 className="text-4xl md:text-5xl font-semibold tracking-wide font-[PlayfairDisplay]">
+        <h2 className="text-4xl md:text-5xl font-semibold tracking-wide font-[PlayfairDisplay]">
           Discover Tranquility
-        </h1>
+        </h2>
         <p className="mt-4 text-lg md:text-xl text-gray-200">
           Welcome to our world of calm and luxury. Rejuvenate your body and soul.
         </p>
@@ -798,10 +797,10 @@ export default function Abpage({
             className="grid grid-cols-2 gap-4"
           >
             <div className="rounded-2xl overflow-hidden shadow-xl">
-              <img src="/images/spaexpert3.webp" alt="Luxury Spa Room" className="w-full h-full object-cover" />
+              <Image width={1080} height={1350} src="/images/spaexpert3.webp" alt="Luxury Spa Room" className="w-full h-full object-cover" />
             </div>
             <div className="rounded-2xl overflow-hidden shadow-xl">
-              <img src="/images/new5.jpeg" alt="Massage Session" className="w-full h-full object-cover" />
+              <Image width={736} height={1075} src="/images/new5.jpeg" alt="Massage Session" className="w-full h-full object-cover" />
             </div>
           </motion.div>
         </div>
@@ -1683,9 +1682,8 @@ export default function Abpage({
             viewport={{ once: true }}
             className="flex justify-center"
           >
-            <img
-              src="/images/fpkdl.com_750_1758982119_foot-massage-massage-parlor-female-hands-massage-female-feet-beauty-health_130265-8627.jpg"
-              alt="Spa FAQ Illustration"
+            <Image width={750} height={1125} src="/images/fpkdl.com_750_1758982119_foot-massage-massage-parlor-female-hands-massage-female-feet-beauty-health_130265-8627.jpg"
+              alt="Spa In Gurgaon - frequently asked questions"
               className="rounded-2xl shadow-lg object-cover w-full max-h-[700px]"
             />
           </motion.div>

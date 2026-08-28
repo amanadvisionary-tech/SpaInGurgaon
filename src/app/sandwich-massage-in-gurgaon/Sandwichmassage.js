@@ -16,7 +16,6 @@ import LuxuryHotelShowcase from '../components/LuxuryHotelShowcase';
   import { FaTelegram } from 'react-icons/fa';
   import { FaLeaf, FaHotTub, FaHandSparkles } from "react-icons/fa";
   import { AnimatePresence } from 'framer-motion';
-  import Head from 'next/head';
 
   import {
   FaHands,
@@ -158,13 +157,6 @@ const container = {
 {/* End Our Process */}
 
   export default function Sandwichmassage() {
-     <Head>
-        <title>Visit Our Best Sandwich Massage Spa in Delhi </title>
-        <meta
-          name="description"
-          content="Relax with Sandwich Massage in Delhi. Just visit our Sandwich Massage Spa in Karol Bagh to get the perfect sandwich massage in Delhi."
-        />
-      </Head>
     const [isVisible, setIsVisible] = useState(false);
     
       useEffect(() => {
@@ -265,7 +257,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
           description: "Perfect for individual relaxation sessions",
           features: ["Oil Massage", "Cream Massage", "Dry Massage", "60 min Consultation", "shower"],
           highlight: false,
-          ctaLink: "http://wa.link/njldxn",
+          ctaLink: "https://wa.me/918448499173",
           icon: <FaSpa className="text-emerald-500" />
         },
         {
@@ -274,7 +266,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
           description: "Premium experience with luxury amenities",
           features: ["Oil Massage", "Cream Massage", "Dry Massage", "Private Suite", "Complimentary Refreshments", "90 min Session"],
           highlight: true,
-          ctaLink: "http://wa.link/u061wi",
+          ctaLink: "https://wa.me/918448499173",
           icon: <FaHotel className="text-emerald-500" />
         },
         {
@@ -419,8 +411,7 @@ Spa in Gurgaon offers a relaxing sandwich massage experience with two profession
     {/* Image section */}
     <div className="relative h-80 md:h-96 lg:h-[450px]">
       <div className="absolute inset-0 border-4 border-white shadow-xl overflow-hidden">
-        <img
-          src="/images/OIP (1).webp"
+        <Image width={2500} height={2592} src="/images/OIP (1).webp"
           alt="Sandwich Massage Spa"
           className="w-full h-full object-cover"
         />
@@ -611,7 +602,7 @@ At Spa in Gurgaon, we offer a relaxing sandwich massage experience designed for 
                     >
                       {/* image header */}
                       <div className="relative h-40 sm:h-32 md:h-36 lg:h-44 w-full">
-                        <img src={c.image} alt={c.title} className="object-cover w-full h-full brightness-90" />
+                        <Image width={800} height={600} src={c.image} alt={c.title} className="object-cover w-full h-full brightness-90" />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/35 to-transparent"></div>
                         <div className="absolute left-4 bottom-4 flex items-center gap-3">
                           <div className={`p-3 rounded-md ${c.accent} bg-opacity-80 backdrop-blur-md`}>{c.icon}</div>
@@ -662,7 +653,7 @@ At Spa in Gurgaon, we offer a relaxing sandwich massage experience designed for 
                         <p className="text-sm opacity-90 mt-2 max-w-xs">Each visit to Spa in Gurgaon suits your particular requirements. The therapists adjust the intensity of the press depending on what is right for you. They vary their techniques and duration of massage. Maybe you want to relax, or maybe your muscles hurt. Either way, the session gets planned around you. This makes every visit feel special and right for your body.</p>
                       </div>
                       <div className="w-28 h-28 bg-white/10 rounded-lg flex items-center justify-center overflow-hidden">
-                        <img src="/images/fpkdl.com_960_1758980177_natural-elements-spa-with-candles_23-2148199485.jpg" alt="consult" className="object-cover w-full h-full" />
+                        <Image width={960} height={639} src="/images/fpkdl.com_960_1758980177_natural-elements-spa-with-candles_23-2148199485.jpg" alt="Spa consultation room with natural elements and candles" className="object-cover w-full h-full" />
                       </div>
                     </div>
       
@@ -733,10 +724,10 @@ At Spa in Gurgaon, we offer a relaxing sandwich massage experience designed for 
       
               {/* small image grid for visual richness */}
               <div className="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-3">
-                <img src="/images/luxury-aromatherapy-spa-treatment-with-scented-candle-flame-generated-by-ai.jpg" alt="thumb1" className="w-full h-28 object-cover rounded-md shadow-sm" />
-                <img src="/images/modern-luxury-bedroom-design-illuminated-with-electric-lamps-generated-by-ai.jpg" alt="thumb2" className="w-full h-28 object-cover rounded-md shadow-sm" />
-                <img src="/images/RoseateHouse.jpg" alt="thumb3" className="w-full h-28 object-cover rounded-md shadow-sm" />
-                <img src="/images/room-with-massage-tables-wall-with-lights-it.jpg" alt="thumb4" className="w-full h-28 object-cover rounded-md shadow-sm" />
+                <Image width={5600} height={3200} src="/images/luxury-aromatherapy-spa-treatment-with-scented-candle-flame-generated-by-ai.jpg" alt="Luxury aromatherapy spa treatment with scented candles" className="w-full h-28 object-cover rounded-md shadow-sm" />
+                <Image width={6067} height={3467} src="/images/modern-luxury-bedroom-design-illuminated-with-electric-lamps-generated-by-ai.jpg" alt="Modern luxury spa treatment room interior" className="w-full h-28 object-cover rounded-md shadow-sm" />
+                <Image width={550} height={381} src="/images/RoseateHouse.jpg" alt="Roseate House hotel spa partner" className="w-full h-28 object-cover rounded-md shadow-sm" />
+                <Image width={6067} height={3467} src="/images/room-with-massage-tables-wall-with-lights-it.jpg" alt="Spa room with massage tables and ambient lighting" className="w-full h-28 object-cover rounded-md shadow-sm" />
               </div>
       
               
@@ -787,7 +778,7 @@ At Spa in Gurgaon, we offer a relaxing sandwich massage experience designed for 
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         {journey.map((j) => (
                           <div key={`img-${j.step}`} className="rounded-xl overflow-hidden shadow-md bg-white">
-                            <img src={j.img} alt={j.title} className="object-cover w-full h-48" />
+                            <Image width={800} height={600} src={j.img} alt={j.title} className="object-cover w-full h-48" />
                             <div className="p-3">
                               <div className="text-sm font-semibold text-[#163a2f]">{j.title}</div>
                               <div className="text-xs text-gray-500 mt-1">{j.text}</div>
@@ -1105,8 +1096,7 @@ A sandwich massage in Gurgaon can help you relax, ease everyday muscle tension, 
         
         <div className={`relative h-96 md:h-[500px] group ${index % 2 !== 0 ? 'md:order-last' : ''}`}>
           <div className="absolute inset-0 bg-gradient-to-r from-emerald-400/10 to-yellow-300/10 rounded-3xl transform rotate-2 group-hover:rotate-3 transition-all duration-500"></div>
-          <img
-            src={section.image}
+          <Image width={800} height={600} src={section.image}
             alt={section.title}
             className="w-full h-full object-cover rounded-3xl shadow-xl relative transform transition-all duration-700 group-hover:scale-[1.02]"
           />
@@ -1233,8 +1223,7 @@ At Spa in Gurgaon, we provide a relaxing sandwich massage experience with traine
                       
                       <div className="relative">
                         <div className="bg-gray-200 border-2 border-dashed rounded-xl w-full h-full min-h-[400px] flex items-center justify-center overflow-hidden">
-                          <img
-                            src="/images/fpkdl.com_960_1760613019_asian-woman-does-back-massage-with-herbal-bags-patient_175935-919.jpg"
+                          <Image width={960} height={639} src="/images/fpkdl.com_960_1760613019_asian-woman-does-back-massage-with-herbal-bags-patient_175935-919.jpg"
                             alt="Client Testimonial"
                             className="object-cover w-full h-full rounded-xl"
                           />
@@ -1625,9 +1614,8 @@ At Spa in Gurgaon, we provide a relaxing sandwich massage experience with traine
              viewport={{ once: true }}
              className="flex justify-center"
            >
-             <img
-               src="/images/Professional European.jpeg"
-               alt="Spa FAQ Illustration"
+             <Image width={736} height={1026} src="/images/Professional European.jpeg"
+               alt="Sandwich massage in Gurgaon - frequently asked questions"
                className="rounded-2xl shadow-lg object-cover w-full max-h-[700px]"
              />
            </motion.div>

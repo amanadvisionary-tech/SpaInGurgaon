@@ -125,7 +125,7 @@ export default function GolfCourseRoad() {
             description: "Perfect for individual relaxation sessions",
             features: ["Oil Massage", "Cream Massage", "Dry Massage", "30 min Consultation"],
             highlight: false,
-            ctaLink: "http://wa.link/njldxn",
+            ctaLink: "https://wa.me/918448499173",
             icon: <FaSpa className="text-emerald-500" />
         },
         {
@@ -134,7 +134,7 @@ export default function GolfCourseRoad() {
             description: "Premium experience with luxury amenities",
             features: ["Oil Massage", "Cream Massage", "Dry Massage", "Private Suite", "Complimentary Refreshments", "90 min Session"],
             highlight: true,
-            ctaLink: "http://wa.link/u061wi",
+            ctaLink: "https://wa.me/918448499173",
             icon: <FaHotel className="text-emerald-500" />
         },
         {
@@ -415,7 +415,7 @@ export default function GolfCourseRoad() {
                         </p>
 
                         <a
-                            href="http://wa.link/njldxn"
+                            href="https://wa.me/918448499173"
                             className="inline-block mt-6 bg-emerald-500 hover:bg-emerald-600 text-white font-medium px-6 py-3 rounded-full shadow-lg transition"
                         >
                             Chat on WhatsApp
@@ -521,7 +521,7 @@ export default function GolfCourseRoad() {
                                 </a>
 
                                 <a
-                                    href="http://wa.link/njldxn" target="_blank" rel="noopener noreferrer"
+                                    href="https://wa.me/918448499173" target="_blank" rel="noopener noreferrer"
                                     className="inline-flex items-center space-x-2 rounded-sm border border-emerald-200 bg-white px-6 py-3 text-emerald-800 transition-colors duration-300 hover:bg-emerald-50 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2"
                                     aria-label="Book appointment"
                                 >
@@ -536,8 +536,7 @@ export default function GolfCourseRoad() {
                         {/* Visual panel */}
                         <div className="relative h-80 md:h-96 lg:h-[450px]">
                             <div className="absolute inset-0 overflow-hidden rounded-xl border-4 border-white shadow-2xl">
-                                <img
-                                    src="/images/RoseateHouse.jpg"
+                                <Image width={550} height={381} src="/images/RoseateHouse.jpg"
                                     alt="Serene spa ambience at a luxury Golf Course Road hotel in Gurgaon"
                                     className="h-full w-full object-cover"
                                     loading="lazy"
@@ -739,7 +738,7 @@ export default function GolfCourseRoad() {
                             {/* CTAs */}
                             <div className="mt-7 flex flex-col gap-3 sm:flex-row">
                                 <a
-                                    href="http://wa.link/njldxn" target="_blank" rel="noopener noreferrer"
+                                    href="https://wa.me/918448499173" target="_blank" rel="noopener noreferrer"
                                     className="inline-flex items-center justify-center rounded-md bg-gradient-to-r from-emerald-600 to-emerald-800 px-6 py-3 text-sm font-medium text-white shadow hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2"
                                 >
                                     Book an Appointment
@@ -776,8 +775,7 @@ export default function GolfCourseRoad() {
                                 viewport={{ once: true }}
                                 className="col-span-1 row-span-2 overflow-hidden rounded-2xl border border-emerald-100 shadow-xl"
                             >
-                                <img
-                                    src="/images/massage-therapist.webp"
+                                <Image width={752} height={943} src="/images/massage-therapist.webp"
                                     alt="Tranquil luxury spa room with warm lighting"
                                     className="h-full w-full object-cover"
                                     loading="lazy"
@@ -792,8 +790,7 @@ export default function GolfCourseRoad() {
                                 viewport={{ once: true }}
                                 className="overflow-hidden rounded-2xl border border-emerald-100 shadow-xl"
                             >
-                                <img
-                                    src="/images/spa-professional.webp"
+                                <Image width={705} height={460} src="/images/spa-professional.webp"
                                     alt="Expert therapist performing a relaxing massage"
                                     className="h-full w-full object-cover"
                                     loading="lazy"
@@ -808,8 +805,7 @@ export default function GolfCourseRoad() {
                                 viewport={{ once: true }}
                                 className="relative overflow-hidden rounded-2xl border border-emerald-100 shadow-xl"
                             >
-                                <img
-                                    src="/images/luxury-spa-room.webp"
+                                <Image width={705} height={468} src="/images/luxury-spa-room.webp"
                                     alt="Premium spa amenities and botanicals"
                                     className="h-full w-full object-cover"
                                     loading="lazy"
@@ -961,7 +957,7 @@ export default function GolfCourseRoad() {
                         {/* CTA bar */}
                         <div className="mt-12 flex flex-col items-center justify-between gap-4 rounded-2xl border border-emerald-100 bg-white/80 p-6 shadow-sm backdrop-blur md:flex-row">
                             <p className="text-center text-sm text-emerald-900/80 md:text-left">Not sure which therapy suits you? Tell us your goal—relaxation, recovery, or wellness—and we'll curate a session for you on Golf Course Road.</p>
-                            <a href="http://wa.link/njldxn" target="_blank" rel="noopener noreferrer" className="inline-flex items-center rounded-md bg-gradient-to-r from-emerald-600 to-emerald-800 px-5 py-3 text-sm font-semibold text-white shadow hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2">
+                            <a href="https://wa.me/918448499173" target="_blank" rel="noopener noreferrer" className="inline-flex items-center rounded-md bg-gradient-to-r from-emerald-600 to-emerald-800 px-5 py-3 text-sm font-semibold text-white shadow hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2">
                                 Book a Consultation
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" className="ml-2 h-4 w-4"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
                             </a>
@@ -1063,7 +1059,7 @@ export default function GolfCourseRoad() {
                                 {/* CTAs */}
                                 <div className="mt-7 flex flex-col gap-3 sm:flex-row">
                                     <a
-                                        href="http://wa.link/njldxn" target="_blank" rel="noopener noreferrer"
+                                        href="https://wa.me/918448499173" target="_blank" rel="noopener noreferrer"
                                         className="inline-flex items-center justify-center rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold text-white shadow transition hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-300"
                                     >
                                         Book Your Session
@@ -1119,7 +1115,7 @@ export default function GolfCourseRoad() {
                                             <div className="text-xs text-white/80">Westin · Hyatt Regency · ITC Grand · JW Marriott</div>
                                         </div>
                                         <a
-                                            href="http://wa.link/njldxn"
+                                            href="https://wa.me/918448499173"
                                             target="_blank"
                                             rel="noreferrer"
                                             className="inline-flex items-center gap-2 rounded-full bg-white/95 px-4 py-2 text-sm font-semibold text-emerald-700 shadow hover:bg-white"
@@ -1154,7 +1150,7 @@ export default function GolfCourseRoad() {
                             className="mt-10 text-center"
                         >
                             <a
-                                href="http://wa.link/njldxn" target="_blank" rel="noopener noreferrer"
+                                href="https://wa.me/918448499173" target="_blank" rel="noopener noreferrer"
                                 className="inline-flex items-center gap-3 rounded-full bg-emerald-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-200"
                             >
                                 Book a Personalized Journey
@@ -1245,7 +1241,7 @@ export default function GolfCourseRoad() {
                                 {/* CTA */}
                                 <div className="mt-7 flex flex-col gap-3 sm:flex-row">
                                     <a
-                                        href="http://wa.link/njldxn" target="_blank" rel="noopener noreferrer"
+                                        href="https://wa.me/918448499173" target="_blank" rel="noopener noreferrer"
                                         className="inline-flex items-center justify-center rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold text-white shadow transition hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-300"
                                     >
                                         Book Now
@@ -1296,7 +1292,7 @@ export default function GolfCourseRoad() {
                             className="mt-10 text-center"
                         >
                             <a
-                                href="http://wa.link/njldxn" target="_blank" rel="noopener noreferrer"
+                                href="https://wa.me/918448499173" target="_blank" rel="noopener noreferrer"
                                 className="inline-flex items-center gap-3 rounded-full bg-emerald-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-200"
                             >
                                 Book a Personalized Journey
@@ -1377,7 +1373,7 @@ export default function GolfCourseRoad() {
                                                         {s.time} • {s.price}
                                                     </span>
                                                     <a
-                                                        href="http://wa.link/njldxn"
+                                                        href="https://wa.me/918448499173"
                                                         target="_blank"
                                                         rel="noreferrer"
                                                         className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-full text-sm font-semibold shadow focus:outline-none focus:ring-2 focus:ring-emerald-200"
@@ -1428,7 +1424,7 @@ export default function GolfCourseRoad() {
                                                         {s.time} • {s.price}
                                                     </span>
                                                     <a
-                                                        href="http://wa.link/njldxn"
+                                                        href="https://wa.me/918448499173"
                                                         target="_blank"
                                                         rel="noreferrer"
                                                         className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-full text-sm font-semibold shadow focus:outline-none focus:ring-2 focus:ring-emerald-200"
@@ -1480,7 +1476,7 @@ export default function GolfCourseRoad() {
                             transition={{ duration: 0.6, delay: 0.08 }}
                         >
                             <a
-                                href="http://wa.link/njldxn" target="_blank" rel="noopener noreferrer"
+                                href="https://wa.me/918448499173" target="_blank" rel="noopener noreferrer"
                                 className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white font-semibold shadow-lg focus:outline-none focus:ring-2 focus:ring-emerald-200"
                             >
                                 Book a Personalized Journey
@@ -1559,7 +1555,7 @@ export default function GolfCourseRoad() {
                         {/* CTA */}
                         <div className="mt-12 text-center">
                             <a
-                                href="http://wa.link/njldxn"
+                                href="https://wa.me/918448499173"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="inline-block px-8 py-3 rounded-full bg-gradient-to-r from-emerald-600 to-emerald-500 text-white font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition"
@@ -1608,7 +1604,7 @@ export default function GolfCourseRoad() {
                             <div className="mt-10 flex justify-center gap-4 flex-wrap">
                                 <motion.a
                                     whileTap={{ scale: 0.97 }}
-                                    href="http://wa.link/njldxn" target="_blank" rel="noopener noreferrer"
+                                    href="https://wa.me/918448499173" target="_blank" rel="noopener noreferrer"
                                     className="px-8 py-3 rounded-full bg-emerald-700 text-white font-medium shadow-md hover:shadow-lg hover:bg-emerald-800 transition"
                                 >
                                     Book Now
@@ -1921,9 +1917,8 @@ export default function GolfCourseRoad() {
                             viewport={{ once: true }}
                             className="flex justify-center"
                         >
-                            <img
-                                src="/images/woman-spending-time-spa-getting-exfoliation-massage.jpg"
-                                alt="Spa FAQ Illustration"
+                            <Image width={4000} height={6000} src="/images/woman-spending-time-spa-getting-exfoliation-massage.jpg"
+                                alt="Spa in Golf Course Road Gurgaon - frequently asked questions"
                                 className="rounded-2xl shadow-lg object-cover w-full max-h-[700px]"
                             />
                         </motion.div>
