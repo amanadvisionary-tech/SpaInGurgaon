@@ -72,7 +72,7 @@ export default function SandwichMassageAndDeepTissueMassage() {
         {/* INTRO */}
         <div>
           <p className="text-gray-700 leading-relaxed mb-4">
-            One of the most widespread reasons people seek out massage therapy is for pain relief. “When it comes to some of the aches and pains in life, whether it be chronic back pain, stiffness through muscles, technology stress — quite literally pain that many times comes from our devices or work volumes but still landed on your body in one way/shape/or form — or post workout recovery soreness: there is huge benefit to using the right massage technique. Sandwich Massage and Deep tissue massage as Pretty Beloved Body to body massage services. There are so many options out of the box that you can choose from as part of the massage service.
+            One of the most widespread reasons people seek out massage therapy is for pain relief. “When it comes to some of the aches and pains in life, whether it be chronic back pain, stiffness through muscles, technology stress — quite literally pain that many times comes from our devices or work volumes but still landed on your body in one way/shape/or form — or post workout recovery soreness: there is huge benefit to using the right massage technique. <a href="/sandwich-massage-in-gurgaon" className="text-[#7b0f2b] font-medium underline hover:no-underline">Sandwich Massage</a> and <a href="/deep-tissue-massage-benefits" className="text-[#7b0f2b] font-medium underline hover:no-underline">Deep tissue massage</a> as Pretty Beloved Body to body massage services. There are so many options out of the box that you can choose from as part of <a href="/massage-service-in-gurgaon" className="text-[#7b0f2b] font-medium underline hover:no-underline">the massage service</a>.
           </p>
 
           <p className="text-gray-700 leading-relaxed">
@@ -306,7 +306,7 @@ export default function SandwichMassageAndDeepTissueMassage() {
             Combining Both for Optimal Results
           </h2>
           <p className="text-gray-700 mb-4">
-            Many therapists advise utilizing both over time. For example:
+            <a href="/about-us" className="text-[#7b0f2b] font-medium underline hover:no-underline">Many therapists</a> advise utilizing both over time. For example:
             </p>
 
           <ul className="list-disc pl-6 text-gray-700 space-y-2">
@@ -438,6 +438,7 @@ export default function SandwichMassageAndDeepTissueMassage() {
         </div>
       </div>
     </section>
+
     </main>
   );
 }

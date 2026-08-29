@@ -124,7 +124,7 @@ const BENEFITS = [
   },
   {
     num: "06", emoji: "🏋️", title: "Speeds Up Exercise Recovery",
-    body: "Athletes and gym-goers often choose <strong>full body deep tissue massage</strong> because it flushes out lactic acid, reduces DOMS (Delayed Onset Muscle Soreness), and accelerates muscle repair — so you can train harder and more consistently."
+    body: "Athletes and gym-goers often choose <strong><a href='/full-body-massage-in-gurgaon' class='text-[#7b0f2b] underline'>full body deep tissue massage</a></strong> because it flushes out lactic acid, reduces DOMS (Delayed Onset Muscle Soreness), and accelerates muscle repair — so you can train harder and more consistently."
   },
   {
     num: "07", emoji: "🤸", title: "Improves Flexibility",
@@ -132,7 +132,7 @@ const BENEFITS = [
   },
   {
     num: "08", emoji: "🪑", title: "Helps Improve Posture",
-    body: "Bad posture is often caused by tight muscles pulling your spine and joints out of alignment. Regular massage targets the muscles responsible — releasing the tension that rounds your shoulders forward or juts your neck out."
+    body: "Bad posture is often caused by tight muscles pulling your spine and joints out of alignment. <a href='/massage-service-in-gurgaon' class='text-[#7b0f2b] underline'>Regular massage</a> targets the muscles responsible — releasing the tension that rounds your shoulders forward or juts your neck out."
   },
   {
     num: "09", emoji: "😴", title: "Helps You Sleep Better",
@@ -404,7 +404,7 @@ export default function DeepTissueMassageBenefits() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/25 via-transparent to-transparent" />
             </div>
             <figcaption className="text-center text-sm text-gray-500 mt-3 italic">
-              Professional deep tissue massage therapy — Spain Gurugram Spa, Gurgaon
+              Professional deep tissue massage therapy — Spain Gurugram Spa, <a href="/spa-in-gurgaon" className="text-[#7b0f2b] font-medium underline hover:no-underline">Gurgaon</a>
             </figcaption>
           </figure>
         </div>
@@ -556,7 +556,7 @@ export default function DeepTissueMassageBenefits() {
                   ))}
                 </div>
                 <Callout type="warning" title="Always Consult Your Doctor First">
-                  If you are unsure whether deep tissue massage is right for you, please speak with your doctor or a qualified physiotherapist before booking. Your health and safety always come first.
+                  If you are unsure whether deep tissue massage is right for you, please speak with your doctor or a qualified physiotherapist <a href="/contacts" className="text-[#7b0f2b] font-medium underline hover:no-underline">before booking</a>. Your health and safety always come first.
                 </Callout>
               </section>
 
@@ -771,7 +771,7 @@ export default function DeepTissueMassageBenefits() {
                   <div className="flex-1">
                     <h4 className="font-bold text-gray-900 text-base">Spain Gurugram Wellness Team</h4>
                     <p className="text-[#7b0f2b] text-xs mb-3 font-semibold">Certified Spa & Massage Therapists — Gurgaon</p>
-                    <p className="text-gray-600 text-sm leading-relaxed">Our team of certified therapists and wellness experts brings years of hands-on experience in therapeutic massage and holistic health. We are committed to sharing accurate, practical information to help you make informed wellness decisions.</p>
+                    <p className="text-gray-600 text-sm leading-relaxed">Our <a href="/about-us" className="text-[#7b0f2b] font-medium underline hover:no-underline">team of certified therapists</a> and wellness experts brings years of hands-on experience in therapeutic massage and holistic health. We are committed to sharing accurate, practical information to help you make informed wellness decisions.</p>
                     <div className="flex gap-3 mt-4">
                       {[{ Icon: FaFacebook, href: "#", label: "Facebook", color: "text-blue-600" }, { Icon: FaTwitter, href: "#", label: "Twitter", color: "text-gray-700" }, { Icon: FaLinkedinIn, href: "#", label: "LinkedIn", color: "text-blue-700" }].map(({ Icon, href, label, color }) => (
                         <a key={label} href={href} aria-label={label} className={`${color} transition-colors hover:scale-110`}><Icon className="w-4 h-4" /></a>
@@ -847,6 +847,7 @@ export default function DeepTissueMassageBenefits() {
 
           </div>
         </div>
+
 
         {/* Mobile bottom share bar */}
         <div className="fixed bottom-0 left-0 right-0 lg:hidden bg-white/95 backdrop-blur-sm border-t border-[#c9b37e]/30 px-4 py-2.5 z-40 flex items-center justify-center gap-2 shadow-2xl">

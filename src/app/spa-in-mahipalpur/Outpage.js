@@ -287,7 +287,7 @@ export default function Outpage() {
                 
                 {
                   question: "What services are offered at your Spa in Rohini?",
-                  answer: "Our Spa in Rohini provides relaxing therapies like full-body, couple, and B2B massages. Skilled therapists and serene rooms ensure complete rejuvenation in every visit.",
+                  answer: <>Our Spa in Rohini provides relaxing therapies like full-body, couple, and <a href="/b2b-massage-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">B2B massages</a>. Skilled therapists and serene rooms ensure complete rejuvenation in every visit.</>,
                   icon: <FaSpa className="text-teal-600" />
                 },
                 {
@@ -313,7 +313,7 @@ export default function Outpage() {
                     },
                     {
                           question: "Do you have outlets on Golf Course Road or Sector 56?",
-                          answer: "Yes — we operate spa in Golf Course Road and spa in Gurgaon Sector 56, offering professional therapies with flexible timings for working professionals.",
+                          answer: <>Yes — we operate spa in <a href="/spa-in-golf-course-road" className="text-emerald-700 font-medium underline hover:text-emerald-800">Golf Course Road</a> and spa in Gurgaon Sector 56, offering professional therapies with flexible timings for working professionals.</>,
                           icon: <FaSpa className="text-teal-600" />
                         },
               ];
@@ -725,7 +725,7 @@ const cards2 = [
             <div className="md:col-span-2">
               <h3 className="text-2xl md:text-3xl font-extrabold text-emerald-600 mb-4">The Serenity Method — Our Care Philosophy</h3>
               <p className="text-gray-700 leading-relaxed text-sm md:text-base">
-                At Serenity we combine ancient wisdom with modern evidence to craft treatments that deliver measurable outcomes. Every program begins with a confidential intake — we listen to your sleep patterns, stress triggers, movement limitations and energetic concerns. From that baseline our therapists design a layered plan of touch-based therapies, breathwork, and restorative rituals that work together to calm the nervous system and restore functional balance.
+                At Serenity we combine ancient wisdom with modern evidence to craft treatments that deliver measurable outcomes. Every program begins with a confidential intake — we listen to your sleep patterns, stress triggers, movement limitations and energetic concerns. From that baseline <a href="/about-us" className="text-emerald-700 font-medium underline hover:text-emerald-800">our therapists</a> design a layered plan of touch-based therapies, breathwork, and restorative rituals that work together to calm the nervous system and restore functional balance.
 
                 We believe longevity in results comes from education and continuity. After each session clients receive a short home routine (breath exercises, micro-mobilities, or an oil self-massage) and an evidence-led explanation of why the treatment worked. This small, consistent practice creates the physiological conditions for longer sleep, reduced pain, improved digestion, and a calmer mind. Sustainability is also central: our products are ethically sourced and our operations minimise waste, making your wellbeing part of a larger positive impact.
 
@@ -1363,7 +1363,7 @@ View All Cities
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.3, duration: 0.6 }}
                           >
-                            Get Exclusive Massage at <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Our Premium Spa Outlet in Noida</span>
+                            Get Exclusive Massage at <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-emerald-800">Our Premium Spa Outlet in </span><a href="/spa-in-noida" className="text-emerald-700 font-medium underline hover:text-emerald-800">Noida</a>
                           </motion.h2>
                 <div className="w-24 h-1 bg-emerald-500 mx-auto rounded-full"></div>
               </div>
@@ -1403,7 +1403,7 @@ View All Cities
                           <ul className="mt-4 space-y-2">
                             <li className="flex items-center">
                               <span className="text-emerald-600 mr-2">✓</span>
-                              <span className="text-stone-700">Couple Massage</span>
+                              <span className="text-stone-700"><a href="/couples-massage-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">Couple Massage</a></span>
                             </li>
                             <li className="flex items-center">
                               <span className="text-emerald-600 mr-2">✓</span>
@@ -1752,13 +1752,13 @@ View All Cities
 
       {/* Heading */}
       <h2 className="text-3xl md:text-4xl font-bold text-emerald-900 font-serif">
-         Experience Full Body Massage in Connaught Place At Prime Location Of Delhi
+         Experience <a href="/full-body-massage-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">Full Body Massage</a> in <a href="/spa-in-connaught-place" className="text-emerald-700 font-medium underline hover:text-emerald-800">Connaught Place</a> At Prime Location Of Delhi
       </h2>
 
       {/* Description */}
       <p className="text-gray-700 leading-relaxed text-base md:text-lg">
         Experience the <strong>best luxury spa in Delhi NCR</strong>, where tranquility meets indulgence. Our exclusive spa retreat offers world-class therapies designed to rejuvenate your body, mind, and soul.
-        From traditional Ayurvedic treatments to modern deep tissue massages, each session is curated by expert therapists using premium essential oils and natural ingredients.
+        From traditional Ayurvedic treatments to modern <a href="/deep-tissue-massage-benefits" className="text-emerald-700 font-medium underline hover:text-emerald-800">deep tissue massages</a>, each session is curated by expert therapists using premium essential oils and natural ingredients.
         From traditional Ayurvedic treatments to modern deep tissue massages, each session is curated by expert therapists using premium essential oils and natural ingredients.
       </p>
       <p className="text-gray-700 leading-relaxed text-base md:text-lg">
@@ -2195,10 +2195,11 @@ View All Cities
       />
     </motion.div>
   </div>
-</section>   
+</section>
+
 
     </>
-    
+
   )
 }
 

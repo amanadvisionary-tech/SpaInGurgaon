@@ -99,13 +99,13 @@ const teamMembers = [
     {
       title: "Couple Massage",
       image: "/images/young-couple-relaxing-back-massage-health-spa-focus-is-young-woman.jpg",
-      description: "Couple Massage is provided by Spa in Gurgaon to couples who wish to have a joint massage. Two therapists work at the same time, matching their movements carefully. The room has soft lighting and pleasant scents. Both people receive soothing touches that reduce tension. It becomes a special moment that brings couples closer together.",
+      description: "<a href=\"/couples-massage-in-gurgaon\" class=\"text-emerald-700 font-medium underline hover:text-emerald-800\">Couple Massage</a> is provided by Spa in Gurgaon to couples who wish to have a joint massage. Two therapists work at the same time, matching their movements carefully. The room has soft lighting and pleasant scents. Both people receive soothing touches that reduce tension. It becomes a special moment that brings couples closer together.",
       duration: "90 min"
     },
     {
       title: "Sandwich Massage",
       image: "/images/sandwich.jpg",
-      description: "The Sandwich Massage at Spa in Gurgaon uses methods that work on both sides of your body at once. Different angled pressure is applied to release tight muscles. It is a good experience but powerful. Your body will be in balance once again and your mind will be clearer. Tired muscles get the relief they need.",
+      description: "The <a href=\"/sandwich-massage-in-gurgaon\" class=\"text-emerald-700 font-medium underline hover:text-emerald-800\">Sandwich Massage</a> at Spa in Gurgaon uses methods that work on both sides of your body at once. Different angled pressure is applied to release tight muscles. It is a good experience but powerful. Your body will be in balance once again and your mind will be clearer. Tired muscles get the relief they need. Not sure which treatment suits you? Compare it with a <a href=\"/difference-between-sandwich-massage-and-deep-tissue-massage\" class=\"text-emerald-700 font-medium underline hover:text-emerald-800\">deep tissue massage</a> or a <a href=\"/sandwich-massage-vs-swedish-massage\" class=\"text-emerald-700 font-medium underline hover:text-emerald-800\">Swedish massage</a> to decide.",
       duration: "60 min"
     },
     {
@@ -123,7 +123,7 @@ const teamMembers = [
     {
       title: "Full-body Massage",
       image: "/images/fpkdl.com_960_1760685466_therapist-make-professional-hand-massage-back-shoulders-young-beautiful-woman_359031-29618.jpg",
-      description: "A Full Body Massage from Spa in Gurgaon covers your entire body from top to bottom. It helps reduce tiredness and makes your skin look healthier. Blood circulation improves during the treatment. The pressure used is firm but gentle. Your body regains its natural energy and feels balanced again. The effects last well beyond the session.",
+      description: "A <a href=\"/full-body-massage-in-gurgaon\" class=\"text-emerald-700 font-medium underline hover:text-emerald-800\">Full Body Massage</a> from Spa in Gurgaon covers your entire body from top to bottom. It helps reduce tiredness and makes your skin look healthier. Blood circulation improves during the treatment. The pressure used is firm but gentle. Your body regains its natural energy and feels balanced again. The effects last well beyond the session.",
       duration: "60 min"
     },
     // {
@@ -135,7 +135,7 @@ const teamMembers = [
     {
       title: "B2B Massage",
       image: "/images/fpkdl.com_960_1760685075_woman-getting-back-massage-from-masseur_23-2150461404.jpg",
-      description: "Office workers should be relieved of the pressure of day-to-day life. Spa in Gurgaon developed B2B Massage that targets busy professionals that are under constant stress. These meetings may occur in your working place. The stress is reduced, and the energy is restored. Employees who receive these treatments work better because their minds and bodies feel restored.",
+      description: "Office workers should be relieved of the pressure of day-to-day life. Spa in Gurgaon developed <a href=\"/b2b-massage-in-gurgaon\" class=\"text-emerald-700 font-medium underline hover:text-emerald-800\">B2B Massage</a> that targets busy professionals that are under constant stress. These meetings may occur in your working place. The stress is reduced, and the energy is restored. Employees who receive these treatments work better because their minds and bodies feel restored.",
       duration: "90-120 min"
     },
     {
@@ -562,7 +562,7 @@ const faqs = [
                 </div>
                 <h3 className="text-2xl font-light text-emerald-900 mb-4" style={{ fontFamily: "'Playfair Display', serif" }}>Spa OutLet</h3>
                 <p className="text-emerald-700 mb-6 leading-relaxed">
-                 We run several premium locations throughout Gurgaon. Each outlet provides a quiet environment focused on your comfort. The spaces are designed to help you relax fully. Visit any location for treatments that focus entirely on your wellbeing.
+                 We run several premium locations throughout <a href="/spa-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">Gurgaon</a>. Each outlet provides a quiet environment focused on your comfort. The spaces are designed to help you relax fully. Visit any location for treatments that focus entirely on your wellbeing.
                 </p>
                 <div className="flex items-center justify-between mt-8">
                   <span className="text-emerald-600 font-medium">90-150 min</span>
@@ -653,9 +653,7 @@ const faqs = [
                       <h3 className="text-2xl md:text-3xl font-serif font-semibold text-emerald-900 mb-4">
                         {service.title}
                       </h3>
-                      <p className="text-emerald-800 mb-6">
-                        {service.description}
-                      </p>
+                      <p className="text-emerald-800 mb-6" dangerouslySetInnerHTML={{ __html: service.description }} />
                     </div>
                     
                     <div>
@@ -1073,7 +1071,7 @@ const faqs = [
               Spa & Massage Home Service Gurgaon
             </h2>
             <p className="mt-3 text-emerald-800/90 md:text-lg">
-              Lajpat Nagar • Karol Bagh
+              <a href="/spa-in-lajpat-nagar" className="text-emerald-700 font-medium underline hover:text-emerald-800">Lajpat Nagar</a> • Karol Bagh
             </p>
           </div>
 
@@ -2011,9 +2009,11 @@ Every session at Spa in Gurgaon gets customized for your specific body. Certifie
                             />
                           </motion.div>
                         </div>
-                      </section>   
+                      </section>
       </div>
+
+
       </main>
-      
+
     );
   }

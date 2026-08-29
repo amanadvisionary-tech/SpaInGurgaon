@@ -344,7 +344,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
       </h2>
 
       <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-        Spa in Gurgaon has been providing professional and relaxing B2B massage in Gurgaon to help you to get out of stress, revive and re-connect with your inner self. Our trained female therapists offer soft and intimate body to body touch therapies that will help to relax your body, calm your mind and incite your energy.
+        Spa in Gurgaon has been providing professional and relaxing B2B massage in <a href="/spa-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">Gurgaon</a> to help you to get out of stress, revive and re-connect with your inner self. Our trained female therapists offer soft and intimate body to body touch therapies that will help to relax your body, calm your mind and incite your energy.
       </p>
 
       <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
@@ -681,7 +681,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                       <div className="mt-4 bg-white/10 rounded-lg p-3">
                         <div className="text-xs uppercase opacity-90">Featured partners</div>
                         <div className="mt-2 flex flex-wrap gap-2">
-                          <span className="text-xs bg-white/20 px-2 py-1 rounded">JW Marriott Aerocity</span>
+                          <span className="text-xs bg-white/20 px-2 py-1 rounded">JW Marriott <a href="/spa-in-aerocity" className="text-white underline hover:text-emerald-100">Aerocity</a></span>
                           <span className="text-xs bg-white/20 px-2 py-1 rounded">The Suryaa</span>
                           <span className="text-xs bg-white/20 px-2 py-1 rounded">The Park</span>
                         </div>
@@ -700,7 +700,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                       Join Our Telegram
                     </a>
       
-                    <div className="mt-4 text-xs opacity-90">Or call us at <span className="font-semibold">+91 8448499173</span> — Priority bookings & corporate queries</div>
+                    <div className="mt-4 text-xs opacity-90">Or <a href="/contacts" className="text-white underline hover:text-emerald-100">contact us</a> at <span className="font-semibold">+91 8448499173</span> — Priority bookings & corporate queries</div>
                   </div>
                 </motion.div>
               </div>
@@ -923,14 +923,14 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                      <div>
                                                        <h3 className="text-2xl font-bold text-emerald-800 font-serif mb-2">Expert Therapists</h3>
                                                        <p className="text-emerald-700">
-                                                         Our therapists are trained in traditional Ayurvedic techniques with over 10 years of experience in therapeutic massage.
+                                                         <a href="/about-us" className="text-emerald-800 font-medium underline hover:text-emerald-900">Our therapists</a> are trained in traditional Ayurvedic techniques with over 10 years of experience in therapeutic massage.
                                                        </p>
                                                      </div>
                                                    </div>
                                                    
                                                    <p className="text-gray-700 mb-6">
                                                      Oil therapy is a traditional wellness practice that uses warm, herb-infused oils tailored to your skin type and body condition. 
-                                                     This technique not only moisturizes and nourishes your skin but also stimulates deep tissue relaxation.
+                                                     This technique not only moisturizes and nourishes your skin but also stimulates <a href="/deep-tissue-massage-benefits" className="text-emerald-700 font-medium underline hover:text-emerald-800">deep tissue</a> relaxation.
                                                      The calming aroma of essential oils adds a therapeutic layer, relieving stress and enhancing your overall sense of well-being. Regular sessions can improve flexibility, deepen sleep, and support emotional stability.
                                                    </p>
                                                    
@@ -1360,7 +1360,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.2 }}
                   >
-                    The best-value packages that will leave you with a premium body-to-body relaxation, and will not compromise on quality or comfort.
+                    The best-value <a href="/spa-price-in-delhi-ncr" className="text-emerald-700 font-medium underline hover:text-emerald-800">packages</a> that will leave you with a premium body-to-body relaxation, and will not compromise on quality or comfort.
                   </motion.p>
                 </div>
         
@@ -1688,10 +1688,11 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
              />
            </motion.div>
          </div>
-       </section>       
+       </section>
                {/* /// */}
 
  {/* <WhatsappFloat /> */}
+
       </main>
     );
   }

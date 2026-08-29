@@ -6,10 +6,25 @@ import { FaPhoneAlt, FaMapMarkerAlt, FaEnvelope } from "react-icons/fa";
 export default function Footer() {
   return (
     <footer className="bg-black text-gray-400 py-20 px-6 border-t border-white/10">
-      <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-12 mb-16">
+      <div className="max-w-7xl mx-auto grid sm:grid-cols-2 lg:grid-cols-5 gap-12 mb-16">
         <div>
           <h3 className="text-2xl font-serif text-white mb-6">SPA IN <span className="text-[#D4AF37]">GURGAON</span></h3>
           <p className="text-sm leading-relaxed mb-6">Luxury spa experiences for complete rejuvenation in the heart of Gurgaon.</p>
+          {/* <ul className="space-y-2 text-sm">
+            <li><Link href="/about-us" className="hover:text-[#D4AF37] transition-colors">About Us</Link></li>
+            <li><Link href="/blog" className="hover:text-[#D4AF37] transition-colors">Spa & Wellness Blog</Link></li>
+            <li><Link href="/spa-therapist-jobs-in-gurgaon" className="hover:text-[#D4AF37] transition-colors">We Are Hiring</Link></li>
+          </ul> */}
+        </div>
+        <div>
+          <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Our Services</h4>
+          <ul className="space-y-4 text-sm">
+            <li><Link href="/massage-service-in-gurgaon" className="hover:text-[#D4AF37] transition-colors">All Massage Services</Link></li>
+            <li><Link href="/full-body-massage-in-gurgaon" className="hover:text-[#D4AF37] transition-colors">Full Body Massage</Link></li>
+            <li><Link href="/sandwich-massage-in-gurgaon" className="hover:text-[#D4AF37] transition-colors">Sandwich Massage</Link></li>
+            <li><Link href="/couples-massage-in-gurgaon" className="hover:text-[#D4AF37] transition-colors">Couples Massage</Link></li>
+            <li><Link href="/spa-price-in-delhi-ncr" className="hover:text-[#D4AF37] transition-colors">Spa Price List</Link></li>
+          </ul>
         </div>
         <div>
           <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">5-Star Hotel Spa Service</h4>
@@ -30,11 +45,11 @@ export default function Footer() {
             <li><Link href="/spa-in-mg-road" className="hover:text-[#D4AF37] transition-colors">MG Road</Link></li>
             <li><Link href="/spa-in-golf-course-road" className="hover:text-[#D4AF37] transition-colors">Golf Course Road</Link></li>
             <li><Link href="/spa-in-sector-29" className="hover:text-[#D4AF37] transition-colors">Sector 29</Link></li>
-            <li><Link href="/spa-in-mahipalpur" className="hover:text-[#D4AF37] transition-colors">Mahipalpur</Link></li>
-            <li><Link href="/spa-in-aerocity" className="hover:text-[#D4AF37] transition-colors">Aerocity</Link></li>
-            <li><Link href="/spa-in-connaught-place" className="hover:text-[#D4AF37] transition-colors">Connaught Place</Link></li>
-            <li><Link href="/spa-in-lajpat-nagar" className="hover:text-[#D4AF37] transition-colors">Lajpat Nagar</Link></li>
-            <li><Link href="/spa-in-noida" className="hover:text-[#D4AF37] transition-colors">Noida</Link></li>
+            {/* <li><Link href="/spa-in-mahipalpur" className="hover:text-[#D4AF37] transition-colors">Mahipalpur</Link></li> */}
+            {/* <li><Link href="/spa-in-aerocity" className="hover:text-[#D4AF37] transition-colors">Aerocity</Link></li> */}
+            {/* <li><Link href="/spa-in-connaught-place" className="hover:text-[#D4AF37] transition-colors">Connaught Place</Link></li> */}
+            {/* <li><Link href="/spa-in-lajpat-nagar" className="hover:text-[#D4AF37] transition-colors">Lajpat Nagar</Link></li> */}
+            {/* <li><Link href="/spa-in-noida" className="hover:text-[#D4AF37] transition-colors">Noida</Link></li> */}
           </ul>
         </div>
         <div>

@@ -193,12 +193,21 @@ icon: <Smile className="w-6 h-6 text-emerald-800" />,
   const services = [
     {
       title: "Sandwich Massage",
-      description: "Experience the relaxing feeling of the Sandwich Massage that will relieve you, boost your body, and find comfort in a relaxing, safe, and calm environment.",
+      description: (
+        <>
+          Experience the relaxing feeling of the{" "}
+          <a href="/sandwich-massage-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">Sandwich Massage</a> that will relieve you, boost your body, and find comfort in a relaxing, safe, and calm environment.
+        </>
+      ),
       icon: "💆‍♂️",
     },
     {
       title: "Couple Massage",
-      description: "Couple Massage is a moment to be spent together by the couple. Perfect for partners, this relaxing session includes soft oils, matching techniques, and a natural mood to create lasting memories.",
+      description: (
+        <>
+          <a href="/couples-massage-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">Couple Massage</a> is a moment to be spent together by the couple. Perfect for partners, this relaxing session includes soft oils, matching techniques, and a natural mood to create lasting memories.
+        </>
+      ),
       icon: "👫",
     },
     // {
@@ -206,15 +215,24 @@ icon: <Smile className="w-6 h-6 text-emerald-800" />,
     //   description: "With stretches, pressure points, and slow movements, Thai massage helps improve flexibility and restores natural body energy. It is an effective therapy that combines healing and relaxation.",
     //   icon: "💆‍♀️🧘‍♀️",
     // },
-    
+
     {
       title: "Full Body Massage",
-      description: "Our Full Body Massage assists in relaxing the entire body. Smooth, steady movements and natural oils are employed by therapists to relax your whole body and renew your energy.",
+      description: (
+        <>
+          Our{" "}
+          <a href="/full-body-massage-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">Full Body Massage</a> assists in relaxing the entire body. Smooth, steady movements and natural oils are employed by therapists to relax your whole body and renew your energy.
+        </>
+      ),
       icon: "🌸",
     },
     {
       title: "B2B Massage",
-      description: "B2B massage at spa in Gurgaon is a complete relaxation of the body using relaxing strokes and touch by experienced professionals in Noida.",
+      description: (
+        <>
+          <a href="/b2b-massage-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">B2B massage</a> at spa in Gurgaon is a complete relaxation of the body using relaxing strokes and touch by experienced professionals in Noida.
+        </>
+      ),
       icon: "🪨",
     },
     {
@@ -332,8 +350,11 @@ const SERVICES_RIGHT = [
     id: 'top',
     title: 'Privacy & Discretion',
     subtitle: 'Sustainable + award-winning',
-    desc:
-      "Every session is private and quiet. Our therapists respect your comfort and ensure calm surroundings throughout the service.",
+    desc: (
+      <>
+        Every session is private and quiet. <a href="/about-us" className="text-emerald-700 font-medium underline hover:text-emerald-800">Our therapists</a> respect your comfort and ensure calm surroundings throughout the service.
+      </>
+    ),
     chips: ['Zero-Waste', 'Organic Linens', 'Water Recycling', 'Carbon Offsetting'],
     time: '60-120 min',
     price: 'From ₹2,500',
@@ -1075,7 +1096,7 @@ const topSteps = [
             {/* CTAs */}
             <div className="mt-7 flex flex-col gap-3 sm:flex-row">
               <a
-                href="/booking"
+                href="/contacts"
                 className="inline-flex items-center justify-center rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold text-white shadow transition hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-300"
               >
                 Book Your Session
@@ -1166,7 +1187,7 @@ const topSteps = [
           className="mt-10 text-center"
         >
           <a
-            href="/booking"
+            href="/contacts"
             className="inline-flex items-center gap-3 rounded-full bg-emerald-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-200"
           >
             Book a Personalized Journey
@@ -1257,7 +1278,7 @@ const topSteps = [
             {/* CTA */}
             <div className="mt-7 flex flex-col gap-3 sm:flex-row">
               <a
-                href="/booking"
+                href="/contacts"
                 className="inline-flex items-center justify-center rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold text-white shadow transition hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-300"
               >
                 Book Now
@@ -1308,7 +1329,7 @@ const topSteps = [
           className="mt-10 text-center"
         >
           <a
-            href="/booking"
+            href="/contacts"
             className="inline-flex items-center gap-3 rounded-full bg-emerald-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-200"
           >
             Book a Personalized Journey
@@ -1492,7 +1513,7 @@ const topSteps = [
           transition={{ duration: 0.6, delay: 0.08 }}
         >
           <a
-            href="/booking"
+            href="/contacts"
             className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white font-semibold shadow-lg focus:outline-none focus:ring-2 focus:ring-emerald-200"
           >
             Book a Personalized Journey
@@ -1674,7 +1695,7 @@ const topSteps = [
                   viewport={{ once: true }}
                   transition={{ delay: 0.2 }}
                 >
-                Enjoy premium spa services in Noida at fair prices with packages built for comfort and quality in leading hotels.
+                Enjoy premium spa services in Noida at fair prices with <a href="/spa-price-in-delhi-ncr" className="text-emerald-700 font-medium underline hover:text-emerald-800">packages</a> built for comfort and quality in leading hotels.
                 </motion.p>
                 <motion.div
                    className="flex justify-center mt-10"
@@ -2010,7 +2031,7 @@ const topSteps = [
       />
     </motion.div>
   </div>
-</section>       
+</section>
         {/* /// */}
     </div>
     </main>

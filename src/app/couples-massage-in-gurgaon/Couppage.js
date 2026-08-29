@@ -342,7 +342,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
       </h2>
 
       <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-        Spa in Gurgaon provides a special couple massage in Gurgaon that helps partners feel calm and close. Our trained therapists know how to make your time together peaceful and meaningful. You both get to lie side by side while expert hands work to remove stress from your bodies. The room is quiet and comfortable. We use methods that match your needs. This service is built for two people who want to relax at the same time in the same space.
+        Spa in Gurgaon provides a special couple massage in <a href="/spa-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">Gurgaon</a> that helps partners feel calm and close. Our trained therapists know how to make your time together peaceful and meaningful. You both get to lie side by side while expert hands work to remove stress from your bodies. The room is quiet and comfortable. We use methods that match your needs. This service is built for two people who want to relax at the same time in the same space.
       </p>
 
       <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
@@ -679,7 +679,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                       <div className="mt-4 bg-white/10 rounded-lg p-3">
                         <div className="text-xs uppercase opacity-90">Featured partners</div>
                         <div className="mt-2 flex flex-wrap gap-2">
-                          <span className="text-xs bg-white/20 px-2 py-1 rounded">JW Marriott Aerocity</span>
+                          <span className="text-xs bg-white/20 px-2 py-1 rounded">JW Marriott <a href="/spa-in-aerocity" className="text-white underline hover:text-emerald-100">Aerocity</a></span>
                           <span className="text-xs bg-white/20 px-2 py-1 rounded">The Suryaa</span>
                           <span className="text-xs bg-white/20 px-2 py-1 rounded">The Park</span>
                         </div>
@@ -698,7 +698,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                       Join Our Telegram
                     </a>
       
-                    <div className="mt-4 text-xs opacity-90">Or call us at <span className="font-semibold">+91 8448499173</span> — Priority bookings & corporate queries</div>
+                    <div className="mt-4 text-xs opacity-90">Or <a href="/contacts" className="text-white underline hover:text-emerald-100">contact us</a> at <span className="font-semibold">+91 8448499173</span> — Priority bookings & corporate queries</div>
                   </div>
                 </motion.div>
               </div>
@@ -921,14 +921,14 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                      <div>
                                                        <h3 className="text-2xl font-bold text-emerald-800 font-serif mb-2">Expert Therapists</h3>
                                                        <p className="text-emerald-700">
-                                                         Our therapists are trained in traditional Ayurvedic techniques with over 10 years of experience in therapeutic massage.
+                                                         <a href="/about-us" className="text-emerald-800 font-medium underline hover:text-emerald-900">Our therapists</a> are trained in traditional Ayurvedic techniques with over 10 years of experience in therapeutic massage.
                                                        </p>
                                                      </div>
                                                    </div>
                                                    
                                                    <p className="text-gray-700 mb-6">
                                                      Oil therapy is a traditional wellness practice that uses warm, herb-infused oils tailored to your skin type and body condition. 
-                                                     This technique not only moisturizes and nourishes your skin but also stimulates deep tissue relaxation.
+                                                     This technique not only moisturizes and nourishes your skin but also stimulates <a href="/deep-tissue-massage-benefits" className="text-emerald-700 font-medium underline hover:text-emerald-800">deep tissue</a> relaxation.
                                                      The calming aroma of essential oils adds a therapeutic layer, relieving stress and enhancing your overall sense of well-being. Regular sessions can improve flexibility, deepen sleep, and support emotional stability.
                                                    </p>
                                                    
@@ -1303,7 +1303,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                       <div className="bg-white p-8 rounded-2xl shadow-sm">
                         <span className="font-semibold text-emerald-800 mb-4">Affordable Couple Massage Packages</span>
                         <p className="text-gray-700 mb-6">
-                          A good massage does not have to cost too much. Spa in Gurgaon has couple massage packages in Gurgaon that start at ₹1999. You get trained professionals who know what they are doing. We use quality oils that help your skin. The room is set up to feel special. Nothing is skipped to save money. You enjoy top-level wellness that matches what you can spend.                 
+                          A good massage does not have to cost too much. Spa in Gurgaon has couple massage <a href="/spa-price-in-delhi-ncr" className="text-emerald-700 font-medium underline hover:text-emerald-800">packages</a> in Gurgaon that start at ₹1999. You get trained professionals who know what they are doing. We use quality oils that help your skin. The room is set up to feel special. Nothing is skipped to save money. You enjoy top-level wellness that matches what you can spend.                 
                         </p>
                         <span className="font-semibold text-emerald-800 mb-4">24+ Accessible Spa Outlets</span>
                         <p>
@@ -1686,10 +1686,11 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
              />
            </motion.div>
          </div>
-       </section>       
+       </section>
                {/* /// */}
 
  {/* <WhatsappFloat /> */}
+
       </main>
     );
   }

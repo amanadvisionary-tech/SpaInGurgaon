@@ -196,7 +196,7 @@ const container = {
           icon: <FaSpa className="text-teal-600" />
         },
         {
-          question: "What is the cost of a Full Body Massage?",
+          question: "What is the cost of a <a href=\"/full-body-massage-in-gurgaon\" class=\"text-emerald-700 font-medium underline hover:text-emerald-800\">Full Body Massage</a>?",
           answer: "The cost varies based on the treatment, with a special ₹1999 offer for first-time visitors.",
           icon: <FaHandSparkles className="text-teal-600" />
         },   
@@ -341,7 +341,7 @@ Experience a relaxing sandwich massage in Gurgaon with two trained therapists wo
       </h2>
 
       <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-Spa in Gurgaon offers a relaxing sandwich massage experience with two professional therapists, customized sessions, comfortable ambience, and personalized care.      </p>
+Spa in <a href="/spa-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">Gurgaon</a> offers a relaxing sandwich massage experience with two professional therapists, customized sessions, comfortable ambience, and personalized care.      </p>
 
       <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
         <div className="flex items-center space-x-3">
@@ -485,7 +485,7 @@ Spa in Gurgaon offers a relaxing sandwich massage experience with two profession
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.4, duration: 0.5 }}
                       >
-At Spa in Gurgaon, we offer a relaxing sandwich massage experience designed for comfort and complete relaxation. Our trained therapists work together using coordinated massage techniques to help you unwind and release everyday body tension. Each session is personalized according to your preferred pressure and comfort level, giving you a soothing and refreshing spa experience in Gurgaon.   
+At Spa in Gurgaon, we offer a relaxing sandwich massage experience designed for comfort and complete relaxation. <a href="/about-us" className="text-emerald-700 font-medium underline hover:text-emerald-800">Our trained therapists</a> work together using coordinated massage techniques to help you unwind and release everyday body tension. Each session is personalized according to your preferred pressure and comfort level, giving you a soothing and refreshing spa experience in Gurgaon.   
                    </motion.p>
                       
                       <motion.div
@@ -543,6 +543,11 @@ At Spa in Gurgaon, we offer a relaxing sandwich massage experience designed for 
                                    <p className="text-emerald-800 mb-6">
                                      {service.description}
                                    </p>
+                                   {service.title === "Deep Tissue Pressure Therapy" && (
+                                     <a href="/difference-between-sandwich-massage-and-deep-tissue-massage" className="text-emerald-700 font-medium underline hover:text-emerald-800 text-sm">
+                                       How is this different from a Deep Tissue Massage? →
+                                     </a>
+                                   )}
                                  </div>
                                  
                                  <div>
@@ -677,7 +682,7 @@ At Spa in Gurgaon, we offer a relaxing sandwich massage experience designed for 
                       <div className="mt-4 bg-white/10 rounded-lg p-3">
                         <div className="text-xs uppercase opacity-90">Featured partners</div>
                         <div className="mt-2 flex flex-wrap gap-2">
-                          <span className="text-xs bg-white/20 px-2 py-1 rounded">JW Marriott Aerocity</span>
+                          <span className="text-xs bg-white/20 px-2 py-1 rounded">JW Marriott <a href="/spa-in-aerocity" className="text-white underline hover:text-emerald-100 font-semibold">Aerocity</a></span>
                           <span className="text-xs bg-white/20 px-2 py-1 rounded">The Suryaa</span>
                           <span className="text-xs bg-white/20 px-2 py-1 rounded">The Park</span>
                         </div>
@@ -1217,7 +1222,7 @@ At Spa in Gurgaon, we provide a relaxing sandwich massage experience with traine
                           </ul> */}
                           <h3 className="text-xl font-semibold text-emerald-800 mb-4">Affordable Pricing</h3>
                           <p className="text-gray-700 mb-6">
-                             Spa in Gurgaon will allow you to have a fancy sandwich massage in Gurgaon without incurring a lot of money. Sessions begin at just ₹1999. You receive superb services at affordable prices. All our packages are very attractive to you. You get deep relaxation and muscle relief that feels professional. Our prices stay clear and simple. No extra charges surprise you later. We think everyone should be able to feel this good. Spa in Gurgaon makes luxury something you can actually afford.
+                             Spa in Gurgaon will allow you to have a fancy sandwich massage in Gurgaon without incurring a lot of money. Sessions begin at just ₹1999. You receive superb services at affordable prices. All our <a href="/spa-price-in-delhi-ncr" className="text-emerald-700 font-medium underline hover:text-emerald-800">packages</a> are very attractive to you. You get deep relaxation and muscle relief that feels professional. Our prices stay clear and simple. No extra charges surprise you later. We think everyone should be able to feel this good. Spa in Gurgaon makes luxury something you can actually afford.
                             </p>
                       </div>
                       
@@ -1241,7 +1246,7 @@ At Spa in Gurgaon, we provide a relaxing sandwich massage experience with traine
                         </p>
                         <span className="font-semibold text-emerald-800 mb-4">24+ Outlets Across Gurgaon</span>
                         <p>
-                         Spa in Gurgaon has more than 24 places around the city. It is easy to access a sandwich massage anywhere. All places are clean and serene. The employees treat you with the same special attention everywhere. You may choose spa venues, stay within the hotel or at home. The quality never changes. You are always relaxed and taken care of. We bring wellness to your fingertips wherever you are.
+                         Spa in Gurgaon has more than 24 places around the city. It is easy to access a sandwich massage anywhere. All places are clean and serene. The employees treat you with the same special attention everywhere. You may choose spa venues, stay within <a href="/b2b-massage-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">the hotel</a> or at home. The quality never changes. You are always relaxed and taken care of. We bring wellness to your fingertips wherever you are.
                         </p>
                         {/* <p>
                           Perfect for individuals suffering from stress, muscle pain, or hormonal imbalance, this massage harmonizes body rhythms and enhances immunity. The continuous motion and warm oil offer a meditative experience.
@@ -1483,7 +1488,7 @@ At Spa in Gurgaon, we provide a relaxing sandwich massage experience with traine
     </motion.h2>
 
     <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-2xl mx-auto mb-8 md:mb-10 leading-relaxed">
-      Treat yourself to our premium Swedish massage – a journey to complete physical and mental rejuvenation. 
+      Treat yourself to our premium <a href="/sandwich-massage-vs-swedish-massage" className="text-emerald-700 font-medium underline hover:text-emerald-800">Swedish massage</a> – a journey to complete physical and mental rejuvenation.
       Book now and receive a complimentary aromatherapy session.
     </p>
 
@@ -1569,7 +1574,7 @@ At Spa in Gurgaon, we provide a relaxing sandwich massage experience with traine
                      <div className="flex items-start space-x-4">
                        <div className="mt-1 p-2 bg-emerald-50 rounded-lg">{faq.icon}</div>
                        <h3 className="text-lg md:text-xl font-medium text-emerald-900 group-hover:text-emerald-700 transition-colors">
-                         {faq.question}
+                         <span dangerouslySetInnerHTML={{ __html: faq.question }} />
                        </h3>
                      </div>
                      <div className="ml-4 flex-shrink-0">
@@ -1624,6 +1629,8 @@ At Spa in Gurgaon, we provide a relaxing sandwich massage experience with traine
                {/* /// */}
 
  {/* <WhatsappFloat /> */}
+
+
       </main>
     );
   }

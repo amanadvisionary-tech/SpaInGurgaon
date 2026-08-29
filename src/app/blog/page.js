@@ -130,6 +130,7 @@ export default function SpaBlogPage() {
           </a>
         </div>
       </div>
+
     </section>
   );
 }

@@ -180,12 +180,21 @@ export default function Lajpatnagar() {
   const services = [
     {
       title: "B2B Massage",
-      description: "B2B Massage in Lajpatnagar, Gurgaon, spa offers both soft, sensual feeling with professional care, which causes soothing relaxation and total stress release.",
+      description: (
+        <>
+          <a href="/b2b-massage-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">B2B Massage</a> in Lajpatnagar, Gurgaon, spa offers both soft, sensual feeling with professional care, which causes soothing relaxation and total stress release.
+        </>
+      ),
       icon: "💆‍♂️",
     },
     {
       title: "Couples Massage",
-      description: "Reunite and relax as a couple. Our Couple Massage combines synchronized movements and aromatherapy to cultivate shared peace and emotional unity.",
+      description: (
+        <>
+          Reunite and relax as a couple. Our{" "}
+          <a href="/couples-massage-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">Couple Massage</a> combines synchronized movements and aromatherapy to cultivate shared peace and emotional unity.
+        </>
+      ),
       icon: "👫",
     },
     // {
@@ -475,7 +484,7 @@ const topSteps = [
           </h2>
 
           <p className="mx-auto mt-4 max-w-xl leading-relaxed text-gray-600 lg:mx-0">
-           Stress-free stay at Spa in Gurgaon - the most luxurious spa in Lajpatnagar. Ancient healing practices are tailored to modern wellness by our therapists, who provide exceptionally rejuvenating treatments that relieve fatigue, help relieve tension, and find an inner balance. You want a full body escape, or you want to be indulged by the aromatherapy you are in every session is designed to help you relax, refresh and re-awaken your senses.
+           Stress-free stay at Spa in Gurgaon - the most luxurious spa in Lajpatnagar. Ancient healing practices are tailored to modern wellness by <a href="/about-us" className="text-emerald-700 font-medium underline hover:text-emerald-800">our therapists</a>, who provide exceptionally rejuvenating treatments that relieve fatigue, help relieve tension, and find an inner balance. You want a <a href="/full-body-massage-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">full body</a> escape, or you want to be indulged by the aromatherapy you are in every session is designed to help you relax, refresh and re-awaken your senses.
           </p>
 
           {/* Service area chips */}
@@ -619,7 +628,7 @@ const topSteps = [
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.4, duration: 0.5 }}
                     >
-                     Spa in Gurgaon is the premium provider of massage services to the most elite hotels in Connaught place. The services provided by our therapists are of the standard of professional hotel room spa services in which the comfort, discretion, and tranquility are guaranteed to all guests throughout the contact point to the very last second.
+                     Spa in Gurgaon is the premium provider of massage services to the most elite hotels in <a href="/spa-in-connaught-place" className="text-emerald-700 font-medium underline hover:text-emerald-800">Connaught place</a>. The services provided by our therapists are of the standard of professional hotel room spa services in which the comfort, discretion, and tranquility are guaranteed to all guests throughout the contact point to the very last second.
                     </motion.p>
                     
                     <motion.div
@@ -1062,7 +1071,7 @@ const topSteps = [
             {/* CTAs */}
             <div className="mt-7 flex flex-col gap-3 sm:flex-row">
               <a
-                href="/booking"
+                href="/contacts"
                 className="inline-flex items-center justify-center rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold text-white shadow transition hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-300"
               >
                 Book Your Session
@@ -1153,7 +1162,7 @@ const topSteps = [
           className="mt-10 text-center"
         >
           <a
-            href="/booking"
+            href="/contacts"
             className="inline-flex items-center gap-3 rounded-full bg-emerald-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-200"
           >
             Book a Personalized Journey
@@ -1244,7 +1253,7 @@ const topSteps = [
             {/* CTA */}
             <div className="mt-7 flex flex-col gap-3 sm:flex-row">
               <a
-                href="/booking"
+                href="/contacts"
                 className="inline-flex items-center justify-center rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold text-white shadow transition hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-300"
               >
                 Book Now
@@ -1295,7 +1304,7 @@ const topSteps = [
           className="mt-10 text-center"
         >
           <a
-            href="/booking"
+            href="/contacts"
             className="inline-flex items-center gap-3 rounded-full bg-emerald-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-200"
           >
             Book a Personalized Journey
@@ -1479,7 +1488,7 @@ const topSteps = [
           transition={{ duration: 0.6, delay: 0.08 }}
         >
           <a
-            href="/booking"
+            href="/contacts"
             className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white font-semibold shadow-lg focus:outline-none focus:ring-2 focus:ring-emerald-200"
           >
             Book a Personalized Journey
@@ -1660,7 +1669,7 @@ const topSteps = [
                   viewport={{ once: true }}
                   transition={{ delay: 0.2 }}
                 >
-                  Spa at Gurgaon provides luxury packages of massage at competitive prices of 1999 plus guaranteeing high quality relaxation, licensed care, and comfort in the center of connaught place.
+                  Spa at Gurgaon provides luxury <a href="/spa-price-in-delhi-ncr" className="text-emerald-700 font-medium underline hover:text-emerald-800">packages</a> of massage at competitive prices of 1999 plus guaranteeing high quality relaxation, licensed care, and comfort in the center of connaught place.
                 </motion.p>
                 <motion.div
                    className="flex justify-center mt-10"
@@ -1996,10 +2005,10 @@ const topSteps = [
       />
     </motion.div>
   </div>
-</section>       
+</section>
         {/* /// */}
     </div>
     </main>
-    
+
   );
 }

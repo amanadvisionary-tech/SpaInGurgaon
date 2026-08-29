@@ -177,12 +177,12 @@ icon: <Smile className="w-6 h-6 text-emerald-800" />,
   const services = [
     {
       title: "Sandwich Massage",
-      description: "Experience rhythmic contact and serious relaxation with our Sandwich Massage. This one balances your energy and brings peaceful calm, while it refreshes your body and gets rid of every bit of tension you're carrying.",
+      description: <>Experience rhythmic contact and serious relaxation with our <a href="/sandwich-massage-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">Sandwich Massage</a>. This one balances your energy and brings peaceful calm, while it refreshes your body and gets rid of every bit of tension you're carrying.</>,
       icon: "💆‍♂️",
     },
     {
       title: "Couple Massage",
-      description: "Relax with your partner in Cyber City Couple Massage. It is ideal to couples who want to have some time together. The treatment is a combination of the same techniques and scented oils that will form a memorable spa time together.",
+      description: <>Relax with your partner in Cyber City <a href="/couples-massage-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">Couple Massage</a>. It is ideal to couples who want to have some time together. The treatment is a combination of the same techniques and scented oils that will form a memorable spa time together.</>,
       icon: "👫",
     },
     
@@ -467,7 +467,7 @@ const topSteps = [
           </h2>
 
           <p className="mx-auto mt-4 max-w-xl leading-relaxed text-gray-600 lg:mx-0">
-            You know that feeling when the city just wears you down? That is where we come in. Spa in Gurgaon brings its trusted massage treatments right to Cyber City. We mix soothing touch, nice-smelling oils, and real relaxation into something that actually makes a difference. Whether you are here for work or just passing through, our hotel spa services take away the stress. You walk out feeling better, more centered, and actually refreshed.
+            You know that feeling when the city just wears you down? That is where we come in. Spa in Gurgaon brings its trusted massage treatments right to Cyber City. We mix soothing touch, nice-smelling oils, and real relaxation into something that actually makes a difference. Whether you are here for work or just passing through, our <a href="/b2b-massage-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">hotel spa services</a> take away the stress. You walk out feeling better, more centered, and actually refreshed.
           </p>
 
           {/* Service area chips */}
@@ -611,7 +611,7 @@ const topSteps = [
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.4, duration: 0.5 }}
                     >
-                     We bring personalized spa treatments to the best 5-star hotels in Cyber City. Our professional therapists come straight to your hotel room with premium massage services. You get total relaxation without leaving your private space.
+                     We bring personalized spa treatments to the best 5-star hotels in Cyber City. Our professional therapists come straight to your hotel room with <a href="/massage-service-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">premium massage services</a>. You get total relaxation without leaving your private space.
                     </motion.p>
                     
                     <motion.div
@@ -707,7 +707,7 @@ const topSteps = [
           </motion.h2>
 
           <p className="mb-6 text-lg text-gray-700">
-            The spa in Gurgaon is the place where individuals rely on to get luxury spa in Cyber City. Each treatment shows the weight we assign to excellence, peace, and privacy. The certified therapists develop a well-chosen combination of methods. Whether it is a gentle B2B and full body massage or aromatherapy and couple, it all works to heal your body, mind, and soul. Our standards of cleanliness, privacy, and comfort are extremely high. Perhaps you are a business traveller who is exhausted after a lengthy day, or perhaps you are a local businessperson who requires ultimate relaxation. In any case, Spa in Gurgaon will make every single moment special, dazzling, and fully refreshed.
+            The spa in Gurgaon is the place where individuals rely on to get luxury spa in Cyber City. Each treatment shows the weight we assign to excellence, peace, and privacy. The certified therapists develop a well-chosen combination of methods. Whether it is a gentle B2B and <a href="/full-body-massage-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">full body massage</a> or aromatherapy and couple, it all works to heal your body, mind, and soul. Our standards of cleanliness, privacy, and comfort are extremely high. Perhaps you are a business traveller who is exhausted after a lengthy day, or perhaps you are a local businessperson who requires ultimate relaxation. In any case, Spa in Gurgaon will make every single moment special, dazzling, and fully refreshed.
           </p>
 
           {/* Feature list */}
@@ -997,7 +997,7 @@ const topSteps = [
           </h2>
           <div className="mx-auto mt-4 h-1 w-24 rounded-full bg-emerald-600" />
           <p className="mx-auto mt-4 max-w-3xl text-gray-600">
-            Ease into serenity at our Gurgaon Cyber City outlet. Thoughtfully curated rituals, discreet in-room options, and
+            Ease into serenity at our <a href="/spa-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">Gurgaon</a> Cyber City outlet. Thoughtfully curated rituals, discreet in-room options, and
             hotel-partner exclusives—so you enjoy deep relaxation without leaving your itinerary.
           </p>
         </motion.header>
@@ -1045,7 +1045,7 @@ const topSteps = [
             {/* CTAs */}
             <div className="mt-7 flex flex-col gap-3 sm:flex-row">
               <a
-                href="/booking"
+                href="/contacts"
                 className="inline-flex items-center justify-center rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold text-white shadow transition hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-300"
               >
                 Book Your Session
@@ -1136,7 +1136,7 @@ const topSteps = [
           className="mt-10 text-center"
         >
           <a
-            href="/booking"
+            href="/contacts"
             className="inline-flex items-center gap-3 rounded-full bg-emerald-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-200"
           >
             Book a Personalized Journey
@@ -1227,7 +1227,7 @@ const topSteps = [
             {/* CTA */}
             <div className="mt-7 flex flex-col gap-3 sm:flex-row">
               <a
-                href="/booking"
+                href="/contacts"
                 className="inline-flex items-center justify-center rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold text-white shadow transition hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-300"
               >
                 Book Now
@@ -1278,7 +1278,7 @@ const topSteps = [
           className="mt-10 text-center"
         >
           <a
-            href="/booking"
+            href="/contacts"
             className="inline-flex items-center gap-3 rounded-full bg-emerald-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-200"
           >
             Book a Personalized Journey
@@ -1462,7 +1462,7 @@ const topSteps = [
           transition={{ duration: 0.6, delay: 0.08 }}
         >
           <a
-            href="/booking"
+            href="/contacts"
             className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white font-semibold shadow-lg focus:outline-none focus:ring-2 focus:ring-emerald-200"
           >
             Book a Personalized Journey
@@ -1567,7 +1567,7 @@ const topSteps = [
           </h2>
 
           <p className="text-center text-gray-600 mb-12 max-w-3xl mx-auto">
-            Enjoy luxurious in-room spa treatments with expert therapists who bring relaxation, balance, and complete comfort straight to your hotel suite.
+            Enjoy luxurious in-room spa treatments with <a href="/about-us" className="text-emerald-700 font-medium underline hover:text-emerald-800">expert therapists</a> who bring relaxation, balance, and complete comfort straight to your hotel suite.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -1644,7 +1644,7 @@ const topSteps = [
                   viewport={{ once: true }}
                   transition={{ delay: 0.2 }}
                 >
-                  Affordable luxury packages customized for every relaxation need and hotel experience.
+                  Affordable luxury <a href="/spa-price-in-delhi-ncr" className="text-emerald-700 font-medium underline hover:text-emerald-800">packages</a> customized for every relaxation need and hotel experience.
                 </motion.p>
                 <motion.div
                    className="flex justify-center mt-10"
@@ -1911,10 +1911,10 @@ const topSteps = [
       />
     </motion.div>
   </div>
-</section>       
+</section>
         {/* /// */}
     </div>
     </main>
-    
+
   );
 }

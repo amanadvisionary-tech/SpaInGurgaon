@@ -172,7 +172,7 @@ export default function GolfCourseRoad() {
     const services = [
         {
             title: "Sandwich Massage",
-            description: "Experience rhythmic contact and deep relaxation with our Sandwich Massage on Golf Course Road. This technique balances your energy, brings peaceful calm, and refreshes your body while releasing all built-up tension.",
+            description: <>Experience rhythmic contact and deep relaxation with our <a href="/sandwich-massage-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">Sandwich Massage</a> on Golf Course Road. This technique balances your energy, brings peaceful calm, and refreshes your body while releasing all built-up tension.</>,
             icon: "💆‍♂️",
             href: "/sandwich-massage-in-gurgaon"
         },
@@ -465,7 +465,7 @@ export default function GolfCourseRoad() {
                             </h2>
 
                             <p className="mx-auto mt-4 max-w-xl leading-relaxed text-gray-600 lg:mx-0 text-lg">
-                                Feeling exhausted from back-to-back meetings or city traffic? We bring professional, top-tier massage therapies directly to your hotel on Golf Course Road, Gurgaon. Our certified therapists use soothing aromatic oils and tailored massage techniques to melt away your stress. Whether you need a deep tissue massage for muscle pain or a relaxing full-body spa session, we ensure you step out feeling completely refreshed and re-energized.
+                                Feeling exhausted from back-to-back meetings or city traffic? We bring professional, top-tier massage therapies directly to your hotel on Golf Course Road, Gurgaon. Our <a href="/about-us" className="text-emerald-700 font-medium underline hover:text-emerald-800">certified therapists</a> use soothing aromatic oils and tailored massage techniques to melt away your stress. Whether you need a deep tissue massage for muscle pain or a relaxing full-body spa session, we ensure you step out feeling completely refreshed and re-energized.
                             </p>
 
                             {/* Service area chips */}
@@ -617,7 +617,7 @@ export default function GolfCourseRoad() {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ delay: 0.4, duration: 0.5 }}
                             >
-                                We bring personalized spa treatments to the best premium hotels on Golf Course Road. Our professional therapists come straight to your hotel room with premium massage services. You get total relaxation without leaving your private space.
+                                We bring personalized spa treatments to the best premium hotels on Golf Course Road. Our professional therapists come straight to your hotel room with <a href="/massage-service-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">premium massage services</a>. You get total relaxation without leaving your private space.
                             </motion.p>
 
                             <motion.div
@@ -1657,7 +1657,7 @@ export default function GolfCourseRoad() {
                                 viewport={{ once: true }}
                                 transition={{ delay: 0.2 }}
                             >
-                                Affordable luxury packages customized for every relaxation need and hotel experience on Golf Course Road.
+                                Affordable luxury <a href="/spa-price-in-delhi-ncr" className="text-emerald-700 font-medium underline hover:text-emerald-800">packages</a> customized for every relaxation need and hotel experience on Golf Course Road.
                             </motion.p>
                             <motion.div
                                 className="flex justify-center mt-10"

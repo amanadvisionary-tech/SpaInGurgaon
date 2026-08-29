@@ -339,7 +339,7 @@ export default function Fullbodymassage() {
               </h2>
 
               <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-                At Spa in Gurgaon, you can get professional full body massage services that help your body feel better. Our trained therapists know how to reduce body pain, help blood move better through your body, and make you feel healthy again. They use different massage methods to help your muscles feel less tired, make your mind peaceful, and give you a complete relaxing time.
+                At Spa in <a href="/spa-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">Gurgaon</a>, you can get professional full body massage services that help your body feel better. Our trained therapists know how to reduce body pain, help blood move better through your body, and make you feel healthy again. They use different massage methods to help your muscles feel less tired, make your mind peaceful, and give you a complete relaxing time. New to full body massage? Read our complete <a href="/full-body-massage" className="text-emerald-700 font-medium underline hover:text-emerald-800">full body massage guide</a> to learn about the techniques, benefits, and what to expect.
               </p>
 
               <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
@@ -676,7 +676,7 @@ export default function Fullbodymassage() {
                     <div className="mt-4 bg-white/10 rounded-lg p-3">
                       <div className="text-xs uppercase opacity-90">Featured partners</div>
                       <div className="mt-2 flex flex-wrap gap-2">
-                        <span className="text-xs bg-white/20 px-2 py-1 rounded">JW Marriott Aerocity</span>
+                        <span className="text-xs bg-white/20 px-2 py-1 rounded">JW Marriott <a href="/spa-in-aerocity" className="text-white underline hover:text-emerald-100 font-semibold">Aerocity</a></span>
                         <span className="text-xs bg-white/20 px-2 py-1 rounded">The Suryaa</span>
                         <span className="text-xs bg-white/20 px-2 py-1 rounded">The Park</span>
                       </div>
@@ -918,14 +918,14 @@ export default function Fullbodymassage() {
                       <div>
                         <h3 className="text-2xl font-bold text-emerald-800 font-serif mb-2">Expert Therapists</h3>
                         <p className="text-emerald-700">
-                          Our therapists are trained in traditional Ayurvedic techniques with over 10 years of experience in therapeutic massage.
+                          <a href="/about-us" className="text-emerald-700 font-medium underline hover:text-emerald-800">Our therapists</a> are trained in traditional Ayurvedic techniques with over 10 years of experience in therapeutic massage.
                         </p>
                       </div>
                     </div>
 
                     <p className="text-gray-700 mb-6">
                       Oil therapy is a traditional wellness practice that uses warm, herb-infused oils tailored to your skin type and body condition.
-                      This technique not only moisturizes and nourishes your skin but also stimulates deep tissue relaxation.
+                      This technique not only moisturizes and nourishes your skin but also stimulates <a href="/deep-tissue-massage-benefits" className="text-emerald-700 font-medium underline hover:text-emerald-800">deep tissue</a> relaxation.
                       The calming aroma of essential oils adds a therapeutic layer, relieving stress and enhancing your overall sense of well-being. Regular sessions can improve flexibility, deepen sleep, and support emotional stability.
                     </p>
 
@@ -1301,11 +1301,11 @@ export default function Fullbodymassage() {
               <div className="bg-white p-8 rounded-2xl shadow-sm">
                 <span className="font-semibold text-emerald-800 mb-4">Affordable Packages</span>
                 <p className="text-gray-700 mb-6">
-                  Getting luxury full body massage should not cost too much money. Spa in Gurgaon packages begin as low as ₹1999. You receive quality treatment, professional work, and a peaceful environment at a reasonable cost. We are straightforward and transparent in pricing so the relaxation can be enjoyed by everyone.
+                  Getting luxury full body massage should not cost too much money. Spa in Gurgaon packages begin as low as ₹1999. You receive quality treatment, professional work, and a peaceful environment at a reasonable cost. We are straightforward and transparent in <a href="/spa-price-in-delhi-ncr" className="text-emerald-700 font-medium underline hover:text-emerald-800">pricing</a> so the relaxation can be enjoyed by everyone.
                 </p>
                 <span className="font-semibold text-emerald-800 mb-4">24+ Convenient Outlets</span>
                 <p>
-                  Spa in Gurgaon has more than 24 locations all over the city. This makes it easy to find a place near you for full body massage. Whether you come to our outlet, visit us at a hotel, or use home spa service in Gurgaon, the quality stays the same everywhere. You always get comfort and good service.
+                  Spa in Gurgaon has more than 24 locations all over the city. This makes it easy to find a place near you for full body massage. Whether you come to our outlet, visit us at <a href="/b2b-massage-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">a hotel</a>, or use home spa service in Gurgaon, the quality stays the same everywhere. You always get comfort and good service.
                 </p>
                 {/* <p>
                           Perfect for individuals suffering from stress, muscle pain, or hormonal imbalance, this massage harmonizes body rhythms and enhances immunity. The continuous motion and warm oil offer a meditative experience.
@@ -1725,6 +1725,7 @@ export default function Fullbodymassage() {
         </div>
       </section>
       {/* /// */}
+
 
       {/* <WhatsappFloat /> */}
     </main>

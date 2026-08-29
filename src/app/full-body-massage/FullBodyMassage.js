@@ -531,7 +531,7 @@ export default function FullBodyMassage() {
                   Who Can Get a Full Body Massage?
                 </h2>
                 <p className="text-gray-700 leading-[1.9] mb-5 text-sm">
-                  Many adults choose full body massage for relaxation and wellness. It may be helpful for people who:
+                  Many adults choose <a href="/full-body-massage-in-gurgaon" className="text-[#7b0f2b] font-medium underline hover:no-underline">full body massage</a> for relaxation and wellness. It may be helpful for people who:
                 </p>
                 <ul className="space-y-2 mb-6">
                   {["Sit at a desk for many hours", "Feel stressed", "Have tired muscles", "Exercise regularly", "Want time to relax"].map((item, i) => (
@@ -586,7 +586,7 @@ export default function FullBodyMassage() {
                 <ul className="space-y-2 mb-6 text-sm text-gray-700">
                   <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-[#7b0f2b] mt-1 flex-shrink-0" /> Drink water before and after the massage.</li>
                   <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-[#7b0f2b] mt-1 flex-shrink-0" /> Tell the therapist if something feels uncomfortable.</li>
-                  <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-[#7b0f2b] mt-1 flex-shrink-0" /> Avoid a heavy meal right before your appointment.</li>
+                  <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-[#7b0f2b] mt-1 flex-shrink-0" /> Avoid a heavy meal right before your <a href="/contacts" className="text-[#7b0f2b] font-medium underline hover:no-underline">appointment</a>.</li>
                   <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-[#7b0f2b] mt-1 flex-shrink-0" /> Choose a clean and professional spa.</li>
                 </ul>
               </section>
@@ -613,7 +613,7 @@ export default function FullBodyMassage() {
                   A full body massage is more than just a way to relax. It can help reduce stress, ease muscle tension, improve blood flow, and leave you feeling refreshed.
                 </p>
                 <p className="text-gray-700 leading-[1.95] mb-4 text-sm">
-                  Whether you choose a Swedish massage, deep tissue massage, Thai massage, or another style, the most important thing is to visit a clean spa with trained professionals and choose the type of massage that matches your needs.
+                  Whether you choose a Swedish massage, <a href="/deep-tissue-massage-benefits" className="text-[#7b0f2b] font-medium underline hover:no-underline">deep tissue massage</a>, Thai massage, or another style, the most important thing is to visit a clean spa with <a href="/about-us" className="text-[#7b0f2b] font-medium underline hover:no-underline">trained professionals</a> and choose the type of massage that matches your needs.
                 </p>
                 <Callout type="success" title="Try It Out">
                   If you are trying a full body massage for the first time, start with a gentle session and let your therapist know what feels comfortable. A good massage should leave you feeling calm, refreshed, and ready to enjoy the rest of your day.
@@ -693,7 +693,7 @@ export default function FullBodyMassage() {
                   <div className="flex-shrink-0 w-16 h-16 rounded-2xl bg-gradient-to-br from-[#7b0f2b] to-[#c9b37e] flex items-center justify-center text-white font-extrabold text-xl shadow-md">SG</div>
                   <div className="flex-1">
                     <h4 className="font-bold text-gray-900 text-base">Spain Gurugram Wellness Team</h4>
-                    <p className="text-[#7b0f2b] text-xs mb-3 font-semibold">Certified Spa & Massage Therapists — Gurgaon</p>
+                    <p className="text-[#7b0f2b] text-xs mb-3 font-semibold">Certified Spa & Massage Therapists — <a href="/spa-in-gurgaon" className="text-[#7b0f2b] font-medium underline hover:no-underline">Gurgaon</a></p>
                     <p className="text-gray-600 text-sm leading-relaxed">Our team of certified therapists and wellness experts brings years of hands-on experience in therapeutic massage and holistic health. We are committed to sharing accurate, practical information to help you make informed wellness decisions.</p>
                     <div className="flex gap-3 mt-4">
                       {[{ Icon: FaFacebook, href: "#", label: "Facebook", color: "text-blue-600" }, { Icon: FaTwitter, href: "#", label: "Twitter", color: "text-gray-700" }, { Icon: FaLinkedinIn, href: "#", label: "LinkedIn", color: "text-blue-700" }].map(({ Icon, href, label, color }) => (
@@ -757,6 +757,8 @@ export default function FullBodyMassage() {
             </aside>
           </div>
         </div>
+
+
       </article>
     </>
   );

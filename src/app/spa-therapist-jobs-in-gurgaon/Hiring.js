@@ -208,7 +208,7 @@ show: { opacity: 1, y: 0, transition: { duration: 0.5 } },
       </h1>
 
       <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-       Need a satisfying spa therapist position in Delhi? Spa Delhi provides luxury offices, good remuneration, and career development in leading 5-star hotels and spas in Delhi, Noida and more.
+       Need a satisfying spa therapist position in Delhi? Spa Delhi provides luxury offices, good remuneration, and career development in leading 5-star hotels and spas in Delhi, <a href="/spa-in-noida" className="text-emerald-700 font-medium underline hover:text-emerald-800">Noida</a> and more.
       </p>
       <h2 className="text-2xl md:text-3xl font-light text-gray-800"><span className="block mt-2 font-medium">Our Premium Massage Center in Delhi</span></h2>
       <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">In the Spa Delhi, there are 5-star hotels, spa and massage therapist employment opportunities in the most lavish places in Delhi. Start your trip with one of the most reliable brands of spa brands in the city.</p>
@@ -397,7 +397,7 @@ View All Cities
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
           >
-            We are recruiting qualified and enthusiastic spa therapists (both male and female) to work in our luxury massage rooms located in Delhi and Noida, Aerocity, and Mahipalpur. But be it part time spa work in Delhi or full-time, we are offering all the vacancy that suits you.
+            We are recruiting qualified and enthusiastic spa therapists (both male and female) to work in our luxury massage rooms located in Delhi and Noida, <a href="/spa-in-aerocity" className="text-emerald-700 font-medium underline hover:text-emerald-800">Aerocity</a>, and <a href="/spa-in-mahipalpur" className="text-emerald-700 font-medium underline hover:text-emerald-800">Mahipalpur</a>. But be it part time spa work in Delhi or full-time, we are offering all the vacancy that suits you.
           </motion.p>
           <div className="w-24 h-1 bg-emerald-500 mx-auto mt-4"></div>
         </div>
@@ -551,19 +551,19 @@ View All Cities
               <h4 className="font-semibold text-emerald-800 mb-2">Therapies We Offer</h4>
               <div className="grid grid-cols-2 gap-2 text-sm">
                 <span className="flex items-center">
-                  <span className="text-emerald-600 mr-1">•</span> Couple Massage Therapist
+                  <span className="text-emerald-600 mr-1">•</span> <a href="/couples-massage-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">Couple Massage Therapist</a>
                 </span>
                 <span className="flex items-center">
-                  <span className="text-emerald-600 mr-1">•</span> Sandwich Massage Therapist
+                  <span className="text-emerald-600 mr-1">•</span> <a href="/sandwich-massage-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">Sandwich Massage Therapist</a>
                 </span>
                 <span className="flex items-center">
-                  <span className="text-emerald-600 mr-1">•</span> Full Body Massage Expert
+                  <span className="text-emerald-600 mr-1">•</span> <a href="/full-body-massage-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">Full Body Massage Expert</a>
                 </span>
                 <span className="flex items-center">
                   <span className="text-emerald-600 mr-1">•</span> Male Spa therapist to Female in Delhi.
                 </span>
                 <span className="flex items-center">
-                  <span className="text-emerald-600 mr-1">•</span> B2B Therapy Specialist
+                  <span className="text-emerald-600 mr-1">•</span> <a href="/b2b-massage-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">B2B Therapy Specialist</a>
                 </span>
               </div>
             </div>
@@ -951,7 +951,7 @@ Spa Delhi is now hiring for:</p>
 
           <div className="mt-6 bg-emerald-700/30 p-4 rounded-lg border border-emerald-700">
             <h4 className="font-semibold">Contact Us</h4>
-            <p className="text-sm text-emerald-100 mt-2">For more information about available positions or to submit your application, contact us:</p>
+            <p className="text-sm text-emerald-100 mt-2">For more information about available positions or to submit your application, <a href="/contacts" className="text-white underline font-medium hover:text-emerald-200">contact us</a>:</p>
             <ul className="mt-3 text-sm space-y-2">
               <li className="flex items-center gap-2"><FaEnvelope className="w-4 h-4 text-emerald-200" /> <span>{email}</span></li>
               <li className="flex items-center gap-2"><FaLink className="w-4 h-4 text-emerald-200" /> <a href={website} target="_blank" rel="noreferrer" className="underline">Visit our website</a></li>
@@ -1084,8 +1084,9 @@ Spa Delhi is now hiring for:</p>
         {/* End F&Q Section */}
  {/* <WhatsappFloat /> */}
 
+
       </div>
-      
+
       </main>
       
     );

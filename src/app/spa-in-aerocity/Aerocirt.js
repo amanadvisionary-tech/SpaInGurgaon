@@ -522,7 +522,13 @@ const topSteps = [
             ].map(({ label, icon }) => (
               <div key={label} role="listitem" className="flex items-center space-x-3">
                 <span className="flex h-10 w-10 items-center justify-center rounded-full bg-indigo-100 text-indigo-600">{icon}</span>
-                <span className="text-sm text-gray-800">{label}</span>
+                <span className="text-sm text-gray-800">
+                  {label === "Mahipalpur" ? (
+                    <a href="/spa-in-mahipalpur" className="text-emerald-700 font-medium underline hover:text-emerald-800">{label}</a>
+                  ) : label === "Gurugram" ? (
+                    <a href="/spa-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">{label}</a>
+                  ) : label}
+                </span>
               </div>
             ))}
           </div>
@@ -676,7 +682,9 @@ const topSteps = [
                     {hotel.title}
                   </h3>
                   <p className="text-gray-600 text-sm flex-grow mb-4">
-                    {hotel.description}
+                    {hotel.title === "Andaz Delhi – A Concept by Hyatt" ? (
+                      <>Treat yourself to a great massage at Andaz Delhi with our expert therapists. Whether it's deep tissue work or <a href="/b2b-massage-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">B2B massage</a>, each session brings you balance, peace, and that luxury feeling you won't forget even after you check out.</>
+                    ) : hotel.description}
                   </p>
       
                   {/* Book Now Button */}
@@ -931,7 +939,15 @@ const topSteps = [
                     <span className="text-3xl">{s.icon}</span>
                   </div>
 
-                  <h3 className="font-serif text-xl font-bold text-gray-900">{s.title}</h3>
+                  <h3 className="font-serif text-xl font-bold text-gray-900">
+                    {s.title === "Sandwich Massage" ? (
+                      <a href="/sandwich-massage-in-gurgaon" className="text-emerald-700 underline hover:text-emerald-800">{s.title}</a>
+                    ) : s.title === "Couple Massage" ? (
+                      <a href="/couples-massage-in-gurgaon" className="text-emerald-700 underline hover:text-emerald-800">{s.title}</a>
+                    ) : s.title === "Full Body Massage" ? (
+                      <a href="/full-body-massage-in-gurgaon" className="text-emerald-700 underline hover:text-emerald-800">{s.title}</a>
+                    ) : s.title}
+                  </h3>
                   <p className="mt-2 text-gray-600">{s.description}</p>
 
                   <div className="mt-5 flex items-center gap-3">
@@ -1080,7 +1096,7 @@ const topSteps = [
             {/* CTAs */}
             <div className="mt-7 flex flex-col gap-3 sm:flex-row">
               <a
-                href="/booking"
+                href="/contacts"
                 className="inline-flex items-center justify-center rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold text-white shadow transition hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-300"
               >
                 Book Your Session
@@ -1171,7 +1187,7 @@ const topSteps = [
           className="mt-10 text-center"
         >
           <a
-            href="/booking"
+            href="/contacts"
             className="inline-flex items-center gap-3 rounded-full bg-emerald-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-200"
           >
             Book a Personalized Journey
@@ -1262,7 +1278,7 @@ const topSteps = [
             {/* CTA */}
             <div className="mt-7 flex flex-col gap-3 sm:flex-row">
               <a
-                href="/booking"
+                href="/contacts"
                 className="inline-flex items-center justify-center rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold text-white shadow transition hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-300"
               >
                 Book Now
@@ -1313,7 +1329,7 @@ const topSteps = [
           className="mt-10 text-center"
         >
           <a
-            href="/booking"
+            href="/contacts"
             className="inline-flex items-center gap-3 rounded-full bg-emerald-600 px-6 py-3 font-semibold text-white shadow-lg transition hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-200"
           >
             Book a Personalized Journey
@@ -1497,7 +1513,7 @@ const topSteps = [
           transition={{ duration: 0.6, delay: 0.08 }}
         >
           <a
-            href="/booking"
+            href="/contacts"
             className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white font-semibold shadow-lg focus:outline-none focus:ring-2 focus:ring-emerald-200"
           >
             Book a Personalized Journey
@@ -2015,10 +2031,12 @@ const topSteps = [
       />
     </motion.div>
   </div>
-</section>       
+</section>
         {/* /// */}
+
+
     </div>
     </main>
-    
+
   );
 }

@@ -782,7 +782,7 @@ export default function Abpage({
               </span>
             </motion.h2>
             <p className="text-gray-700 text-lg">
-              Luxury does not need to be expensive. Spa in Gurgaon provides high quality massage services at affordable rates thus allowing everybody to enjoy the world class spa treatments. You need to be soothed into a deep tissue massage, feel sensual release or have your full body refreshed: no matter what you are craving in terms of price, quality, or experience, we have the offers to suit every taste and budget.
+              Luxury does not need to be expensive. Spa in Gurgaon provides high quality <a href="/massage-service-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">massage services</a> at affordable rates thus allowing everybody to enjoy the world class spa treatments. You need to be soothed into a <a href="/deep-tissue-massage-benefits" className="text-emerald-700 font-medium underline hover:text-emerald-800">deep tissue massage</a>, feel sensual release or have your full body refreshed: no matter what you are craving in terms of price, quality, or experience, we have the offers to suit every taste and budget.
             </p>
 
             {/* <p className="text-gray-700 text-lg">
@@ -897,7 +897,7 @@ export default function Abpage({
               className="bg-white shadow-lg p-8 rounded-xl order-2 md:order-1"
             >
               <p className="text-gray-600 text-lg leading-relaxed">
-                Our <span className="font-semibold text-emerald-700">full-body massage in Connaught Place </span>
+                Our <span className="font-semibold text-emerald-700"><a href="/full-body-massage-in-gurgaon" className="text-emerald-700 underline hover:text-emerald-800">full-body massage</a> in <a href="/spa-in-connaught-place" className="text-emerald-700 underline hover:text-emerald-800">Connaught Place</a> </span>
                 is an ideal destination where you can set yourself free and get all set
                 to find the wonders with a deep relaxation massage led by the best
                 massage therapist. We combine modern techniques with traditional practices to create therapy plans that suit your body and lifestyle — making us one of the most trusted luxury spas in Delhi. Our massage spa in Delhi was established several years ago with the prime goal of giving pleasure with the perfect package of massage services to individuals struggling with finding peace. Luxury Spa is a one-stop destination where expert therapists, premium oils, and tailored therapies come together to deliver a lasting sense of rejuvenation.
@@ -1260,7 +1260,7 @@ export default function Abpage({
               </div>
               <h3 className="text-xl font-semibold text-emerald-900 mb-2">Vision</h3>
               <p className="text-sm text-gray-600">
-                To become the best luxury massage spa in Gurgaon that is associated with healing touch and emotional refreshment.
+                To become the best luxury massage spa in <a href="/spa-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">Gurgaon</a> that is associated with healing touch and emotional refreshment.
               </p>
             </article>
 
@@ -1312,7 +1312,7 @@ export default function Abpage({
                 Contact & Book
               </a>
               <a
-                href="#careers"
+                href="/spa-therapist-jobs-in-gurgaon"
                 className="text-emerald-900 font-medium hover:underline"
               >
                 Join Our Team
@@ -1689,6 +1689,7 @@ export default function Abpage({
           </motion.div>
         </div>
       </section>
+
     </div>
 
   );

@@ -72,7 +72,7 @@ export default function SpaBlogDetailPage() {
         {/* INTRO */}
         <div>
           <p className="text-gray-700 leading-relaxed mb-4">
-           When you’re already stressed out, a Sandwich massage vs Swedish massage can seem like a confusing choice. Stress doesn’t always make an entrance: It accrues silently. You might start to feel tight in the shoulders, notice a stiff neck, or experience fitful sleep or a mind that just won’t stop racing. And since stress lives in the body as much as in the mind, it routinely manifests itself as a tension that you can feel. This is where massage comes in: It relaxes your muscles, soothes your nervous system, and ultimately, makes you feel more like yourself again. In the article below, we will compare a sandwich massage with a Swedish massage and explore the way they differ and how each one may be more suitable for some people.
+           When you’re already stressed out, a <a href="/sandwich-massage-in-gurgaon" className="text-[#7b0f2b] font-medium underline hover:no-underline">Sandwich massage</a> vs Swedish massage can seem like a confusing choice. Stress doesn’t always make an entrance: It accrues silently. You might start to feel tight in the shoulders, notice a stiff neck, or experience fitful sleep or a mind that just won’t stop racing. And since stress lives in the body as much as in the mind, it routinely manifests itself as a tension that you can feel. This is where massage comes in: It relaxes your muscles, soothes your nervous system, and ultimately, makes you feel more like yourself again. In the article below, we will compare a sandwich massage with a Swedish massage and explore the way they differ and how each one may be more suitable for some people.
           </p>
 
           {/* <p className="text-gray-700 leading-relaxed">
@@ -198,7 +198,7 @@ export default function SpaBlogDetailPage() {
             <li>Emotional exhaustion</li>
           </ul>
           <p className="text-gray-700 mt-4">
-           This helps our nervous system a lot to go from that alert and on guard to calm a lot quicker than many other types of massages. The nervous system can toggle between mode and chill mode. It’s because the nervous system can go from really alert, very quickly to calm. And the nervous system and massages can team up to get this done.
+           This helps our nervous system a lot to go from that alert and on guard to calm a lot quicker than many other <a href="/massage-service-in-gurgaon" className="text-[#7b0f2b] font-medium underline hover:no-underline">types of massages</a>. The nervous system can toggle between mode and chill mode. It’s because the nervous system can go from really alert, very quickly to calm. And the nervous system and massages can team up to get this done.
           </p>
         </div>
 
@@ -404,6 +404,8 @@ export default function SpaBlogDetailPage() {
         </div>
       </div>
     </section>
+
+
     </main>
   );
 }

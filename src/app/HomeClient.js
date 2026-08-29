@@ -1079,7 +1079,7 @@ Why Choose Our Massage Spa in Gurgaon?
               viewport={{ once: true }}
             >
               <p className="text-gray-600 text-lg leading-relaxed">
-                Daily life creates stress that builds up over time. Spa in Gurgaon provides special massage treatments that help your entire system calm down. The therapists here have proper training and certificates. Our team provides massage in Gurgaon, combining traditional methods with modern ones to give you the best results. Each visit feels personal because they adjust everything to fit your needs. The rooms are clean and comfortable. You leave feeling lighter and more peaceful than when you arrived.
+                Daily life creates stress that builds up over time. Spa in Gurgaon provides special massage treatments that help your entire system calm down. The therapists here have proper training and certificates. Our team provides <a href="/spa-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">massage in Gurgaon</a>, combining traditional methods with modern ones to give you the best results. Each visit feels personal because they adjust everything to fit your needs. The rooms are clean and comfortable. You leave feeling lighter and more peaceful than when you arrived.
 
               </p>
             </motion.div>
@@ -1124,7 +1124,7 @@ Why Choose Our Massage Spa in Gurgaon?
               viewport={{ once: true }}
             >
               <motion.a
-                href="/About"
+                href="/about-us"
                 className="relative overflow-hidden px-8 py-4 rounded-full font-medium text-white group"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -1251,7 +1251,7 @@ Why Choose Our Massage Spa in Gurgaon?
               </div>
 
               <p className="mt-6 text-sm text-gray-500 max-w-xl">
-                We serve in Aerocity, Connaught Place, Lajpat Nagar and many more — hygienic, reliable and luxury spa experiences.
+                We serve in <a href="/spa-in-aerocity" className="text-emerald-700 font-medium underline hover:text-emerald-800">Aerocity</a>, <a href="/spa-in-connaught-place" className="text-emerald-700 font-medium underline hover:text-emerald-800">Connaught Place</a>, <a href="/spa-in-lajpat-nagar" className="text-emerald-700 font-medium underline hover:text-emerald-800">Lajpat Nagar</a> and many more — hygienic, reliable and luxury spa experiences.
               </p>
             </div>
           </div>
@@ -1296,7 +1296,13 @@ Why Choose Our Massage Spa in Gurgaon?
                 <div className="absolute -top-4 -right-4 w-16 h-16 bg-emerald-500 rounded-full opacity-10 group-hover:opacity-20 transition-opacity duration-300"></div>
                 <div className="text-5xl mb-6 text-emerald-500">{service.icon}</div>
                 <h3 className="text-xl font-bold text-gray-800 mb-3 font-serif">{service.title}</h3>
-                <p className="text-gray-600 mb-6">{service.description}</p>
+                <p className="text-gray-600 mb-6">
+                  {service.title === "Full Body Massage in Gurgaon" ? (
+                    <>Our <a href="/full-body-massage-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">full-body massage in Gurgaon</a> provides a complete head-to-toe relaxation experience. Trained therapists use proven methods to loosen tight spots and improve blood flow throughout your system. Afterward, you feel awake but calm. Stress disappears and your energy comes back stronger than ever.</>
+                  ) : service.title === "B2B Massage in Gurgaon" ? (
+                    <>We offer deeply therapeutic body-to-body massage in Gurgaon where our skilled therapists provide the most soothing experience. Whether you want to go into deep sleep or reduce stress, our <a href="/b2b-massage-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">B2B massage services in Gurgaon</a> are your go-to choice for complete wellness and relaxation.</>
+                  ) : service.description}
+                </p>
                 <a href="#" className="text-emerald-600 font-medium flex items-center gap-2 group-hover:underline">Learn More
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 group-hover:translate-x-1 transition-transform" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
@@ -1459,7 +1465,7 @@ Why Choose Our Massage Spa in Gurgaon?
 
               <div className="md:w-1/2 bg-white rounded-md shadow-md p-8 flex flex-col justify-between">
                 <div>
-                  <h3 className="text-2xl font-bold text-emerald-600">Spa in Cyber City &amp; Udyog Vihar - For Quick De-stress After Office Hours</h3>
+                  <h3 className="text-2xl font-bold text-emerald-600">Spa in <a href="/spa-in-cyber-city" className="text-emerald-700 underline hover:text-emerald-800">Cyber City</a> &amp; Udyog Vihar - For Quick De-stress After Office Hours</h3>
                   <p className="mt-4 text-gray-600 leading-relaxed whitespace-pre-wrap">{cards[0].desc}</p>
                 </div>
 
@@ -1479,7 +1485,7 @@ Why Choose Our Massage Spa in Gurgaon?
             >
               <div className="md:w-1/2 bg-white rounded-md shadow-md p-8 flex flex-col justify-between">
                 <div>
-                  <h3 className="text-2xl font-bold text-emerald-600 whitespace-pre-line">Spa in DLF Phase 1, Phase 2 &amp; Sushant Lok - The Heart of Gurugram</h3>
+                  <h3 className="text-2xl font-bold text-emerald-600 whitespace-pre-line">Spa in <a href="/spa-in-DLF-Phase-1" className="text-emerald-700 underline hover:text-emerald-800">DLF Phase 1</a>, Phase 2 &amp; Sushant Lok - The Heart of Gurugram</h3>
                   <p className="mt-4 text-gray-600 leading-relaxed">{cards[1].desc}</p>
                 </div>
 
@@ -2264,6 +2270,7 @@ Why Choose Our Massage Spa in Gurgaon?
       </div>
     </section> */}
       {/* Footer / CTA / Other components */}
+
 
     </main>
 

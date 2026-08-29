@@ -384,7 +384,7 @@ export default function Pricpage() {
               transition={{ duration: 0.8, delay: 0.5 }}
               style={{ fontFamily: "'Montserrat', sans-serif" }}
             >
-              Spa in Gurgaon offers luxurious spa services in Gurgaon at affordable rates tailored to all the relaxation requirements and lifestyle.
+              Spa in Gurgaon offers luxurious spa services in <a href="/spa-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">Gurgaon</a> at affordable rates tailored to all the relaxation requirements and lifestyle.
             </motion.p>
             {/* Price List Section */}
             <section className="relative z-10 mt-16 max-w-3xl mx-auto px-4">
@@ -396,10 +396,10 @@ export default function Pricpage() {
                 viewport={{ once: true }}
               >
                 {[
-                  { title: "B2B Therapy", price: "₹1999", duration: "60 Minutes" },
+                  { title: "<a href=\"/b2b-massage-in-gurgaon\" class=\"text-emerald-700 underline hover:text-emerald-800\">B2B Therapy</a>", price: "₹1999", duration: "60 Minutes" },
                   { title: "Ayurvedic Massage", price: "₹1999", duration: "60 Minutes" },
                   { title: "Traditional Thai Massage", price: "₹1499", duration: "60 Minutes" },
-                  { title: "Sandwich Massage", price: "₹1999", duration: "60 Minutes" },
+                  { title: "<a href=\"/sandwich-massage-in-gurgaon\" class=\"text-emerald-700 underline hover:text-emerald-800\">Sandwich Massage</a>", price: "₹1999", duration: "60 Minutes" },
                   { title: "Hotel Spa", price: "₹15999", duration: "60 Minutes" },
                 ].map((item, idx) => (
                   <li
@@ -407,9 +407,7 @@ export default function Pricpage() {
                     className="flex flex-col md:flex-row justify-between items-start md:items-center border-b border-emerald-200 pb-4"
                   >
                     <div>
-                      <h4 className="text-xl font-semibold text-emerald-900" style={{ fontFamily: "'Playfair Display', serif" }}>
-                        {item.title}
-                      </h4>
+                      <h4 className="text-xl font-semibold text-emerald-900" style={{ fontFamily: "'Playfair Display', serif" }} dangerouslySetInnerHTML={{ __html: item.title }} />
                       <p className="text-sm text-emerald-700 font-light mt-1">{item.duration}</p>
                     </div>
                     <span className="text-emerald-600 text-lg font-medium mt-2 md:mt-0">{item.price}</span>
@@ -652,7 +650,7 @@ export default function Pricpage() {
                       <ul className="mt-4 space-y-2">
                         <li className="flex items-center">
                           <span className="text-emerald-600 mr-2">✓</span>
-                          <span className="text-stone-700">Couple Massage</span>
+                          <span className="text-stone-700"><a href="/couples-massage-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">Couple Massage</a></span>
                         </li>
                         <li className="flex items-center">
                           <span className="text-emerald-600 mr-2">✓</span>
@@ -694,7 +692,7 @@ export default function Pricpage() {
             >
               <div className="max-w-lg">
                 <p className="text-lg text-stone-600 mb-6 leading-relaxed">
-                  Spa in Gurgaon provides Gurgaon full body massage luxurious and at affordable prices, it brings serenity, peace and comfort to your well being routine. Our licensed massage practitioners apply high quality oils, low pressure, and stroking movements to tighten the muscles and increase blood circulation. Every session is customized so that it suits your needs as a body, whereby you are fully relaxed and satisfied. Using flexible timings, trained experts and exquisite locations, we render good quality spa to all in Gurgaon without losing quality and services.
+                  Spa in Gurgaon provides Gurgaon <a href="/full-body-massage-in-gurgaon" className="text-emerald-700 font-medium underline hover:text-emerald-800">full body massage</a> luxurious and at affordable prices, it brings serenity, peace and comfort to your well being routine. Our licensed massage practitioners apply high quality oils, low pressure, and stroking movements to tighten the muscles and increase blood circulation. Every session is customized so that it suits your needs as a body, whereby you are fully relaxed and satisfied. Using flexible timings, trained experts and exquisite locations, we render good quality spa to all in Gurgaon without losing quality and services.
                 </p>
 
 
@@ -704,7 +702,7 @@ export default function Pricpage() {
                   <span className="font-medium text-stone-800"> couple experiences</span>, <span className="font-medium text-stone-800">Thai techniques</span>,
                   and <span className="font-medium text-stone-800">signature oil treatments</span> - all delivered in beautifully
                   designed private sanctuaries.Escape the city&apos;s hustle and indulge in a tranquil haven where serenity meets sophistication.
-                  Our premium spa is nestled within Aerocity&apos;s most luxurious 5-star hotels, offering an oasis
+                  Our premium spa is nestled within <a href="/spa-in-aerocity" className="text-emerald-700 font-medium underline hover:text-emerald-800">Aerocity</a>&apos;s most luxurious 5-star hotels, offering an oasis
                   of calm in the heart of Delhi.
                 </p>
 
@@ -813,7 +811,7 @@ export default function Pricpage() {
               <HeartHandshake className="w-12 h-12 text-emerald-600 mb-3" />
               <h3 className="text-xl font-semibold text-emerald-900 mb-2">Healing Massage</h3>
               <p className="text-gray-900">
-                Experience tension this way by having our therapists attend to areas of fatigue. Healing Massage improves the flexibility, regains the balance and replenishes your own natural energy of the body.
+                Experience tension this way by having <a href="/about-us" className="text-emerald-700 font-medium underline hover:text-emerald-800">our therapists</a> attend to areas of fatigue. Healing Massage improves the flexibility, regains the balance and replenishes your own natural energy of the body.
               </p>
             </div>
 
@@ -1269,6 +1267,7 @@ export default function Pricpage() {
           </motion.div>
         </div>
       </section>
+
 
     </main>
   );

@@ -44,7 +44,7 @@ export default function ContactClient({ faqs }) {
             Contact Our Luxury Spa in Gurgaon
           </h1>
           <p className="mt-4 text-lg text-neutral-200">
-            Book your body massage, couple spa, or wellness therapy today
+            Book your body massage, <a href="/couples-massage-in-gurgaon" className="text-white underline hover:text-neutral-200">couple spa</a>, or wellness therapy today
           </p>
         </div>
       </section>
@@ -198,7 +198,7 @@ export default function ContactClient({ faqs }) {
             Frequently Asked Questions
           </h2>
           <p className="mt-4 text-gray-600">
-            Everything you need to know before booking your spa session in Gurgaon
+            Everything you need to know before booking your spa session in <a href="/spa-in-gurgaon" className="text-[#7b0f2b] underline hover:text-[#651024]">Gurgaon</a>
           </p>
         </motion.div>
 
@@ -242,6 +242,7 @@ export default function ContactClient({ faqs }) {
         </div>
       </div>
     </section>
+
 
     </main>
   );
