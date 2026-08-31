@@ -1098,6 +1098,9 @@ Even the aroma of the essential oils and the hands of expert hands exude a sense
                   {c}
                 </span>
               ))}
+              <a href="/spa-in-sohna-road" className="rounded-full bg-[#f7efe7] px-3 py-1 text-xs font-semibold text-emerald-800 hover:bg-emerald-200 transition-colors">
+                Sohna Road Outlet
+              </a>
             </div>
 
             {/* CTAs */}

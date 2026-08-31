@@ -77,6 +77,7 @@ const localBusinessSchema = {
     "Cyber City",
     "MG Road",
     "Golf Course Road",
+    "Sohna Road",
     "Sector 29",
     "Aerocity",
     "Connaught Place",

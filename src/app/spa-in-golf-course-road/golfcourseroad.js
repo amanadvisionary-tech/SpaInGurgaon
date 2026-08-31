@@ -1048,7 +1048,8 @@ export default function GolfCourseRoad() {
                                         { label: "Couple Spa", href: "/couples-massage-in-gurgaon" },
                                         { label: "Full Body Massage", href: "/full-body-massage-in-gurgaon" },
                                         { label: "Cyber City Outlets", href: "/spa-in-cyber-city" },
-                                        { label: "Spa in Gurgaon", href: "/spa-in-gurgaon" }
+                                        { label: "Spa in Gurgaon", href: "/spa-in-gurgaon" },
+                                        { label: "Sohna Road Outlet", href: "/spa-in-sohna-road" }
                                     ].map((c) => (
                                         <Link key={c.label} href={c.href} className="rounded-full bg-[#f7efe7] px-3 py-1 text-xs font-semibold text-emerald-800 hover:bg-emerald-200 transition-colors">
                                             {c.label}

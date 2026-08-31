@@ -46,16 +46,17 @@ export default function Navbar() {
   ];
 
   const outletDropdown = [
-    // { name: "Aerocity", href: "/spa-in-aerocity" },
+    { name: "Aerocity", href: "/spa-in-aerocity" },
     { name: "Cyber City", href: "/spa-in-cyber-city" },
     { name: "DLF Phase 1", href: "/spa-in-DLF-Phase-1" },
-    // { name: "Connaught Place", href: "/spa-in-connaught-place" },
-    // { name: "Lajpat Nagar", href: "/spa-in-lajpat-nagar" },
-    // { name: "Gurugram", href: "/spa-in-gurgaon" },
-    // { name: "Noida", href: "/spa-in-noida" },
+    { name: "Connaught Place", href: "/spa-in-connaught-place" },
+    { name: "Lajpat Nagar", href: "/spa-in-lajpat-nagar" },
+    { name: "Gurugram", href: "/spa-in-gurgaon" },
+    { name: "Noida", href: "/spa-in-noida" },
     { name: "Golf Course Road", href: "/spa-in-golf-course-road" },
     { name: "MG Road", href: "/spa-in-mg-road" },
     { name: "Sector 29", href: "/spa-in-sector-29" },
+    { name: "Sohna Road", href: "/spa-in-sohna-road" },
   ];
 
   return (

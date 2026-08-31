@@ -19,6 +19,7 @@ const routes = [
   { path: "/spa-in-cyber-city", changeFrequency: "monthly", priority: 0.8 },
   { path: "/spa-in-mg-road", changeFrequency: "monthly", priority: 0.8 },
   { path: "/spa-in-golf-course-road", changeFrequency: "monthly", priority: 0.8 },
+  { path: "/spa-in-sohna-road", changeFrequency: "monthly", priority: 0.8 },
   { path: "/spa-in-sector-29", changeFrequency: "monthly", priority: 0.8 },
   { path: "/spa-in-aerocity", changeFrequency: "monthly", priority: 0.8 },
   { path: "/spa-in-connaught-place", changeFrequency: "monthly", priority: 0.8 },
