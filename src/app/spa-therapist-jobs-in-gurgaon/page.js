@@ -4,6 +4,7 @@ import Hiring from "./Hiring";
 export const metadata = {
   title: "Spa Therapist Jobs in Delhi NCR | We're Hiring",
   description: "Looking for spa therapist jobs in Delhi NCR? Join our team and work at leading 5-star hotel spas with great pay, training, and career growth. Apply now!",
+  keywords: ["spa therapist jobs gurgaon", "spa jobs delhi ncr", "massage therapist hiring", "spa therapist vacancy gurgaon"],
   alternates: {
     canonical: "/spa-therapist-jobs-in-gurgaon",
   },

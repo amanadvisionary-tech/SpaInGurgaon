@@ -4,6 +4,12 @@ import Connaught from "./Connaught";
 export const metadata = {
   title: "Book Best Spa in Connaught Place | Luxury Massage in CP",
   description: "Book a session at the best spa in Connaught Place. Experience top notch luxury massage in CP by Certified female therapists. Visit Now!",
+  keywords: [
+    "spa in connaught place",
+    "massage in cp delhi",
+    "spa near connaught place",
+    "body massage cp delhi",
+  ],
   alternates: {
     canonical: "/spa-in-connaught-place",
   },

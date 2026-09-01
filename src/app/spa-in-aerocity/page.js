@@ -4,6 +4,12 @@ import Aerocirt from "./Aerocirt";
 export const metadata = {
   title: "Best Spa in Aerocity With Foreign Therapists",
   description: "Looking for a luxury spa in Aerocity? Enjoy premium body massage with certified foreign therapists. Experience world-class wellness treatments.",
+  keywords: [
+    "spa in aerocity",
+    "massage in aerocity delhi",
+    "spa near aerocity",
+    "body massage aerocity",
+  ],
   alternates: {
     canonical: "/spa-in-aerocity",
   },

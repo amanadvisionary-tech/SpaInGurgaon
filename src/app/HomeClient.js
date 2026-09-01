@@ -754,7 +754,7 @@ export default function HomeClient() {
     },
   ]
   return (
-    <main bg-gradient-to-b from-emerald-50 to-white>
+    <main className="bg-gradient-to-b from-emerald-50 to-white">
       <section className="relative min-h-[50vh] sm:min-h-[70vh] md:min-h-[80vh] lg:min-h-[85vh] font-sans overflow-hidden bg-black">
         <div className="font-sans overflow-hidden">
           {/* Floating Decorative Elements */}
@@ -1131,15 +1131,12 @@ Why Choose Our Massage Spa in Gurgaon?
               >
                 <div className="absolute inset-0 bg-gradient-to-r from-emerald-500 to-emerald-600 group-hover:from-emerald-600 group-hover:to-emerald-700 transition-all"></div>
                 <div className="absolute inset-0 bg-gradient-to-r from-emerald-600 to-emerald-700 opacity-0 group-hover:opacity-100 transition-all"></div>
-                <a href="/about-us">
-                  <span className="relative z-10 flex items-center gap-2">
-                    Learn More About Us
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 animate-pulse" viewBox="0 0 20 20" fill="currentColor">
-                      <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                    </svg>
-                  </span>
-                </a>
-
+                <span className="relative z-10 flex items-center gap-2">
+                  Learn More About Us
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 animate-pulse" viewBox="0 0 20 20" fill="currentColor">
+                    <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                  </svg>
+                </span>
               </motion.a>
 
               <a

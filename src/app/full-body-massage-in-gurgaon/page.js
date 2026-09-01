@@ -4,6 +4,13 @@ import Fullbodymassage from "./Fullbodymassage";
 export const metadata = {
   title: "Best Full Body Massage in Gurgaon By Female Therapists",
   description: " Book the best full body massage in Gurgaon today. Get Complete care with our  experts at our luxury spa centre in gurgaon. Get Stress Free Now",
+  keywords: [
+    "full body massage gurgaon",
+    "full body massage near me",
+    "female to male massage gurgaon",
+    "full body spa gurgaon",
+    "full body massage price gurgaon",
+  ],
   alternates: {
     canonical: "/full-body-massage-in-gurgaon",
   },

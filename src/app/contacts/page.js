@@ -4,6 +4,12 @@ export const metadata = {
   title: "Contact Us | Book a Spa Appointment in Gurgaon",
   description:
     "Get in touch with Spa In Gurgaon to book your body massage, couple spa, or wellness therapy. Call, WhatsApp, or fill our quick enquiry form.",
+  keywords: [
+    "contact spa in gurgaon",
+    "book spa appointment gurgaon",
+    "spa gurgaon phone number",
+    "spa gurgaon whatsapp booking",
+  ],
   alternates: {
     canonical: "/contacts",
   },

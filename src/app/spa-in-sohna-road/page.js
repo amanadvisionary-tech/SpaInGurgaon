@@ -4,6 +4,7 @@ export const metadata = {
   title: "Best Spa in Sohna Road Gurgaon | In-Room Massage",
   description:
     "Premium in-room spa and massage on Sohna Road, Gurgaon for Vatika Business Park offices and nearby societies like Nirvana Country and South City II. Book today.",
+  keywords: ["spa in sohna road", "massage sohna road gurgaon", "spa near sohna road", "body massage sohna road", "spa vatika business park"],
   alternates: {
     canonical: "/spa-in-sohna-road",
   },

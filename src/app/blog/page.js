@@ -4,6 +4,13 @@ export const metadata = {
   title: "Spa & Wellness Blog | Spa In Gurgaon",
   description:
     "Expert massage guides and wellness insights from Spa In Gurgaon's therapists — deep tissue, sandwich, Swedish and full body massage explained.",
+  keywords: [
+    "spa blog gurgaon",
+    "massage guides",
+    "wellness blog",
+    "deep tissue massage guide",
+    "full body massage guide",
+  ],
   alternates: {
     canonical: "/blog",
   },

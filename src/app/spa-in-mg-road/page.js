@@ -3,6 +3,7 @@ import MgRoad from "./MgRoad";
 export const metadata = {
   title: "Best Spa in MG Road Gurgaon With Foreign Therapists",
   description: "Looking for a luxury spa in MG Road Gurgaon? Enjoy premium body massage with certified foreign therapists. Experience world-class wellness treatments.",
+  keywords: ["spa in mg road", "massage mg road gurgaon", "spa near mg road", "body massage mg road gurgaon"],
   alternates: {
     canonical: "/spa-in-mg-road",
   },

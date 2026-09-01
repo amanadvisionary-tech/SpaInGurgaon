@@ -3,6 +3,7 @@ import Sector29 from "./Sector29";
 export const metadata = {
   title: "Best Spa in Sector 29 Gurgaon With Foreign Therapists",
   description: "Looking for a luxury spa in Sector 29 Gurgaon? Enjoy premium body massage with certified foreign therapists. Experience world-class wellness treatments.",
+  keywords: ["spa in sector 29", "massage sector 29 gurgaon", "spa near sector 29", "body massage sector 29"],
   alternates: {
     canonical: "/spa-in-sector-29",
   },

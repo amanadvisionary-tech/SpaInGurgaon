@@ -4,6 +4,7 @@ import Pricpage from "./Pricpage";
 export const metadata = {
   title: "Best Spa Price in Gurgaon | Affordable Delhi NCR Spa",
   description: "Looking for an affordable spa price in Delhi NCR? Check our spa price in gurgaon and visit us for complete relaxation. We provide multiple types of therapies.",
+  keywords: ["spa price delhi ncr", "massage price gurgaon", "spa cost gurgaon", "body massage price list"],
   alternates: {
     canonical: "/spa-price-in-delhi-ncr",
   },

@@ -43,20 +43,20 @@ export default function Navbar() {
     { name: "B2B Massage", href: "/b2b-massage-in-gurgaon" },
     { name: "Full Body Massage", href: "/full-body-massage-in-gurgaon" },
     { name: "Deep Tissue Massage", href: "/deep-tissue-massage-in-gurgaon" },
-    { name: "We Are Hiring", href: "/spa-therapist-jobs-in-gurgaon" },
+    // { name: "We Are Hiring", href: "/spa-therapist-jobs-in-gurgaon" },
   ];
 
   const outletDropdown = [
-    { name: "Aerocity", href: "/spa-in-aerocity" },
+    // { name: "Aerocity", href: "/spa-in-aerocity" },
     { name: "Cyber City", href: "/spa-in-cyber-city" },
     { name: "DLF Phase 1", href: "/spa-in-DLF-Phase-1" },
-    { name: "Connaught Place", href: "/spa-in-connaught-place" },
-    { name: "Lajpat Nagar", href: "/spa-in-lajpat-nagar" },
-    { name: "Gurugram", href: "/spa-in-gurgaon" },
-    { name: "Noida", href: "/spa-in-noida" },
+    // { name: "Connaught Place", href: "/spa-in-connaught-place" },
+    // { name: "Lajpat Nagar", href: "/spa-in-lajpat-nagar" },
+    // { name: "Gurugram", href: "/spa-in-gurgaon" },
+    // { name: "Noida", href: "/spa-in-noida" },
     { name: "Golf Course Road", href: "/spa-in-golf-course-road" },
     { name: "MG Road", href: "/spa-in-mg-road" },
-    { name: "Sector 29", href: "/spa-in-sector-29" },
+    // { name: "Sector 29", href: "/spa-in-sector-29" },
     { name: "Sohna Road", href: "/spa-in-sohna-road" },
   ];
 
@@ -92,7 +92,7 @@ export default function Navbar() {
         animate={{ y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <div className="max-w-7xl mx-auto flex justify-between items-center">
+        <div className="max-w-7xl mx-auto flex items-center justify-between md:grid md:grid-cols-[auto_1fr_auto] md:gap-6">
           {/* Logo */}
           <div className="w-50 h-15 relative">
             <Image
@@ -104,19 +104,14 @@ export default function Navbar() {
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-8 items-center">
+          <div className="hidden md:flex justify-center space-x-10 items-center">
             <a
               href="/"
               className="font-medium text-gray-800 hover:text-emerald-600 transition"
             >
               Home
             </a>
-            <a
-              href="/about-us"
-              className="font-medium text-gray-800 hover:text-emerald-600 transition"
-            >
-              About
-            </a>
+
 
             {/* Services Dropdown */}
             <div
@@ -124,9 +119,22 @@ export default function Navbar() {
               onMouseEnter={handleServicesEnter}
               onMouseLeave={handleServicesLeave}
             >
-              <button className="font-medium text-gray-800 hover:text-emerald-600 transition">
-                <a href="/massage-service-in-gurgaon">Services</a>
-              </button>
+              <a
+                href="/massage-service-in-gurgaon"
+                className="flex items-center gap-1 font-medium text-gray-800 hover:text-emerald-600 transition"
+              >
+                Services
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className={`h-4 w-4 transition-transform duration-200 ${isServicesOpen ? "rotate-180" : ""}`}
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              </a>
               {isServicesOpen && (
                 <div className="absolute left-0 mt-2 w-56 bg-white shadow-xl rounded-xl z-50 py-2">
                   {servicesDropdown.map((item) => (
@@ -155,9 +163,22 @@ export default function Navbar() {
               onMouseEnter={handleOutletEnter}
               onMouseLeave={handleOutletLeave}
             >
-              <button className="font-medium text-gray-800 hover:text-emerald-600 transition">
-                <a href="/spa-in-mahipalpur">Outlet</a>
-              </button>
+              <a
+                href="/spa-in-mahipalpur"
+                className="flex items-center gap-1 font-medium text-gray-800 hover:text-emerald-600 transition"
+              >
+                Outlet
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className={`h-4 w-4 transition-transform duration-200 ${isOutletOpen ? "rotate-180" : ""}`}
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              </a>
               {isOutletOpen && (
                 <div className="absolute left-0 mt-2 w-56 bg-white shadow-xl rounded-xl z-50 py-2">
                   {outletDropdown.map((item) => (
@@ -180,15 +201,24 @@ export default function Navbar() {
               Blog
             </a>
             <a
+              href="/about-us"
+              className="font-medium text-gray-800 hover:text-emerald-600 transition"
+            >
+              About
+            </a>
+            <a
               href="/contacts"
               className="font-medium text-gray-800 hover:text-emerald-600 transition"
             >
               Contact
             </a>
+          </div>
 
+          {/* Book Appointment CTA */}
+          <div className="hidden md:flex justify-end">
             <a
               href="https://api.whatsapp.com/send?phone=918448499173"
-              className="bg-emerald-600 text-white px-6 py-2 rounded-full font-medium text-sm hover:bg-emerald-700 transition shadow-md"
+              className="bg-emerald-600 text-white px-6 py-2 rounded-full font-medium text-sm hover:bg-emerald-700 transition shadow-md whitespace-nowrap"
             >
               Book Appointment
             </a>
@@ -214,12 +244,7 @@ export default function Navbar() {
             >
               Home
             </a>
-            <a
-              href="/about-us"
-              className="block text-gray-800 font-semibold hover:text-emerald-600"
-            >
-              About
-            </a>
+            
 
             {/* Mobile Services */}
             <div className="flex justify-between items-center text-gray-800 font-semibold py-2">
@@ -287,6 +312,12 @@ export default function Navbar() {
               className="block text-gray-800 font-semibold hover:text-emerald-600"
             >
               Blog
+            </a>
+            <a
+              href="/about-us"
+              className="block text-gray-800 font-semibold hover:text-emerald-600"
+            >
+              About
             </a>
             <a
               href="/contacts"

@@ -4,6 +4,13 @@ import B2bservice from "./B2bservice";
 export const metadata = {
   title: "Get Body To Body Massage in Gurgaon | B2B Spa At Home",
   description: "Get a premium body to body massage in Gurgaon. Enjoy a private B2B spa at home and experience total comfort at your doorstep.",
+  keywords: [
+    "b2b massage gurgaon",
+    "body to body massage gurgaon",
+    "b2b spa at home",
+    "body to body spa gurgaon",
+    "b2b massage near me",
+  ],
   alternates: {
     canonical: "/b2b-massage-in-gurgaon",
   },

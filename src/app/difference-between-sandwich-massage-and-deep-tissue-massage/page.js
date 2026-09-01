@@ -3,6 +3,11 @@ import SandwichMassageAndDeepTissueMassage from "./SandwichMassageAndDeepTissueM
 export const metadata = {
   title: "Sandwich vs Deep Tissue Massage: What's the Difference?",
   description: "Know the difference between sandwich massage and deep tissue massage — pressure, benefits, and which one is best for stress or pain relief.",
+  keywords: [
+    "sandwich vs deep tissue massage",
+    "difference between sandwich and deep tissue massage",
+    "sandwich massage vs deep tissue",
+  ],
   alternates: {
     canonical: "/difference-between-sandwich-massage-and-deep-tissue-massage",
   },

@@ -5,6 +5,12 @@ export const metadata = {
     "Best Spa on Golf Course Road Gurgaon With Foreign Therapists",
   description:
     "Looking for a luxury spa on Golf Course Road Gurgaon? Enjoy premium body massage with certified foreign therapists. Experience world-class wellness treatments.",
+  keywords: [
+    "spa in golf course road",
+    "massage golf course road gurgaon",
+    "spa golf course extension road",
+    "body massage golf course road",
+  ],
   alternates: {
     canonical: "/spa-in-golf-course-road",
   },

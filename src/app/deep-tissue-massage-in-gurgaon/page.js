@@ -4,6 +4,14 @@ export const metadata = {
   title: "Deep Tissue Massage in Gurgaon | Book Now",
   description:
     "Book a deep tissue massage in Gurgaon at your hotel, home, or spa outlet. Trained therapists, clear pricing, and same-day booking slots available now.",
+  keywords: [
+    "deep tissue massage gurgaon",
+    "deep tissue massage near me",
+    "book deep tissue massage",
+    "deep tissue massage home service",
+    "deep tissue massage hotel gurgaon",
+    "deep tissue massage price gurgaon",
+  ],
   alternates: {
     canonical: "/deep-tissue-massage-in-gurgaon",
   },

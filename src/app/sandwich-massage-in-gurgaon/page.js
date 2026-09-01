@@ -4,6 +4,12 @@ import Sandwichmassage from "./Sandwichmassage";
 export const metadata = {
   title: "Best Sandwich Massage in Gurgaon | Starting From Just 1999",
   description: " Book a premium Sandwich Massage in Gurgaon today. Visit our luxury spa for full-body relaxation and professional care starting from just ₹1999",
+  keywords: [
+    "sandwich massage gurgaon",
+    "sandwich massage near me",
+    "four hand massage gurgaon",
+    "sandwich massage price gurgaon",
+  ],
   alternates: {
     canonical: "/sandwich-massage-in-gurgaon",
   },

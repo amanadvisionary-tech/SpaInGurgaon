@@ -4,6 +4,14 @@ import Abpage from "./Abpage";
 export const metadata = {
   title: "About Our Luxury Spa in Gurgaon | Spa In Gurgaon",
   description: "Know more about our luxury spa in Gurgaon, offering body spa, couple spa, and ayurvedic therapies to clients across Delhi NCR with top-class service.",
+  keywords: [
+    "about spa in gurgaon",
+    "spa in gurgaon therapists",
+    "luxury spa gurgaon",
+    "body spa gurgaon",
+    "couple spa gurgaon",
+    "ayurvedic spa gurgaon",
+  ],
   alternates: {
     canonical: "/about-us",
   },

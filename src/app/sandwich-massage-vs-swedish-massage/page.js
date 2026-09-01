@@ -3,6 +3,11 @@ import Sandwichmassagevsswedish from "./Sandwichmassagevsswedish";
 export const metadata = {
   title: "Sandwich vs Swedish Massage: Which is Better?",
   description: "Sandwich massage vs Swedish massage — compare pressure, technique, and benefits to find out which one is better to relieve stress and muscle tension.",
+  keywords: [
+    "sandwich vs swedish massage",
+    "swedish massage gurgaon",
+    "sandwich massage or swedish massage",
+  ],
   alternates: {
     canonical: "/sandwich-massage-vs-swedish-massage",
   },

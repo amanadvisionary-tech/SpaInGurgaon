@@ -4,6 +4,12 @@ import Lajpatnagar from "./Lajpatnagar";
 export const metadata = {
   title: "Body Massage Spa in Lajpat Nagar | 1st Visit @1999",
   description: "Looking for the best body massage spa in Lajpat Nagar? Visit us for premium massage service with certified therapists in a relaxing setting. Book Now!",
+  keywords: [
+    "spa in lajpat nagar",
+    "body massage lajpat nagar",
+    "spa near lajpat nagar",
+    "massage lajpat nagar delhi",
+  ],
   alternates: {
     canonical: "/spa-in-lajpat-nagar",
   },

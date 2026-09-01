@@ -4,6 +4,13 @@ import Couppage from "./Couppage";
 export const metadata = {
   title: "Experience Couples Massage in Gurgaon | Romantic Vibes",
   description: "Book a luxury couples massage in Gurgaon today. Relax together and enjoy soothing therapies in a private, romantic spa setting.",
+  keywords: [
+    "couples massage gurgaon",
+    "couple spa gurgaon",
+    "romantic massage gurgaon",
+    "couple massage near me",
+    "couple spa near me",
+  ],
   alternates: {
     canonical: "/couples-massage-in-gurgaon",
   },

@@ -4,6 +4,12 @@ import DLFPhase1 from "./DLFPhase1";
 export const metadata = {
   title: "Best Spa in DLF Phase 1 Gurgaon With Foreign Therapists",
   description: "Looking for a luxury spa in DLF Phase 1 Gurgaon? Enjoy premium body massage with certified foreign therapists. Experience world-class wellness treatments.",
+  keywords: [
+    "spa in dlf phase 1",
+    "massage in dlf phase 1 gurgaon",
+    "spa dlf phase 1 gurgaon",
+    "body massage dlf phase 1",
+  ],
   alternates: {
     canonical: "/spa-in-DLF-Phase-1",
   },

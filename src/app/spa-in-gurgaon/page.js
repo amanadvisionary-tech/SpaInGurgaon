@@ -4,6 +4,13 @@ import Gurgaon from "./Gurgaon";
 export const metadata = {
   title: "Best Spa in Gurgaon | Luxury Body Massage",
   description: "Looking for the best spa in Gurgaon? Enjoy full body, couple, and sandwich massage by certified therapists in a relaxing, luxury setting. Book Now!",
+  keywords: [
+    "spa in gurgaon",
+    "massage in gurgaon",
+    "best spa gurgaon",
+    "body massage gurgaon",
+    "spa gurugram",
+  ],
   alternates: {
     canonical: "/spa-in-gurgaon",
   },

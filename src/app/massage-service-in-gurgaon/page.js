@@ -4,6 +4,13 @@ import Servpage from "./Servpage";
 export const metadata = {
   title: "Book Spa Service in Gurgaon | Massage at Home in Gurgaon",
   description: "Experience spa service in Gurgaon. Try our expert massage at home in Gurgaon with soothing oils, trained therapists, and complete relaxation at your doorstep.",
+  keywords: [
+    "massage service gurgaon",
+    "spa service gurgaon",
+    "massage at home gurgaon",
+    "spa near me gurgaon",
+    "massage centre gurgaon",
+  ],
   alternates: {
     canonical: "/massage-service-in-gurgaon",
   },

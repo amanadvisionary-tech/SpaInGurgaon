@@ -3,6 +3,12 @@ import CyberCity from "./CyberCity";
 export const metadata = {
   title: "Best Spa in Cyber City Gurgaon With Foreign Therapists",
   description: "Looking for a luxury spa in Cyber City Gurgaon? Enjoy premium body massage with certified foreign therapists. Experience world-class wellness treatments.",
+  keywords: [
+    "spa in cyber city",
+    "massage in cyber city gurgaon",
+    "spa near cyber city",
+    "body massage cyber city",
+  ],
   alternates: {
     canonical: "/spa-in-cyber-city",
   },

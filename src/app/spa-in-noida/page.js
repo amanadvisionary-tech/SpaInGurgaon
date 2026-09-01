@@ -4,6 +4,7 @@ import Noida from "./Noida";
 export const metadata = {
   title: "Book Massage session at our spa in Noida | Self Care Session",
   description: "Book your massage session at our spa in Noida today. Treat yourself to a soothing self-care spa therapy designed for total wellness.",
+  keywords: ["spa in noida", "massage in noida", "spa near noida", "body massage noida"],
   alternates: {
     canonical: "/spa-in-noida",
   },
