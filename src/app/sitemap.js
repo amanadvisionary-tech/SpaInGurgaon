@@ -7,6 +7,7 @@ const routes = [
   { path: "/sandwich-massage-in-gurgaon", changeFrequency: "weekly", priority: 0.9 },
   { path: "/couples-massage-in-gurgaon", changeFrequency: "weekly", priority: 0.9 },
   { path: "/full-body-massage-in-gurgaon", changeFrequency: "weekly", priority: 0.9 },
+  { path: "/deep-tissue-massage-in-gurgaon", changeFrequency: "weekly", priority: 0.9 },
   { path: "/full-body-massage", changeFrequency: "weekly", priority: 0.8, lastModified: "2026-08-04" },
   { path: "/b2b-massage-in-gurgaon", changeFrequency: "monthly", priority: 0.8 },
   { path: "/spa-price-in-delhi-ncr", changeFrequency: "monthly", priority: 0.8 },

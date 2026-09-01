@@ -143,8 +143,14 @@ const teamMembers = [
       image: "/images/fpkdl.com_960_1760685860_full-body-massage-spa-salon_926199-4238291.jpg",
       description: "Reflexology at Spa in Gurgaon works on specific points located on your feet and hands. Pressure on these points helps release tension throughout your entire body. Internal healing gets triggered by each touch. Blood flow improves, and your system finds better balance.",
       duration: "60 min"
+    },
+    {
+      title: "Deep Tissue Massage",
+      image: "/images/dt-hands-back.webp",
+      description: "<a href=\"/deep-tissue-massage-in-gurgaon\" class=\"text-emerald-700 font-medium underline hover:text-emerald-800\">Deep Tissue Massage</a> uses slow, firm pressure to reach deep into tight muscles. It's a good pick if you carry a lot of tension in your back, neck, or shoulders.",
+      duration: "60-90 min"
     }
-    
+
   ];
 
   const container = {
@@ -657,20 +663,15 @@ const faqs = [
                     </div>
                     
                     <div>
-                      <a 
-                        href="tel:+919211235800" 
-                        className="inline-flex items-center bg-gradient-to-r text-white rounded-full font-medium transition-all duration-300 hover:gap-3 hover:shadow-lg"
+                      <a
+                        href="https://t.me/Tanuspa"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full transition-all duration-300 hover:gap-3 hover:shadow-lg"
                       >
-                        <a 
-                                        href="https://t.me/Tanuspa" 
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
-                                      >
-                                        <FaTelegram className="text-xl mr-3" />
-                                        Meet Our Team
-                                      </a>
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                        <FaTelegram className="text-xl mr-3" />
+                        Meet Our Team
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-2" viewBox="0 0 20 20" fill="currentColor">
                           <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
                         </svg>
                       </a>

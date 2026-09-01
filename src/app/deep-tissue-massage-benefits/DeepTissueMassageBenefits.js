@@ -99,6 +99,13 @@ const RELATED_ARTICLES = [
     date: "29 Jul 2026", tag: "Luxury Spa",
     href: "/full-body-massage-in-gurgaon",
   },
+  {
+    title: "Book a Deep Tissue Massage in Gurgaon",
+    desc: "Ready to book? See pricing, service areas, and what to expect.",
+    img: "/images/dt-hands-back.webp",
+    date: "01 Sep 2026", tag: "Book Now",
+    href: "/deep-tissue-massage-in-gurgaon",
+  },
 ];
 
 const BENEFITS = [
@@ -693,7 +700,7 @@ export default function DeepTissueMassageBenefits() {
                 <p className="text-gray-700 leading-[1.95] mb-4 text-sm"><strong>Deep tissue massage</strong> is a powerful therapeutic tool for anyone dealing with chronic muscle pain, tension, stress, or restricted mobility. Unlike quick-fix solutions, regular massage therapy works with your body's natural healing systems to provide lasting, meaningful relief.</p>
                 <p className="text-gray-700 leading-[1.95] mb-4 text-sm">Whether you are an office worker with a stiff back, an athlete recovering from training, or simply someone investing in their long-term wellbeing — <strong>deep tissue massage therapy</strong> can make a real difference in how your body feels every day.</p>
                 <Callout type="success" title="Ready to Experience the Benefits?">
-                  Book your deep tissue massage session at Spain Gurugram Spa today. Our certified therapists customize every session to your specific needs and comfort level — leaving you refreshed, pain-free, and ready to take on life.
+                  Book your deep tissue massage session at Spain Gurugram Spa today. Our certified therapists customize every session to your specific needs and comfort level — leaving you refreshed, pain-free, and ready to take on life. See pricing, service areas, and how to <a href="/deep-tissue-massage-in-gurgaon" className="text-[#7b0f2b] font-medium underline hover:no-underline">book a deep tissue massage in Gurgaon</a>.
                 </Callout>
               </section>
 

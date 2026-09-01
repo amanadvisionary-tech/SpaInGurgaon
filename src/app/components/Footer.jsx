@@ -10,17 +10,18 @@ export default function Footer() {
         <div>
           <h3 className="text-2xl font-serif text-white mb-6">SPA IN <span className="text-[#D4AF37]">GURGAON</span></h3>
           <p className="text-sm leading-relaxed mb-6">Luxury spa experiences for complete rejuvenation in the heart of Gurgaon.</p>
-          <ul className="space-y-2 text-sm">
+          {/* <ul className="space-y-2 text-sm">
             <li><Link href="/about-us" className="hover:text-[#D4AF37] transition-colors">About Us</Link></li>
             <li><Link href="/blog" className="hover:text-[#D4AF37] transition-colors">Spa & Wellness Blog</Link></li>
             <li><Link href="/spa-therapist-jobs-in-gurgaon" className="hover:text-[#D4AF37] transition-colors">We Are Hiring</Link></li>
-          </ul>
+          </ul> */}
         </div>
         <div>
           <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Our Services</h4>
           <ul className="space-y-4 text-sm">
             <li><Link href="/massage-service-in-gurgaon" className="hover:text-[#D4AF37] transition-colors">All Massage Services</Link></li>
             <li><Link href="/full-body-massage-in-gurgaon" className="hover:text-[#D4AF37] transition-colors">Full Body Massage</Link></li>
+            <li><Link href="/deep-tissue-massage-in-gurgaon" className="hover:text-[#D4AF37] transition-colors">Deep Tissue Massage</Link></li>
             <li><Link href="/sandwich-massage-in-gurgaon" className="hover:text-[#D4AF37] transition-colors">Sandwich Massage</Link></li>
             <li><Link href="/couples-massage-in-gurgaon" className="hover:text-[#D4AF37] transition-colors">Couples Massage</Link></li>
             <li><Link href="/spa-price-in-delhi-ncr" className="hover:text-[#D4AF37] transition-colors">Spa Price List</Link></li>
@@ -39,16 +40,16 @@ export default function Footer() {
         <div>
           <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Our Locations</h4>
           <ul className="space-y-2 text-sm grid grid-cols-1">
-            <li><Link href="/spa-in-gurgaon" className="hover:text-[#D4AF37] transition-colors">Gurugram</Link></li>
+            {/* <li><Link href="/spa-in-gurgaon" className="hover:text-[#D4AF37] transition-colors">Gurugram</Link></li> */}
             <li><Link href="/spa-in-DLF-Phase-1" className="hover:text-[#D4AF37] transition-colors">DLF Phase 1</Link></li>
             <li><Link href="/spa-in-cyber-city" className="hover:text-[#D4AF37] transition-colors">Cyber City</Link></li>
             <li><Link href="/spa-in-mg-road" className="hover:text-[#D4AF37] transition-colors">MG Road</Link></li>
             <li><Link href="/spa-in-golf-course-road" className="hover:text-[#D4AF37] transition-colors">Golf Course Road</Link></li>
             <li><Link href="/spa-in-sector-29" className="hover:text-[#D4AF37] transition-colors">Sector 29</Link></li>
-            <li><Link href="/spa-in-mahipalpur" className="hover:text-[#D4AF37] transition-colors">Mahipalpur</Link></li>
-            <li><Link href="/spa-in-aerocity" className="hover:text-[#D4AF37] transition-colors">Aerocity</Link></li>
+            {/* <li><Link href="/spa-in-mahipalpur" className="hover:text-[#D4AF37] transition-colors">Mahipalpur</Link></li> */}
+            {/* <li><Link href="/spa-in-aerocity" className="hover:text-[#D4AF37] transition-colors">Aerocity</Link></li> */}
             <li><Link href="/spa-in-connaught-place" className="hover:text-[#D4AF37] transition-colors">Connaught Place</Link></li>
-            <li><Link href="/spa-in-lajpat-nagar" className="hover:text-[#D4AF37] transition-colors">Lajpat Nagar</Link></li>
+            {/* <li><Link href="/spa-in-lajpat-nagar" className="hover:text-[#D4AF37] transition-colors">Lajpat Nagar</Link></li> */}
             {/* <li><Link href="/spa-in-noida" className="hover:text-[#D4AF37] transition-colors">Noida</Link></li> */}
             <li><Link href="/spa-in-sohna-road" className="hover:text-[#D4AF37] transition-colors">Sohna Road</Link></li>
           </ul>
