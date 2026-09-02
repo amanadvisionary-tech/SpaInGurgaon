@@ -111,7 +111,7 @@ const teamMembers = [
     {
       title: "Thai Massage",
       image: "/images/fpkdl.com_960_1760685290_therapist-preparing-procedure_274689-24623.jpg",
-      description: "Spa in Gurgaon provides Thai Massage using traditional methods from ancient practices. No oil is used during this treatment. Instead, pressure points are worked on and your body is gently stretched. Energy that was stuck starts moving freely again. Your joints feel more flexible and your whole body feels lighter. A sense of renewed energy stays with you after the session.",
+      description: "Spa in Gurgaon provides <a href=\"/thai-massage-in-gurgaon\" class=\"text-emerald-700 font-medium underline hover:text-emerald-800\">Thai Massage</a> using traditional methods from ancient practices. No oil is used during this treatment. Instead, pressure points are worked on and your body is gently stretched. Energy that was stuck starts moving freely again. Your joints feel more flexible and your whole body feels lighter. A sense of renewed energy stays with you after the session.",
       duration: "60 min"
     },
     // {

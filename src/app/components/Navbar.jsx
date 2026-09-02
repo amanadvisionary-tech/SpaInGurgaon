@@ -43,6 +43,7 @@ export default function Navbar() {
     { name: "B2B Massage", href: "/b2b-massage-in-gurgaon" },
     { name: "Full Body Massage", href: "/full-body-massage-in-gurgaon" },
     { name: "Deep Tissue Massage", href: "/deep-tissue-massage-in-gurgaon" },
+    { name: "Thai Massage", href: "/thai-massage-in-gurgaon" },
     // { name: "We Are Hiring", href: "/spa-therapist-jobs-in-gurgaon" },
   ];
 

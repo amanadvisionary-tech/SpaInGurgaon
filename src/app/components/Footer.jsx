@@ -24,6 +24,7 @@ export default function Footer() {
             <li><Link href="/deep-tissue-massage-in-gurgaon" className="hover:text-[#D4AF37] transition-colors">Deep Tissue Massage</Link></li>
             <li><Link href="/sandwich-massage-in-gurgaon" className="hover:text-[#D4AF37] transition-colors">Sandwich Massage</Link></li>
             <li><Link href="/couples-massage-in-gurgaon" className="hover:text-[#D4AF37] transition-colors">Couples Massage</Link></li>
+            <li><Link href="/thai-massage-in-gurgaon" className="hover:text-[#D4AF37] transition-colors">Thai Massage</Link></li>
             <li><Link href="/spa-price-in-delhi-ncr" className="hover:text-[#D4AF37] transition-colors">Spa Price List</Link></li>
           </ul>
         </div>
