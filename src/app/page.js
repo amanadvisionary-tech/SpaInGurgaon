@@ -3,7 +3,7 @@ import HomeClient from "./HomeClient";
 // <-- NO "use client" here -->
 export const metadata = {
   title: "Best Spa in Gurgaon | First Visit Offer @1999",
-  description: "Book a spa in Gurgaon and experience one of the best massages by well-trained female therapists — soothing ambience, organic oils, professional care.",
+  description: "Spa in Gurgaon from ₹1999 — full body, Thai, deep tissue & couple massage by certified therapists in private, hygienic rooms. Book instantly on WhatsApp.",
   keywords: [
     "spa in gurgaon",
     "massage in gurgaon",
@@ -25,11 +25,21 @@ export const metadata = {
   alternates: {
     canonical: "/",
   },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+    },
+  },
   openGraph: {
-    title: "Book Spa in Gurgaon By Certified Therapists | First Visit Offer @1999",
-    description: "Book spa in gurgaon and experience one of the best massages in gurgaon by well trained female therapists. soothing ambience, organic oils, and professional therapists.",
-    images: ["https://www.spaingurgaon.com/images/banner.jpeg"], // <-- use absolute URL in production
+    title: "Best Spa in Gurgaon — Full Body, Thai, Deep Tissue & Couple Massage from ₹1999",
+    description: "12+ outlets across Gurgaon — book at an outlet near you, your hotel, or your home. Certified therapists, private rooms, transparent pricing.",
+    images: ["https://www.spaingurgaon.com/images/banner.jpeg"],
     type: "website",
+    url: "https://www.spaingurgaon.com/",
   },
   twitter: {
     card: "summary_large_image",
@@ -93,10 +103,29 @@ const faqSchema = {
   ],
 };
 
-// import dynamic from "next/dynamic";
-
-// dynamic import is optional but helps to avoid SSR issues with some libs
-// const HomeClient = dynamic(() => import("./HomeClient"), { ssr: false });
+// ─── Service catalog schema — must mirror the services listed in HomeClient.js ───
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  itemListElement: [
+    { name: "Thai Massage in Gurgaon", url: "https://www.spaingurgaon.com/thai-massage-in-gurgaon" },
+    { name: "Sandwich Massage in Gurgaon", url: "https://www.spaingurgaon.com/sandwich-massage-in-gurgaon" },
+    { name: "Full Body Massage in Gurgaon", url: "https://www.spaingurgaon.com/full-body-massage-in-gurgaon" },
+    { name: "B2B Massage in Gurgaon", url: "https://www.spaingurgaon.com/b2b-massage-in-gurgaon" },
+    { name: "Deep Tissue Massage in Gurgaon", url: "https://www.spaingurgaon.com/deep-tissue-massage-in-gurgaon" },
+    { name: "Couples Massage in Gurgaon", url: "https://www.spaingurgaon.com/couples-massage-in-gurgaon" },
+  ].map((s, i) => ({
+    "@type": "ListItem",
+    position: i + 1,
+    item: {
+      "@type": "Service",
+      name: s.name,
+      url: s.url,
+      provider: { "@id": "https://www.spaingurgaon.com/#business" },
+      areaServed: "Gurgaon",
+    },
+  })),
+};
 
 export default function page() {
   return (
@@ -104,6 +133,10 @@ export default function page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
       <HomeClient />
     </>

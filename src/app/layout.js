@@ -85,6 +85,15 @@ const localBusinessSchema = {
     "Noida",
     "Delhi NCR",
   ],
+  makesOffer: {
+    "@type": "Offer",
+    name: "First Visit Offer",
+    description: "45-60 minute full body massage session for first-time clients.",
+    price: "1999",
+    priceCurrency: "INR",
+    availability: "https://schema.org/InStock",
+    url: "https://www.spaingurgaon.com/",
+  },
 };
 
 export default function RootLayout({ children }) {
