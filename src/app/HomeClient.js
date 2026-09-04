@@ -383,7 +383,6 @@ export default function HomeClient() {
                   </li>
                 </ul>
               </motion.div>
-
               {/* Right Image Card */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}

@@ -2,9 +2,9 @@ import GolfCourseRoad from "./golfcourseroad";
 
 export const metadata = {
   title:
-    "Best Spa on Golf Course Road Gurgaon With Foreign Therapists",
+    "Spa in Golf Course Road Gurgaon - Foreign Therapists | Spa In Gurgaon",
   description:
-    "Looking for a luxury spa on Golf Course Road Gurgaon? Enjoy premium body massage with certified foreign therapists. Experience world-class wellness treatments.",
+    "Spa on Golf Course Road, Gurgaon with certified foreign therapists for full body, sandwich and couple massage — first visit at just ₹1999. Book your session now!",
   keywords: [
     "spa in golf course road",
     "massage golf course road gurgaon",
@@ -16,9 +16,9 @@ export const metadata = {
   },
   openGraph: {
     title:
-      "Get Best Body Massage on Golf Course Road Gurgaon | First Visit Offer 1999",
+      "Spa in Golf Course Road Gurgaon - Foreign Therapists | Spa In Gurgaon",
     description:
-      "Looking for a relaxing massage on Golf Course Road? Experience the best full body massage, sandwich massage and couple massage at a top massage spa in Gurgaon.",
+      "Spa on Golf Course Road, Gurgaon with certified foreign therapists for full body, sandwich and couple massage — first visit at just ₹1999. Book your session now!",
     images: ["https://www.spaingurgaon.com/images/banner.jpeg"],
     type: "website",
   },

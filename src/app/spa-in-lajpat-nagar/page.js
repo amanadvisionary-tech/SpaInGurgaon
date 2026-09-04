@@ -2,8 +2,8 @@ import Lajpatnagar from "./Lajpatnagar";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Body Massage Spa in Lajpat Nagar | 1st Visit @1999",
-  description: "Looking for the best body massage spa in Lajpat Nagar? Visit us for premium massage service with certified therapists in a relaxing setting. Book Now!",
+  title: "Spa in Lajpat Nagar - 1st Visit @ ₹1999 | Spa In Gurgaon",
+  description: "Spa in Lajpat Nagar with certified therapists for full body, sandwich and couple massage in a relaxing setting — first visit at just ₹1999. Book now!",
   keywords: [
     "spa in lajpat nagar",
     "body massage lajpat nagar",
@@ -14,8 +14,8 @@ export const metadata = {
     canonical: "/spa-in-lajpat-nagar",
   },
   openGraph: {
-    title: "Body Massage Spa in Lajpat Nagar | 1st Visit @1999",
-    description: "Looking for a relaxing massage in Delhi? Experience the best full body, sandwich massage, Couple massages at the top massage parlour in Delhi.",
+    title: "Spa in Lajpat Nagar - 1st Visit @ ₹1999 | Spa In Gurgaon",
+    description: "Spa in Lajpat Nagar with certified therapists for full body, sandwich and couple massage in a relaxing setting — first visit at just ₹1999. Book now!",
     images: ["https://www.spaingurgaon.com/images/banner.jpeg"], // <-- use absolute URL in production
     type: "website",
   },

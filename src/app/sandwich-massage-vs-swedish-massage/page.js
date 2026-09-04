@@ -1,8 +1,8 @@
 import Sandwichmassagevsswedish from "./Sandwichmassagevsswedish";
 
 export const metadata = {
-  title: "Sandwich vs Swedish Massage: Which is Better?",
-  description: "Sandwich massage vs Swedish massage — compare pressure, technique, and benefits to find out which one is better to relieve stress and muscle tension.",
+  title: "Sandwich vs Swedish Massage - Which Relieves Stress Better | Spa In Gurgaon",
+  description: "Sandwich massage vs Swedish massage compared for pressure, technique and stress relief — expert insight from Gurgaon's certified spa therapists. Read the guide now!",
   keywords: [
     "sandwich vs swedish massage",
     "swedish massage gurgaon",
@@ -12,8 +12,8 @@ export const metadata = {
     canonical: "/sandwich-massage-vs-swedish-massage",
   },
   openGraph: {
-    title: "Sandwich Massage vs Swedish Massage: Which One is Better?",
-    description: "Compare pressure, technique, and benefits of sandwich massage vs Swedish massage to find out which is better to relieve stress.",
+    title: "Sandwich vs Swedish Massage - Which Relieves Stress Better | Spa In Gurgaon",
+    description: "Sandwich massage vs Swedish massage compared for pressure, technique and stress relief — expert insight from Gurgaon's certified spa therapists. Read the guide now!",
     images: ["https://www.spaingurgaon.com/images/banner.jpeg"], // <-- use absolute URL in production
     type: "website",
   },

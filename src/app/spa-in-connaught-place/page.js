@@ -2,8 +2,8 @@ import Connaught from "./Connaught";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Book Best Spa in Connaught Place | Luxury Massage in CP",
-  description: "Book a session at the best spa in Connaught Place. Experience top notch luxury massage in CP by Certified female therapists. Visit Now!",
+  title: "Spa in Connaught Place - Luxury Massage in CP | Spa In Gurgaon",
+  description: "Spa in Connaught Place offering luxury full body and couple massage by certified female therapists in a private, relaxing setting. Book your visit now!",
   keywords: [
     "spa in connaught place",
     "massage in cp delhi",
@@ -14,8 +14,8 @@ export const metadata = {
     canonical: "/spa-in-connaught-place",
   },
   openGraph: {
-    title: "Book Best Spa in Connaught Place | Luxury Massage in CP",
-    description: "Book a session at the best spa in Connaught Place. Experience top notch luxury massage in CP by Certified female therapists. Visit Now!",
+    title: "Spa in Connaught Place - Luxury Massage in CP | Spa In Gurgaon",
+    description: "Spa in Connaught Place offering luxury full body and couple massage by certified female therapists in a private, relaxing setting. Book your visit now!",
     images: ["https://www.spaingurgaon.com/images/banner.jpeg"], // <-- use absolute URL in production
     type: "website",
   },

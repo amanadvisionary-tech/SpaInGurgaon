@@ -2,9 +2,9 @@ import FullBodyMassage from "./FullBodyMassage";
 
 // ─── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata = {
-  title: "Full Body Massage: Benefits, Types & Complete Guide",
+  title: "Full Body Massage - Benefits, Types & Full Guide | Spa In Gurgaon",
   description:
-    "Learn what a full body massage is, its benefits, different types, what happens during a session, and how it helps your body and mind.",
+    "Full body massage explained — benefits, types and what to expect in a session, guided by Gurgaon's certified spa therapists. Read the complete guide now!",
   keywords: [
     "full body massage",
     "full body massage benefits",
@@ -16,9 +16,9 @@ export const metadata = {
     canonical: "https://www.spaingurgaon.com/full-body-massage",
   },
   openGraph: {
-    title: "Full Body Massage: Benefits, Types & Complete Guide",
+    title: "Full Body Massage - Benefits, Types & Full Guide | Spa In Gurgaon",
     description:
-      "Learn what a full body massage is, its benefits, different types, what happens during a session, and how it helps your body and mind.",
+      "Full body massage explained — benefits, types and what to expect in a session, guided by Gurgaon's certified spa therapists. Read the complete guide now!",
     url: "https://www.spaingurgaon.com/full-body-massage",
     siteName: "Spain Gurugram Spa",
     images: [
@@ -42,9 +42,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Full Body Massage: Benefits, Types & Complete Guide",
+    title: "Full Body Massage - Benefits, Types & Full Guide | Spa In Gurgaon",
     description:
-      "Learn what a full body massage is, its benefits, different types, what happens during a session, and how it helps your body and mind.",
+      "Full body massage explained — benefits, types and what to expect in a session, guided by Gurgaon's certified spa therapists. Read the complete guide now!",
     images: [
       "https://www.spaingurgaon.com/images/fpkdl.com_960_1760685860_full-body-massage-spa-salon_926199-4238291.jpg",
     ],
@@ -55,9 +55,9 @@ export const metadata = {
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Full Body Massage: Benefits, Types & Complete Guide",
+  headline: "Full Body Massage - Benefits, Types & Full Guide | Spa In Gurgaon",
   description:
-    "Learn what a full body massage is, its benefits, different types, what happens during a session, and how it helps your body and mind.",
+    "Full body massage explained — benefits, types and what to expect in a session, guided by Gurgaon's certified spa therapists. Read the complete guide now!",
   author: {
     "@type": "Organization",
     name: "Spain Gurugram Wellness Team",
@@ -110,7 +110,7 @@ const breadcrumbSchema = {
     {
       "@type": "ListItem",
       position: 4,
-      name: "Full Body Massage: Benefits, Types & Complete Guide",
+      name: "Full Body Massage - Benefits, Types & Full Guide | Spa In Gurgaon",
       item: "https://www.spaingurgaon.com/full-body-massage",
     },
   ],

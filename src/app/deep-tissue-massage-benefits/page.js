@@ -2,9 +2,9 @@ import DeepTissueMassageBenefits from "./DeepTissueMassageBenefits";
 
 // ─── SEO Metadata ──────────────────────────────────────────────────────────────
 export const metadata = {
-  title: "Deep Tissue Massage Benefits: A Simple Guide for Everyone",
+  title: "Deep Tissue Massage Benefits - Simple Pain Relief Guide | Spa In Gurgaon",
   description:
-    "Learn the top deep tissue massage benefits, how it works, who should get it, and why it helps reduce pain, stress, and muscle tension naturally.",
+    "Deep tissue massage benefits explained for muscle pain, stress and tension relief — backed by Gurgaon's certified massage therapists. Read the full guide now!",
   keywords: [
     "deep tissue massage benefits",
     "deep tissue massage",
@@ -19,9 +19,9 @@ export const metadata = {
     canonical: "https://www.spaingurgaon.com/deep-tissue-massage-benefits",
   },
   openGraph: {
-    title: "Deep Tissue Massage Benefits: A Simple Guide for Everyone",
+    title: "Deep Tissue Massage Benefits - Simple Pain Relief Guide | Spa In Gurgaon",
     description:
-      "Learn the top deep tissue massage benefits, how it works, who should get it, and why it helps reduce pain, stress, and muscle tension naturally.",
+      "Deep tissue massage benefits explained for muscle pain, stress and tension relief — backed by Gurgaon's certified massage therapists. Read the full guide now!",
     url: "https://www.spaingurgaon.com/deep-tissue-massage-benefits",
     siteName: "Spain Gurugram Spa",
     images: [
@@ -46,9 +46,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Deep Tissue Massage Benefits: A Simple Guide for Everyone",
+    title: "Deep Tissue Massage Benefits - Simple Pain Relief Guide | Spa In Gurgaon",
     description:
-      "Learn the top deep tissue massage benefits, how it works, who should get it, and why it helps reduce pain, stress, and muscle tension naturally.",
+      "Deep tissue massage benefits explained for muscle pain, stress and tension relief — backed by Gurgaon's certified massage therapists. Read the full guide now!",
     images: [
       "https://www.spaingurgaon.com/images/fpkdl.com_960_1758962686_masseur-doing-massage-woman-s-back-spa-salon-with-many-candles_355000-245.jpg",
     ],
@@ -59,9 +59,9 @@ export const metadata = {
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Deep Tissue Massage Benefits: A Simple Guide for Everyone",
+  headline: "Deep Tissue Massage Benefits - Simple Pain Relief Guide | Spa In Gurgaon",
   description:
-    "Learn the top deep tissue massage benefits, how it works, who should get it, and why it helps reduce pain, stress, and muscle tension naturally.",
+    "Deep tissue massage benefits explained for muscle pain, stress and tension relief — backed by Gurgaon's certified massage therapists. Read the full guide now!",
   author: {
     "@type": "Organization",
     name: "Spain Gurugram Wellness Team",

@@ -2,8 +2,8 @@ import B2bservice from "./B2bservice";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Get Body To Body Massage in Gurgaon | B2B Spa At Home",
-  description: "Get a premium body to body massage in Gurgaon. Enjoy a private B2B spa at home and experience total comfort at your doorstep.",
+  title: "B2B Massage in Gurgaon - Private Spa at Home | Spa In Gurgaon",
+  description: "B2B massage in Gurgaon delivered in a private, consensual setting at your home or hotel — trained therapists, complete comfort at your doorstep. Book now!",
   keywords: [
     "b2b massage gurgaon",
     "body to body massage gurgaon",
@@ -15,8 +15,8 @@ export const metadata = {
     canonical: "/b2b-massage-in-gurgaon",
   },
   openGraph: {
-    title: "Get Body To Body Massage in Gurgaon | B2B Spa At Home",
-    description: "Get a premium body to body massage in Gurgaon. Enjoy a private B2B spa at home and experience total comfort at your doorstep.",
+    title: "B2B Massage in Gurgaon - Private Spa at Home | Spa In Gurgaon",
+    description: "B2B massage in Gurgaon delivered in a private, consensual setting at your home or hotel — trained therapists, complete comfort at your doorstep. Book now!",
     images: ["https://www.spaingurgaon.com/images/banner.jpeg"], // <-- use absolute URL in production
     type: "website",
   },

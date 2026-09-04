@@ -1,9 +1,9 @@
 import Image from "next/image";
 
 export const metadata = {
-  title: "Spa & Wellness Blog | Spa In Gurgaon",
+  title: "Spa & Wellness Blog - Expert Massage Guides | Spa In Gurgaon",
   description:
-    "Expert massage guides and wellness insights from Spa In Gurgaon's therapists — deep tissue, sandwich, Swedish and full body massage explained.",
+    "Spa and wellness blog by Gurgaon's certified therapists — deep tissue, sandwich, Swedish and full body massage explained simply. Read the latest guides now!",
   keywords: [
     "spa blog gurgaon",
     "massage guides",
@@ -15,9 +15,9 @@ export const metadata = {
     canonical: "/blog",
   },
   openGraph: {
-    title: "Spa & Wellness Blog | Spa In Gurgaon",
+    title: "Spa & Wellness Blog - Expert Massage Guides | Spa In Gurgaon",
     description:
-      "Expert massage guides, spa tips, and wellness insights from Gurgaon's premium spa professionals.",
+      "Spa and wellness blog by Gurgaon's certified therapists — deep tissue, sandwich, Swedish and full body massage explained simply. Read the latest guides now!",
     url: "https://www.spaingurgaon.com/blog",
     images: ["/images/fpkdl.com_750_1758979994_natural-elements-spa-with-candles_23-2148199479.jpg"],
     type: "website",

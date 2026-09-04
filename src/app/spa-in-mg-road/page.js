@@ -1,15 +1,15 @@
 import MgRoad from "./MgRoad";
 
 export const metadata = {
-  title: "Best Spa in MG Road Gurgaon With Foreign Therapists",
-  description: "Looking for a luxury spa in MG Road Gurgaon? Enjoy premium body massage with certified foreign therapists. Experience world-class wellness treatments.",
+  title: "Spa in MG Road Gurgaon - Foreign Therapists | Spa In Gurgaon",
+  description: "Spa in MG Road, Gurgaon with certified foreign therapists for premium full body and sandwich massage — first visit offer at just ₹1999. Book your session now!",
   keywords: ["spa in mg road", "massage mg road gurgaon", "spa near mg road", "body massage mg road gurgaon"],
   alternates: {
     canonical: "/spa-in-mg-road",
   },
   openGraph: {
-    title: "Get Best Body Massage in MG Road Gurgaon | First Visit Offer 1999",
-    description: "Looking for a relaxing massage in MG Road? Experience the best full body, sandwich massage, Couple massages at the top massage parlour in Gurgaon.",
+    title: "Spa in MG Road Gurgaon - Foreign Therapists | Spa In Gurgaon",
+    description: "Spa in MG Road, Gurgaon with certified foreign therapists for premium full body and sandwich massage — first visit offer at just ₹1999. Book your session now!",
     images: ["https://www.spaingurgaon.com/images/banner.jpeg"],
     type: "website",
   },

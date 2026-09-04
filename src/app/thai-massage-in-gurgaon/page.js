@@ -1,9 +1,9 @@
 import ThaiMassageInGurgaon from "./ThaiMassageInGurgaon";
 
 export const metadata = {
-  title: "Thai Massage in Gurgaon | Book Now",
+  title: "Thai Massage in Gurgaon - Traditional Stretch Therapy | Spa In Gurgaon",
   description:
-    "Book a Thai massage in Gurgaon at your hotel, home, or spa outlet. Trained therapists, simple stretches, and fair prices. Easy same-day booking today.",
+    "Thai massage in Gurgaon at your hotel, home or spa outlet — traditional stretching and pressure by trained therapists at fair prices. Book a same-day session now!",
   keywords: [
     "thai massage gurgaon",
     "thai massage near me",
@@ -18,9 +18,9 @@ export const metadata = {
     canonical: "/thai-massage-in-gurgaon",
   },
   openGraph: {
-    title: "Thai Massage in Gurgaon | Spa In Gurgaon",
+    title: "Thai Massage in Gurgaon - Traditional Stretch Therapy | Spa In Gurgaon",
     description:
-      "Traditional Thai massage with stretching and gentle pressure, delivered to your hotel or home across Gurgaon, or book a session at our spa outlet.",
+      "Thai massage in Gurgaon at your hotel, home or spa outlet — traditional stretching and pressure by trained therapists at fair prices. Book a same-day session now!",
     images: ["https://www.spaingurgaon.com/images/banner.jpeg"],
     type: "website",
   },

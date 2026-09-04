@@ -1,8 +1,8 @@
 import CyberCity from "./CyberCity";
 
 export const metadata = {
-  title: "Best Spa in Cyber City Gurgaon With Foreign Therapists",
-  description: "Looking for a luxury spa in Cyber City Gurgaon? Enjoy premium body massage with certified foreign therapists. Experience world-class wellness treatments.",
+  title: "Spa in Cyber City Gurgaon - Foreign Therapists | Spa In Gurgaon",
+  description: "Spa in Cyber City, Gurgaon with certified foreign therapists for full body, sandwich and couple massage — first visit at just ₹1999. Book your session now!",
   keywords: [
     "spa in cyber city",
     "massage in cyber city gurgaon",
@@ -13,8 +13,8 @@ export const metadata = {
     canonical: "/spa-in-cyber-city",
   },
   openGraph: {
-    title: "Get Best Body Massage in Cyber City Gurgaon | First Visit Offer 1999",
-    description: "Looking for a relaxing massage in Cyber City? Experience the best full body, sandwich massage, Couple massages at the top massage parlour in Gurgaon.",
+    title: "Spa in Cyber City Gurgaon - Foreign Therapists | Spa In Gurgaon",
+    description: "Spa in Cyber City, Gurgaon with certified foreign therapists for full body, sandwich and couple massage — first visit at just ₹1999. Book your session now!",
     images: ["https://www.spaingurgaon.com/images/banner.jpeg"],
     type: "website",
   },

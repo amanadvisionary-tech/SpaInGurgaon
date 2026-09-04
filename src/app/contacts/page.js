@@ -1,9 +1,9 @@
 import ContactClient from "./ContactClient";
 
 export const metadata = {
-  title: "Contact Us | Book a Spa Appointment in Gurgaon",
+  title: "Contact Spa in Gurgaon - Book by Call or WhatsApp | Spa In Gurgaon",
   description:
-    "Get in touch with Spa In Gurgaon to book your body massage, couple spa, or wellness therapy. Call, WhatsApp, or fill our quick enquiry form.",
+    "Contact Spa In Gurgaon to book your massage or wellness therapy today — call, WhatsApp, or use our quick enquiry form, answered by our certified team. Reach out now!",
   keywords: [
     "contact spa in gurgaon",
     "book spa appointment gurgaon",
@@ -14,9 +14,9 @@ export const metadata = {
     canonical: "/contacts",
   },
   openGraph: {
-    title: "Contact Spa In Gurgaon | Book Your Appointment",
+    title: "Contact Spa in Gurgaon - Book by Call or WhatsApp | Spa In Gurgaon",
     description:
-      "Call, WhatsApp, or fill our quick enquiry form to book your massage or spa session in Gurgaon today.",
+      "Contact Spa In Gurgaon to book your massage or wellness therapy today — call, WhatsApp, or use our quick enquiry form, answered by our certified team. Reach out now!",
     url: "https://www.spaingurgaon.com/contacts",
     images: ["/images/27203214.jpg"],
     type: "website",

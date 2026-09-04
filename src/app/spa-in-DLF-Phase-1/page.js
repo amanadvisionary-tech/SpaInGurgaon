@@ -2,8 +2,8 @@ import DLFPhase1 from "./DLFPhase1";
 // src/app/spa-in-DLF-Phase-1/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Best Spa in DLF Phase 1 Gurgaon With Foreign Therapists",
-  description: "Looking for a luxury spa in DLF Phase 1 Gurgaon? Enjoy premium body massage with certified foreign therapists. Experience world-class wellness treatments.",
+  title: "Spa in DLF Phase 1 Gurgaon - Foreign Therapists | Spa In Gurgaon",
+  description: "Spa in DLF Phase 1, Gurgaon with certified foreign therapists for full body, sandwich and couple massage — first visit at just ₹1999. Book your session now!",
   keywords: [
     "spa in dlf phase 1",
     "massage in dlf phase 1 gurgaon",
@@ -14,8 +14,8 @@ export const metadata = {
     canonical: "/spa-in-DLF-Phase-1",
   },
   openGraph: {
-    title: "Get Best Body Massage in DLF Phase 1 Gurgaon | First Visit Offer 1999",
-    description: "Looking for a relaxing massage in DLF Phase 1? Experience the best full body, sandwich massage, Couple massages at the top massage parlour in Gurgaon.",
+    title: "Spa in DLF Phase 1 Gurgaon - Foreign Therapists | Spa In Gurgaon",
+    description: "Spa in DLF Phase 1, Gurgaon with certified foreign therapists for full body, sandwich and couple massage — first visit at just ₹1999. Book your session now!",
     images: ["https://www.spaingurgaon.com/images/banner.jpeg"],
     type: "website",
   },

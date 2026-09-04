@@ -1,17 +1,17 @@
 import SohnaRoad from "./SohnaRoad";
 
 export const metadata = {
-  title: "Best Spa in Sohna Road Gurgaon | In-Room Massage",
+  title: "Spa in Sohna Road Gurgaon - In-Room Massage | Spa In Gurgaon",
   description:
-    "Premium in-room spa and massage on Sohna Road, Gurgaon for Vatika Business Park offices and nearby societies like Nirvana Country and South City II. Book today.",
+    "Spa in Sohna Road, Gurgaon offering in-room massage for Vatika Business Park offices and nearby societies — certified therapists, quick booking. Book your session today!",
   keywords: ["spa in sohna road", "massage sohna road gurgaon", "spa near sohna road", "body massage sohna road", "spa vatika business park"],
   alternates: {
     canonical: "/spa-in-sohna-road",
   },
   openGraph: {
-    title: "Luxury Spa & Massage on Sohna Road, Gurgaon",
+    title: "Spa in Sohna Road Gurgaon - In-Room Massage | Spa In Gurgaon",
     description:
-      "Certified therapists deliver full body, sandwich and couple massage to hotels, offices and homes across the Sohna Road corridor in Gurgaon.",
+      "Spa in Sohna Road, Gurgaon offering in-room massage for Vatika Business Park offices and nearby societies — certified therapists, quick booking. Book your session today!",
     images: ["https://www.spaingurgaon.com/images/banner.jpeg"],
     type: "website",
   },

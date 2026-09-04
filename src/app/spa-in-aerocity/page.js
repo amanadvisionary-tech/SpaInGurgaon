@@ -2,8 +2,8 @@ import Aerocirt from "./Aerocirt";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Best Spa in Aerocity With Foreign Therapists",
-  description: "Looking for a luxury spa in Aerocity? Enjoy premium body massage with certified foreign therapists. Experience world-class wellness treatments.",
+  title: "Spa in Aerocity - Foreign Therapists | Spa In Gurgaon",
+  description: "Spa in Aerocity with certified foreign therapists delivering premium full body massage in a relaxing, hygienic setting — world-class treatments. Book now!",
   keywords: [
     "spa in aerocity",
     "massage in aerocity delhi",
@@ -14,8 +14,8 @@ export const metadata = {
     canonical: "/spa-in-aerocity",
   },
   openGraph: {
-    title: "Best Spa in Aerocity With Foreign Therapists",
-    description: "Looking for a luxury spa in Aerocity? Enjoy premium body massage with certified foreign therapists. Experience world-class wellness treatments.",
+    title: "Spa in Aerocity - Foreign Therapists | Spa In Gurgaon",
+    description: "Spa in Aerocity with certified foreign therapists delivering premium full body massage in a relaxing, hygienic setting — world-class treatments. Book now!",
     images: ["https://www.spaingurgaon.com/images/banner.jpeg"], // <-- use absolute URL in production
     type: "website",
   },

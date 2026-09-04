@@ -2,8 +2,8 @@ import Fullbodymassage from "./Fullbodymassage";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Best Full Body Massage in Gurgaon By Female Therapists",
-  description: " Book the best full body massage in Gurgaon today. Get Complete care with our  experts at our luxury spa centre in gurgaon. Get Stress Free Now",
+  title: "Full Body Massage in Gurgaon - Female Therapists | Spa In Gurgaon",
+  description: "Full body massage in Gurgaon by certified female therapists — head-to-toe relaxation at our luxury spa centre, stress-free and affordable. Book now!",
   keywords: [
     "full body massage gurgaon",
     "full body massage near me",
@@ -15,8 +15,8 @@ export const metadata = {
     canonical: "/full-body-massage-in-gurgaon",
   },
   openGraph: {
-    title: "Best Full Body Massage in Gurgaon By Female Therapists",
-    description: " Book the best full body massage in Gurgaon today. Get Complete care with our  experts at our luxury spa centre in gurgaon. Get Stress Free Now",
+    title: "Full Body Massage in Gurgaon - Female Therapists | Spa In Gurgaon",
+    description: "Full body massage in Gurgaon by certified female therapists — head-to-toe relaxation at our luxury spa centre, stress-free and affordable. Book now!",
     images: ["https://www.spaingurgaon.com/images/banner.jpeg"], // <-- use absolute URL in production
     type: "website",
   },

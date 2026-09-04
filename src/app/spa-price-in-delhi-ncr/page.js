@@ -2,15 +2,15 @@ import Pricpage from "./Pricpage";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Best Spa Price in Gurgaon | Affordable Delhi NCR Spa",
-  description: "Looking for an affordable spa price in Delhi NCR? Check our spa price in gurgaon and visit us for complete relaxation. We provide multiple types of therapies.",
+  title: "Spa Price in Delhi NCR - Transparent, Affordable Packages | Spa In Gurgaon",
+  description: "Spa price in Delhi NCR made simple — transparent packages for full body, couple and sandwich massage across our 12+ Gurgaon outlets. Book an affordable session now!",
   keywords: ["spa price delhi ncr", "massage price gurgaon", "spa cost gurgaon", "body massage price list"],
   alternates: {
     canonical: "/spa-price-in-delhi-ncr",
   },
   openGraph: {
-    title: "Best Spa Price in Gurgaon | Affordable Delhi NCR Spa",
-    description: "Looking for an affordable spa price in Delhi NCR? Check our spa price in gurgaon and visit us for complete relaxation. We provide multiple types of therapies.",
+    title: "Spa Price in Delhi NCR - Transparent, Affordable Packages | Spa In Gurgaon",
+    description: "Spa price in Delhi NCR made simple — transparent packages for full body, couple and sandwich massage across our 12+ Gurgaon outlets. Book an affordable session now!",
     images: ["https://www.spaingurgaon.com/images/banner.jpeg"], // <-- use absolute URL in production
     type: "website",
   },

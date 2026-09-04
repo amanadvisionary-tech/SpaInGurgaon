@@ -2,8 +2,8 @@ import Abpage from "./Abpage";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "About Our Luxury Spa in Gurgaon | Spa In Gurgaon",
-  description: "Know more about our luxury spa in Gurgaon, offering body spa, couple spa, and ayurvedic therapies to clients across Delhi NCR with top-class service.",
+  title: "About Our Luxury Spa in Gurgaon - Certified Care | Spa In Gurgaon",
+  description: "Our luxury spa in Gurgaon offers body spa, couple spa and ayurvedic therapies across Delhi NCR — certified therapists, top-class service. Discover our story now!",
   keywords: [
     "about spa in gurgaon",
     "spa in gurgaon therapists",
@@ -16,8 +16,8 @@ export const metadata = {
     canonical: "/about-us",
   },
   openGraph: {
-    title: "About Our Luxury Spa in Gurgaon | Spa In Gurgaon",
-    description: "Know more about our luxury spa in Gurgaon, offering body spa, couple spa, and ayurvedic therapies to clients across Delhi NCR with top-class service.",
+    title: "About Our Luxury Spa in Gurgaon - Certified Care | Spa In Gurgaon",
+    description: "Our luxury spa in Gurgaon offers body spa, couple spa and ayurvedic therapies across Delhi NCR — certified therapists, top-class service. Discover our story now!",
     images: ["https://www.spaingurgaon.com/images/banner.jpeg"], // <-- use absolute URL in production
     type: "website",
   },

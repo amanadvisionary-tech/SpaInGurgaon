@@ -2,8 +2,8 @@ import HomeClient from "./HomeClient";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Best Spa in Gurgaon | First Visit Offer @1999",
-  description: "Spa in Gurgaon from ₹1999 — full body, Thai, deep tissue & couple massage by certified therapists in private, hygienic rooms. Book instantly on WhatsApp.",
+  title: "Best Spa in Gurgaon - 12+ Outlets, First Visit @ ₹1999 | Spa In Gurgaon",
+  description: "Best spa in Gurgaon for full body, Thai & couple massage across 12+ outlets, hotels and homes — certified therapists in private, hygienic rooms. Book now on WhatsApp!",
   keywords: [
     "spa in gurgaon",
     "massage in gurgaon",
@@ -35,8 +35,8 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: "Best Spa in Gurgaon — Full Body, Thai, Deep Tissue & Couple Massage from ₹1999",
-    description: "12+ outlets across Gurgaon — book at an outlet near you, your hotel, or your home. Certified therapists, private rooms, transparent pricing.",
+    title: "Best Spa in Gurgaon - 12+ Outlets, First Visit @ ₹1999 | Spa In Gurgaon",
+    description: "Best spa in Gurgaon for full body, Thai & couple massage across 12+ outlets, hotels and homes — certified therapists in private, hygienic rooms. Book now on WhatsApp!",
     images: ["https://www.spaingurgaon.com/images/banner.jpeg"],
     type: "website",
     url: "https://www.spaingurgaon.com/",

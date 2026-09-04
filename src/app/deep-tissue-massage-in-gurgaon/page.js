@@ -1,9 +1,9 @@
 import DeepTissueMassageInGurgaon from "./DeepTissueMassageInGurgaon";
 
 export const metadata = {
-  title: "Deep Tissue Massage in Gurgaon | Book Now",
+  title: "Deep Tissue Massage in Gurgaon - Same-Day Booking | Spa In Gurgaon",
   description:
-    "Book a deep tissue massage in Gurgaon at your hotel, home, or spa outlet. Trained therapists, clear pricing, and same-day booking slots available now.",
+    "Deep tissue massage in Gurgaon at your hotel, home or spa outlet — firm pressure for muscle pain and chronic tension by trained therapists. Book a same-day slot now!",
   keywords: [
     "deep tissue massage gurgaon",
     "deep tissue massage near me",
@@ -16,9 +16,9 @@ export const metadata = {
     canonical: "/deep-tissue-massage-in-gurgaon",
   },
   openGraph: {
-    title: "Deep Tissue Massage in Gurgaon | Spa In Gurgaon",
+    title: "Deep Tissue Massage in Gurgaon - Same-Day Booking | Spa In Gurgaon",
     description:
-      "Firm, slow-pressure deep tissue massage delivered to your hotel or home across Gurgaon, or book a session at our spa outlet.",
+      "Deep tissue massage in Gurgaon at your hotel, home or spa outlet — firm pressure for muscle pain and chronic tension by trained therapists. Book a same-day slot now!",
     images: ["https://www.spaingurgaon.com/images/banner.jpeg"],
     type: "website",
   },

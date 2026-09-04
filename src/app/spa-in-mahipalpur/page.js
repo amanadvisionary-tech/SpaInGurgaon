@@ -2,8 +2,8 @@ import Outpage from "./Outpage";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Book 5 Star Hotel spa in Mahipalpur | Foreigner Therapists",
-  description: "Looking for the 5 star hotel Spa in Mahipalpur? Visit our spa in mahipalpur for premium body massage service in all over Delhi NCR. Book Now!",
+  title: "Spa in Mahipalpur - 5-Star Hotel Massage | Spa In Gurgaon",
+  description: "Spa in Mahipalpur offering 5-star hotel massage service across Delhi NCR with certified foreign therapists — premium comfort at your doorstep. Book now!",
   keywords: [
     "spa in mahipalpur",
     "hotel spa mahipalpur",
@@ -14,8 +14,8 @@ export const metadata = {
     canonical: "/spa-in-mahipalpur",
   },
   openGraph: {
-    title: "Book 5 Star Hotel spa in Mahipalpur | Foreigner Therapists",
-    description: "Looking for the 5 star hotel Spa in Mahipalpur? Visit our spa in mahipalpur for premium body massage service in all over Delhi NCR. Book Now!",
+    title: "Spa in Mahipalpur - 5-Star Hotel Massage | Spa In Gurgaon",
+    description: "Spa in Mahipalpur offering 5-star hotel massage service across Delhi NCR with certified foreign therapists — premium comfort at your doorstep. Book now!",
     images: ["https://www.spaingurgaon.com/images/banner.jpeg"], // <-- use absolute URL in production
     type: "website",
   },

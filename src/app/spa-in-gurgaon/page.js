@@ -2,8 +2,8 @@ import Gurgaon from "./Gurgaon";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Best Spa in Gurgaon | Luxury Body Massage",
-  description: "Looking for the best spa in Gurgaon? Enjoy full body, couple, and sandwich massage by certified therapists in a relaxing, luxury setting. Book Now!",
+  title: "Luxury Spa in Gurgaon - Full Body & Couple Massage | Spa In Gurgaon",
+  description: "Luxury spa in Gurgaon offering full body, couple and sandwich massage in a relaxing, private setting — certified therapists, transparent pricing. Book your session now!",
   keywords: [
     "spa in gurgaon",
     "massage in gurgaon",
@@ -15,8 +15,8 @@ export const metadata = {
     canonical: "/spa-in-gurgaon",
   },
   openGraph: {
-    title: "Best Spa in Gurgaon | Luxury Body Massage",
-    description: "Looking for the best spa in Gurgaon? Enjoy full body, couple, and sandwich massage by certified therapists in a relaxing, luxury setting. Book Now!",
+    title: "Luxury Spa in Gurgaon - Full Body & Couple Massage | Spa In Gurgaon",
+    description: "Luxury spa in Gurgaon offering full body, couple and sandwich massage in a relaxing, private setting — certified therapists, transparent pricing. Book your session now!",
     images: ["https://www.spaingurgaon.com/images/banner.jpeg"], // <-- use absolute URL in production
     type: "website",
   },

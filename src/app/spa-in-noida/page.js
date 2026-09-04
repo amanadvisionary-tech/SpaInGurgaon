@@ -2,15 +2,15 @@ import Noida from "./Noida";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Book Massage session at our spa in Noida | Self Care Session",
-  description: "Book your massage session at our spa in Noida today. Treat yourself to a soothing self-care spa therapy designed for total wellness.",
+  title: "Spa in Noida - Self-Care Massage Session | Spa In Gurgaon",
+  description: "Spa in Noida offering a soothing self-care massage session designed for total wellness, delivered by trained therapists. Book your relaxing session today!",
   keywords: ["spa in noida", "massage in noida", "spa near noida", "body massage noida"],
   alternates: {
     canonical: "/spa-in-noida",
   },
   openGraph: {
-    title: "Book Massage session at our spa in Noida | Self Care Session",
-    description: "Book your massage session at our spa in Noida today. Treat yourself to a soothing self-care spa therapy designed for total wellness.",
+    title: "Spa in Noida - Self-Care Massage Session | Spa In Gurgaon",
+    description: "Spa in Noida offering a soothing self-care massage session designed for total wellness, delivered by trained therapists. Book your relaxing session today!",
     images: ["https://www.spaingurgaon.com/images/banner.jpeg"], // <-- use absolute URL in production
     type: "website",
   },

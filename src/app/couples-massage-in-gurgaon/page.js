@@ -2,8 +2,8 @@ import Couppage from "./Couppage";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Experience Couples Massage in Gurgaon | Romantic Vibes",
-  description: "Book a luxury couples massage in Gurgaon today. Relax together and enjoy soothing therapies in a private, romantic spa setting.",
+  title: "Couples Massage in Gurgaon - Private Romantic Setting | Spa In Gurgaon",
+  description: "Couples massage in Gurgaon in a private, romantic setting for two — soothing side-by-side therapies by certified therapists. Book your session together today!",
   keywords: [
     "couples massage gurgaon",
     "couple spa gurgaon",
@@ -15,8 +15,8 @@ export const metadata = {
     canonical: "/couples-massage-in-gurgaon",
   },
   openGraph: {
-    title: "Experience Couples Massage in Gurgaon | Romantic Vibes",
-    description: "Book a luxury couples massage in Gurgaon today. Relax together and enjoy soothing therapies in a private, romantic spa setting.",
+    title: "Couples Massage in Gurgaon - Private Romantic Setting | Spa In Gurgaon",
+    description: "Couples massage in Gurgaon in a private, romantic setting for two — soothing side-by-side therapies by certified therapists. Book your session together today!",
     images: ["https://www.spaingurgaon.com/images/banner.jpeg"], // <-- use absolute URL in production
     type: "website",
   },

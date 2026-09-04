@@ -1,15 +1,15 @@
 import Sector29 from "./Sector29";
 
 export const metadata = {
-  title: "Best Spa in Sector 29 Gurgaon With Foreign Therapists",
-  description: "Looking for a luxury spa in Sector 29 Gurgaon? Enjoy premium body massage with certified foreign therapists. Experience world-class wellness treatments.",
+  title: "Spa in Sector 29 Gurgaon - Foreign Therapists | Spa In Gurgaon",
+  description: "Spa in Sector 29, Gurgaon with certified foreign therapists for full body, sandwich and couple massage — first visit at just ₹1999. Book your session now!",
   keywords: ["spa in sector 29", "massage sector 29 gurgaon", "spa near sector 29", "body massage sector 29"],
   alternates: {
     canonical: "/spa-in-sector-29",
   },
   openGraph: {
-    title: "Get Best Body Massage in Sector 29 Gurgaon | First Visit Offer 1999",
-    description: "Looking for a relaxing massage in Sector 29? Experience the best full body, sandwich massage, Couple massages at the top massage parlour in Gurgaon.",
+    title: "Spa in Sector 29 Gurgaon - Foreign Therapists | Spa In Gurgaon",
+    description: "Spa in Sector 29, Gurgaon with certified foreign therapists for full body, sandwich and couple massage — first visit at just ₹1999. Book your session now!",
     images: ["https://www.spaingurgaon.com/images/banner.jpeg"],
     type: "website",
   },

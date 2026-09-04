@@ -2,8 +2,8 @@ import Servpage from "./Servpage";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Book Spa Service in Gurgaon | Massage at Home in Gurgaon",
-  description: "Experience spa service in Gurgaon. Try our expert massage at home in Gurgaon with soothing oils, trained therapists, and complete relaxation at your doorstep.",
+  title: "Massage Service in Gurgaon - Home, Hotel & Outlet Visits | Spa In Gurgaon",
+  description: "Massage service in Gurgaon at your home, hotel or our spa outlet — soothing oils and trained therapists for complete relaxation at your doorstep. Book your session today!",
   keywords: [
     "massage service gurgaon",
     "spa service gurgaon",
@@ -15,8 +15,8 @@ export const metadata = {
     canonical: "/massage-service-in-gurgaon",
   },
   openGraph: {
-    title: "Book Spa Service in Gurgaon | Massage at Home in Gurgaon",
-    description: "Experience spa service in Gurgaon. Try our expert massage at home in Gurgaon with soothing oils, trained therapists, and complete relaxation at your doorstep.",
+    title: "Massage Service in Gurgaon - Home, Hotel & Outlet Visits | Spa In Gurgaon",
+    description: "Massage service in Gurgaon at your home, hotel or our spa outlet — soothing oils and trained therapists for complete relaxation at your doorstep. Book your session today!",
     images: ["https://www.spaingurgaon.com/images/banner.jpeg"], // <-- use absolute URL in production
     type: "website",
   },
